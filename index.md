@@ -1,46 +1,73 @@
 ---
 layout: page
-title: Hello World!
-tagline: Supporting tagline
+weight: 0
+group: navigation
+title: Home
+tagline: 2014 Global Report
 ---
-{% include JB/setup %}
 
-Read [Jekyll Quick Start](http://jekyllbootstrap.com/usage/jekyll-quick-start.html)
+<img src="/assets/images/odb-logo.png" class="img-responsive" alt="Open Data Barometer Logo">
 
-Complete usage and documentation available at: [Jekyll Bootstrap](http://jekyllbootstrap.com)
+Second Edition (January 2015)
 
-## Update Author Attributes
-
-In `_config.yml` remember to specify your own data:
+<div class="row">
+<div class="col-sm-4 frontbox" markdown="1">
+<div class="frontbox-inner" style="background-image:url('/assets/images/seconded/map.png')">
     
-    title : My Blog =)
-    
-    author :
-      name : Name Lastname
-      email : blah@email.test
-      github : username
-      twitter : username
+<div class="front-text">About > The Open Data Barometer presents in-depth research into open data readiness, implementation and impacts in 86 diverse countries across the globe.</div>
+</div>
+</div>
 
-The theme should reference these variables whenever needed.
-    
-## Sample Posts
+<div class="col-sm-4 frontbox"  markdown="1" >
+<div class="frontbox-inner" style="background-image:url('/assets/images/seconded/rankings.png')">
+<div class="front-text">Exec summary > The report highlights progress towards open data impacts, and challenges ahead to creating an inclusive and open 'data revolution'.</div>
+</div>
+</div>
 
-This blog contains sample posts which help stage pages and blog data.
-When you don't need the samples anymore just delete the `_posts/core-samples` folder.
+<div class="col-sm-4 frontbox" markdown="1">
+<div class="frontbox-inner" style="background-image:url('/assets/images/seconded/rankings.png')">
+<div class="front-text">Rankings > We aggregate the different dimensions of the Barometer together to provide global rankings, comparing the progress of countries year-to-year, and digging deeper into trends in different regions and clusters of countries.</div>
+</div>
+</div>
 
-    $ rm -rf _posts/core-samples
-
-Here's a sample "posts list".
-
-<ul class="posts">
-  {% for post in site.posts %}
-    <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ BASE_PATH }}{{ post.url }}">{{ post.title }}</a></li>
-  {% endfor %}
-</ul>
-
-## To-Do
-
-This theme is still unfinished. If you'd like to be added as a contributor, [please fork](http://github.com/plusjade/jekyll-bootstrap)!
-We need to clean up the themes, make theme usage guides with theme-specific markup examples.
+</div>
 
 
+<div class="row">
+<div class="col-sm-4" markdown="1">
+<div class="front-text">Analysis > Section-by-section analysis of readiness, implementation and impact, presented with commentary and interactive charts to let you explore the data.</div>
+</div>
+
+<div class="col-sm-4" markdown="1">
+<div class="front-text">Explorer > Drill down into the strengths and weaknesses of government open data activity in individual countries.</div>
+</div>
+
+<div class="col-sm-4" markdown="1">
+<div class="front-text">Data > The Barometer is designed as a foundation for future research. We provide full access to the quantitative and qualitative data from the study.</div>
+</div>
+
+
+
+</div>
+
+<div class="row">
+<div class="col-sm-3" markdown="1">
+**Published by:**
+<a href="http://www.webfoundation.org"><img src="/assets/images/logos/webfoundation.png" class="img-responsive" alt="World Wide Web Foundation"></a>
+</div>
+
+<div class="col-sm-6" markdown="1">
+
+</div>
+
+<div class="col-sm-3" markdown="1">
+**Funding support from:**
+<a href="http://www.idrc.ca"><img src="/assets/images/logos/idrc.jpeg" class="img-responsive" alt="International Development Research Center"></a>
+</div>
+</div>
+
+<div class="row">
+    <div class="col-sm-12" markdown="1">
+            This page provides access to the second edition of the Open Data Barometer. You can download the 2013 report here. 
+    </div>
+</div>

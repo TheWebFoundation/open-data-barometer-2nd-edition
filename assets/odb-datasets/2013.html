@@ -1,0 +1,2134 @@
+<!DOCTYPE html>
+<html>
+<meta charset="utf-8">
+	<head>
+
+
+		<title>Open Data Barometer - 2013 Data</title>
+
+		<!-- <script src="mbostock-d3-ed54503/d3.js" charset="utf-8"></script> -->
+		<script src="http://d3js.org/d3.v3.min.js" charset="utf-8"></script>
+
+		<!-- and the sources for the search box + autocomplete --> 
+		<link rel="stylesheet" href="jquery-ui-1.10.3.custom.css">
+		<script src="jquery-1.9.1.js"></script>
+		<script src="jquery-ui-1.10.3.custom.js"></script>
+
+
+		<style type="text/css">
+
+			#headerDiv{
+				position: absolute;
+				top: 0px;
+				left: 0px;
+				width: 1200px;
+				height: 235px;
+				/* border: 1px dashed rgb( 255, 240, 240) ); */
+				background-color: none;
+				background-image: url( "images/header_img__2.png" );
+				background-repeat: no-repeat; 
+				background-position: 0px 0px;				
+				z-index: 9;
+			}
+
+			#bodyDiv{
+				position: absolute;
+				top: 235px;
+				left: 8px;
+				width: 1200px;
+				height: 2000px; /* CHECK THIS PLEASE! */
+				/* border: 1px dashed rgb( 240, 240, 255) ; */
+			}
+
+			/* and one for the search widget/box */
+			#searchBox_widget_div{
+				position: absolute;
+				top: 60px;
+				left: 255px;
+				width: 550px;
+				height: 23px;
+				/* border: 1px dashed red; */
+				background-color: none;
+				z-index: 11;				
+			}
+
+			/*  data unit markup */
+			.datacircle{
+				fill: none;
+				/* stroke: rgb( 215, 170, 105) ; */
+				/* stroke: rgb( 225, 185, 125) ; */
+				stroke: rgb( 51, 94, 162 );
+				/* stroke-width: 1.2; */
+				/* fill: rgb(255, 255, 255); */
+				fill: rgb( 212, 224, 234 );
+			}
+
+			/* for the Opened data circles */
+			.dataIsOpen{
+				stroke-width: 2;
+				/* stroke-dasharray: 5, 2; */
+				/* stroke: rgb( 55, 145, 45) ; */
+			}
+
+			/* for the closed data circles */
+			.dataIsClosed{
+				stroke-width: 1;
+				/* stroke-dasharray: 5, 2; */
+				/* stroke: rgb( 225, 185, 125) ; */
+				/* stroke: rgb( 180, 100, 80); */
+			}
+
+
+			/* country names markup	*/
+			.countryname{
+				font-family: sans-serif;
+			 	font-size: 12px;
+			 	font-weight: 700;
+			 	/* fill: rgb( 160, 160, 180);	*/
+			 	/* fill: rgb( 0, 74, 173 );	*/	 	
+			 	fill: rgb( 28, 112, 203 );
+				/* text-align: right; */
+				/* a different way of aligning text */
+				letter-spacing: 0.5pt;
+				text-anchor: end;
+			}
+
+			/* average score per country */
+			.scores__average_value_per_country{
+				font-family: sans-serif;
+			 	font-size: 12px;
+			 	font-weight: 700;
+			 	/* fill: rgb( 200, 200, 200); */
+			 	fill: rgb( 0, 114, 183 );			
+			}
+
+			/* and the category text markup */ 
+			.category_label_text{
+				font-family: sans-serif;
+			 	font-size: 11px;
+			 	letter-spacing: 0.5pt;
+			 	font-weight: 400;
+			 	/* fill: rgb( 180, 180, 200);	*/
+			 	fill: rgb(0, 106, 174 );		 	
+			}
+			/* an addition to the above if there's a mouseover */
+			.category_label_text_BOLD{
+				font-weight: 900;
+			}
+
+			/* category - mouseover area markup - for the cateogries on top */
+			.mouseOverRect{
+				stroke: rgb( 255, 250, 245);
+				stroke-width: 1.5;
+				shape-rendering: crispEdges;
+				fill: white;	
+				opacity: 0.3;	
+			}
+			.mouseOverRect_on_MOUSEOVER{
+				fill: rgb( 240, 240, 128);	
+			}
+			.mouseOverRect_on_SELECTED{
+				/* fill: rgb( 240, 240, 128);	*/
+				fill: rgb( 200, 200, 255 );
+			}
+
+
+			/* category - mouseover hidden circle area for individual score circles */
+			.mouseOverElementFor_DataCircle{
+				fill: rgba( 255, 255, 0, 0.0);
+				stroke: none;
+				/* shape-rendering: crispEdges; */
+				/* stroke: none; */
+			}
+
+			/*  background rectangle */
+			.backgroundRectangle{
+				/* stroke: rgb( 245, 245, 255); */
+				/* stroke: rgb( 255, 245, 235) ; */
+				/* stroke: rgb( 212, 224, 234 ); */
+				stroke-width: 1.0;
+				shape-rendering: crispEdges;
+				fill: none;
+			}
+
+			/*  odd background rectangle styling */
+			.odd{
+				/* fill: rgb( 250, 250, 255);	*/
+				/* fill: rgb( 250, 250, 230) ; */
+				/* fill: rgb( 212, 224, 234 ); */
+			}
+
+			.even{
+				/* fill: rgb( 255, 255, 255);	*/
+				fill: rgb( 245, 250, 255 );
+			}
+
+
+			/* ***    tool tip markup   *** */
+
+			#tooltip_group__backgroundTranspRect{
+				fill: rgba( 255, 255, 255, 0.5 );
+				stroke: none ;
+			}
+
+			#tooltip_group__solideBackRect{
+				fill: rgb( 255, 255, 255 );
+				stroke: rgb(255, 245,245);
+			}
+
+			#tooltip_group__headingText{
+				font-family: sans-serif;
+			 	font-size: 11px;
+			 	letter-spacing: 0.5pt;
+			 	/* fill: rgb( 180, 180, 200);	*/
+			 	/* fill: rgb(0, 106, 174 ); */
+			 	fill: rgb(20, 146, 224 );
+			 	text-anchor: start;	
+			}
+
+			.dataCategoriesText{
+				font-family: sans-serif;
+			 	font-size: 11px;
+			 	letter-spacing: 0.5pt;
+			 	/* fill: rgb( 180, 180, 200);	*/
+			 	/* fill: rgb(0, 106, 174 ); */
+			 	fill: rgb( 20, 176, 244 );
+			 	text-anchor: start;	
+			}
+
+			.dataResultsText{
+				font-family: sans-serif;
+			 	font-size: 11px;
+			 	letter-spacing: 0.5pt;
+			 	/* fill: rgb( 180, 180, 200);	*/
+			 	fill: rgb(0, 106, 174 );
+			 	/* fill: rgb( 00, 146, 214 ); */
+			 	text-anchor: end;	
+			}
+
+			.dataResultsText__is_open_text__edition{
+				font-family: sans-serif;
+			 	font-size: 11px;
+			 	letter-spacing: 0.5pt;
+			 	/* fill: rgb( 180, 180, 200);	*/
+			 	fill: rgb(0, 106, 174 );
+			 	/* fill: rgb( 00, 146, 214 ); */
+			 	text-anchor: start;	
+			}
+
+			/* and some special markup for the text 'open definition'
+					in the is open text */
+			.tooltip__open_defintion_text__markup{
+				fill: rgb(0, 126, 214 );
+			}
+
+			/*  markup for searched found/not-found countries */
+			.searchedFor_notFoundCountry{
+				opacity: 0.5;
+			}
+
+			/*   search box styling :) */
+			input{
+				/* border: 1px solid rgb( 20, 136, 214 );	*/
+				/* border: 1px solid rgb( 147, 170, 206);	*/
+				border: 1px solid rgb( 170, 188, 216 );	
+			}
+
+
+
+		</style>
+
+	</head>
+
+	<body>
+
+
+		<div id="d3graphicsContainerDiv">
+			<!-- and the category texts + logo + search go here -->
+			<div id="headerDiv">
+
+				<!-- search box -->
+				<div id="searchBox_widget_div">
+					<div class="ui-widget">
+						<label for="tags"></label>
+						<input id="tags" value="">
+					</div>
+				</div>
+
+			</div>
+			<!-- the visualisation output goes here -->
+			<div id="bodyDiv"></div>
+		</div>
+
+
+
+		<script type="text/javascript">
+
+			// select the div containing all the d3 bits 
+			var domSelected__d3graphicsContainerDiv = d3.selectAll("#d3graphicsContainerDiv")
+									.on('mousemove', function(){
+										mouseLoc_relativeToSVGpageDiv = d3.mouse( this );
+									});
+
+			//  for the mouse location relative to the body dic 
+			d3.selectAll("#bodyDiv")
+									.on('mousemove', function(){
+										mouseLoc_relativeToBodyDiv = d3.mouse( this );
+
+										// hide the tooltip if the mouse
+										//	moves further left than the 
+										//	data circles area
+										if( mouseLoc_relativeToBodyDiv[ mouseLoc_x_coord_i ] < data_rows_initial_offset_x+30 ){
+											update_mouseover_tooltip_for_mouseLeave();
+										}
+									})
+									.on('mouseleave', function(){
+										update_mouseover_tooltip_for_mouseLeave();
+									});
+
+			//  SVG setup! 
+			// for the header div, where the controls hopefully find themselves sometime
+			var basics_header_w = 1100, basics_header_h = 235, margin = 40;
+			var basics_header = d3.selectAll("#headerDiv").append("svg")
+											.attr("width", basics_header_w )
+											.attr("height", basics_header_h )
+											.on("mouseover", function(){
+												// remove the mouseover tip
+												// if the mouse enter the header
+												update_mouseover_tooltip_for_mouseLeave();
+											}) ;
+
+
+			// and for the search results / countries listing
+			var basics_body_w = 1100, basics_body_h = 4500, margin = 40;
+			var basics_body = d3.selectAll("#bodyDiv").append("svg")
+											.attr("width", basics_body_w )
+											.attr("height", basics_body_h );
+
+
+
+			var parsed_rows ;
+			var reparsed_data = [];
+			var parsed_rows_minus_labelsOnTop ;
+			// only the category titles, 
+			//		as [ categoryTitle, isDataOpen ] titles
+			// NOTE NOTE NOTE: not used!
+			var category_titles_w_data_pairs ; 
+			//  category titles as text
+			var category_titles_importedCsvTexts ;
+
+			//  the parsed and restructured data
+			// (i.e. all the datasets get grouped by country)
+			var data_dataItemsGroupedByCountry ; 
+			//  and a list of all the countrynames
+			var list_of_countries ;
+
+			//  visual (dom) data elements
+			var countries;
+			var country_data_gfx ; 			
+
+
+			////  data indicies
+			//
+			var data__countryName_col_i = 1;
+			var data__datasetName_col_i = 3;
+			var data__calculatedScore_col_i = 4;
+			var data__isOpen_col_i = 5;
+
+			var data__perCountryDataRows__average_country_score_DATA_ROW_INDEX = 15;
+			var data__perCountryDataRows__average_country_score_DATA_ROW_INDEX__dataIndex = 0;
+
+
+
+			///////  category labels area
+
+			///  data indicies
+			// where do the countries start, and the other text finish?
+			var category_labels_textArray__dataCategoryLabelsStart_i = 3 ;
+
+			//  category labels
+			//		this is where the column labels should be 
+			var category_labels__main_group ; 
+			var category_labels__individualCategory_groups ; 
+			var category_labels__mouseoverRects ; 
+			var category_labels__category_texts ; 
+
+
+			//  and a special one for the country label
+			var category_labels__countryLabelText_group ;
+
+			//  and the groups for the average country score
+			var avergeCountryScore_category_group ;
+			var avergeCountryScore_category_group__background_rect ;
+			var avergeCountryScore_category_group_text ; 
+
+
+			//  country labels offsets
+			var category_labels__countryLabelText_group__offset_x = 155;
+			var category_labels__countryLabelText_group__offset_y = 230;
+
+			var category_labels__countryLabelText_rect ;
+			var category_labels__countryLabelText_text ;
+
+
+			//  special markups for the average country score
+			//		- due to it having a slightly different position
+			//			compared to the other category elements
+			// this is for the category label text itself
+			var category_label__averageDataSetScore__text__offset_x = 247;
+			var category_label__averageDataSetScore__text__offset_y = 225;
+			//  and this is for the data column texts
+			var category_label__averageDataSetScore__dataColumn__offset_x = -15;
+			var category_label__averageDataSetScore__dataColumn__offset_y = 3;
+
+			// category related coords
+			var category_labels__group__offset_left_x = 277 ; 
+			var category_labels__group__offset_top_y = 230 ; 
+			// the mouseover rectangle
+			var category_labels__mouseOVerBackgroundRectangles_offset_x = 0;
+			var category_labels__mouseOVerBackgroundRectangles_offset_y = -6;
+			// the actual texts
+			var category_labels__text__offset_left_x = 0 ; 
+			var category_labels__text__offset_top_y = 0 ; 
+
+
+
+
+			//  country groups, including texts and data representations
+			var countries_expmtl__groups ; 
+
+
+			////	country names
+			//		- the group includes a mouseover area as well as the texts
+			var country_name_group ;
+			var countries_expmtl__group__countryRegions ;
+
+			// 	score representations…
+			var score_gfx_groups ; // the groups they go into, in each country
+			var score_gfx_score_element_subgroups ; //
+			var score_gfx ; // the individual scores
+			///  and the alternate version - data restructured
+			var score_gfx_indidivudal_score_circle_elements ; 
+
+			// NOTE NOTE: ARE WE USING THESE? 
+			// and for the background circles for mouseovers
+			var score_mouseOver_gfx_groups;
+			var score_gfx_indidivudal_score_circle_elements__for_mouseovers;
+
+
+
+
+			/////  the average score per country
+			//
+			var scores__average_value_per_country__groups ;
+			var scores__average_value_per_country__num_of_chrs = 2;
+			var score__average_value_per_country__offset_px_x = -10;
+			var score__average_value_per_country__offset_px_y = 3;
+
+
+
+			/////  visual parameters
+
+			//  this is so we know 
+			//	which the last data item is
+			//  - as the last dataset item is 
+			//		the country average score
+			var index_of_last_dataGfxItem_in_data = 14;
+
+
+			//// data units markup
+
+			// 	data unit variable vs pxs - how big is one variable unit
+			var data_unit__data_value_of_one_in_pixels = 0.18;
+
+			//  minimim px value for data 
+			//		- i.e. even if one gets a value of zero,
+			//			this will help to make some graphical mark
+			var data_unit__minimal_data_value_in_pixels = 1;
+
+
+			///  for the animation transition speed
+			var animation_transition_duration__regular = true;
+			var animation_transition_duration__instant = false;
+
+			
+
+			////  and the positioning 
+
+			//  initial offset 
+			var data_rows_initial_offset_x = 250;
+			var data_rows_initial_offset_y = 25 ;
+
+
+			//  between variable gfx representation - x spacing
+			var data_col_spacing_px_x = 50 ;
+
+			// what's the vertical distance between rows
+			var data_row_spacing_vertical_px_y = 50;
+
+			// for the group the score graphics are in
+			// (i.e. the group of the background element + circle)
+			var score_gfx_group_offset_x = 50;
+			var score_gfx_group_offset_y = 0;
+			/// and the offsets for the individual elements
+			// like the circle
+			var scroe_gfx_circle_offset_x = 0;
+			var scroe_gfx_circle_offset_y = 0;
+
+			// and the offset for the score graphic mouseover element
+			//		( this could be a circle or a rect… we'll figure it out later )
+			var score_gfx_mouseover_element_offset_x = 0;
+			var score_gfx_mouseover_element_offset_y = 0;
+
+			var score_gfx_offsets_px_x = 40;  // "30" ===  the same as a data_col_spacing_px_x unit hopefully
+			var score_gfx_offsets_px_y = 0;
+
+			// score graphics mouseover background circle 
+			//  ...radius
+			var score_gfx_mouseover_circle_radius = 20;
+
+			var score_gfx_mouseover_element_width = 40;
+			var score_gfx_mouseover_element_height = 40;
+
+
+			//// country names markup
+
+			// offset from original position
+			var country_names ;  // dom reference
+			var countrynames__offset_px_x = -50;
+			var countrynames__offset_px_y = 3;
+
+
+
+
+			//////  country background rectangles
+
+			//// var country_background_rects__groups;
+			var country_background_rects;
+			//  offsets 
+			var country_background_rects__offset_px_x = -230 ;
+			var country_background_rects__offset_px_y = -(data_row_spacing_vertical_px_y/2)+3 ;
+			var country_background_rects__width_px_x = 1050 ;
+			var country_background_rects__height_px_y = data_row_spacing_vertical_px_y-07 ;			
+
+			/////  static background rectangles
+			//		like the ones behind the countries, but 
+			//		they don't move in the shuffling
+
+			var static_background_rectangles_group;
+
+
+
+			///////////////    tool tip!
+
+			//////
+			//////   main things - dom elements
+
+			var tooltip_group;
+
+			 var tooltip_group__backgroundTranspRect ; 
+
+			 //  tooltip category texts
+			 /////// var tooltip_group_textTexts_of_data_categories = [ "calculated score","exists","is available","machine readable", "available in bulk", "available for free","license", "regularly updated","publication sustainable", "discoverable","linked","is open"];
+			 // DOING A MODIFIED VERSION TO SUPPORT SPECIAL "IS OPEN" FORMATTING:
+			 var tooltip_group_textTexts_of_data_categories = [ "calculated score","exists","is available","machine readable", "available in bulk", "available for free","license", "regularly updated","publication sustainable", "discoverable","linked"];
+
+
+			 /////    graphic/coord markup
+
+			 //  rectricting the tooltip group from going 
+			 //		too far to the right and offscreen
+			 var tooltip_group__restrict_right_most_loc_of_group = true;
+			 var tooltip_group__rightMost_coordinate_possible = 800;
+
+			 //  initial localtion
+			 var tooltip_group__loc_x = 500 ; 
+			 var tooltip_group__loc_y = 210 ; 
+
+			 // and the offset vs. the mouse location
+			 var toolTip_offset_x = 0;
+			 var toolTip_offset_y = 10;
+
+			 //  this is the tooltip's location vs
+			 //	  the top left of the data mouseover area
+			 var toolTip_offset_vs_dataMouseOverArea_x = 0;
+			 var toolTip_offset_vs_dataMouseOverArea_y = 0;
+
+			 ////  for the transparent background rectangle
+			 var tooltip_group__transpBackRect_loc_x = 5;
+			 var tooltip_group__transpBackRect_loc_y = 5;
+			 var tooltip_group__transpBackRect__width_x = 305;
+			 var tooltip_group__transpBackRect__height_y = 197;
+
+			 ////  for the solid background rectangle on top of the transparent one
+			 var tooltip_group__solideBackRect_loc_x = 10;
+			 var tooltip_group__solideBackRect_loc_y = 10;
+			 var tooltip_group__solideBackRect__width_x = 295;
+			 var tooltip_group__solideBackRect__height_y = 187;
+
+			 ////  a group or the text groups 
+
+
+			 /////   and the heading for the tool tip box - 
+			 //			- eg. the name of the dataset
+
+			 var tooltip_group__headingText ;
+
+			 var tooltip_group__headingText__offset_x = 20;
+			 var tooltip_group__headingText__offset_y = 28;
+
+
+			 ////  the text area for the tooltp dataa category texts
+			 var tooltip_group__data_categories_textS_group ;
+
+			 // and the txts themselves
+			 var tooltip_group__data_categories_texts_group__individual_texts ; 
+			 // and the special texts for the is_open texts
+			 var tooltip_group__data_categories_texts_group__is_open__general_text_ref__and_first_words;
+			 var tooltip_group__data_categories_texts_group__is_open__text_line2;
+
+			 //// data categories text markup
+			 var data_categories_texts__offset_x = 45;
+			 var data_categories_texts__offset_y = 45;
+
+			 // and a special version for the "is open" text strings
+ 			 var data_categories_texts__is_open_txt_special_edition__offset_x = 20;
+			 var data_categories_texts__is_open_txt_special_edition__offset_y = 45;
+			 // special edition of the x offset for line 2 of the "is open" data
+			 var data_categories_texts__is_open_txt_special_edition__forLine2__offset_x = 45;
+
+
+			 var data_categories_texts__leading_y = 12;
+
+
+			 ////   the text area for the data itself!
+			 var tooltip_group__data_texts_group ;
+
+			 // and the txts themselves
+			 var tooltip_group__data_texts_group__individual_texts ; 
+
+			 //// data results text markup
+			 var data_results_texts__offset_x = 35;
+			 var data_results_texts__offset_y = 45;
+
+			 var data_results_texts__leading_y = 12;
+
+
+			 /////    sorting / searching globals
+			 //
+			 //
+			 var sorting__curr_data_col_to_compare = 1;
+
+			// when searching and sorting
+			var countryNameToFind_global = "United Kingdom";
+
+
+
+			 //// and where in the world is the mouse now? 
+			 //    ( this gets updated on mousemove
+			 //			by the mousemove catcher on the 
+			 //			containing div - domSelected__d3graphicsContainerDiv
+
+			 var mouseLoc_relativeToSVGpageDiv = [ 0, 0 ] ;
+			 var mouseLoc_x_coord_i = 0;
+			 var mouseLoc_y_coord_i = 1;
+
+			 var mouseLoc_relativeToBodyDiv = [0, 0];
+
+
+
+			///////////////////////////////////////////////////////////////////
+			//////////////////////////////
+			///////////////////////////////////    data! 
+			//////////////////////////
+
+
+			//////////  data loading and setup
+			//
+			// let's load some data and go
+			/// d3.text("../data/data_2/Datasets-Scores-and-Flags.csv", function(data){
+			//
+			d3.text("../data/ODB-2013-Datasets-Scored.csv", function(data){
+                
+				// console.log("data -> ");
+				////  console.log( data );
+
+				//  original data loading
+				parsed_rows = d3.csv.parseRows( data );
+				// console.log(.log(" parsed_rows.length -> "+parsed_rows.length );
+				//// for( var i = 0; i < parsed_rows.length; i++ ){
+				//// 	console.log( parsed_rows[i] );
+				//// }
+				
+
+				////////// load the category labels too please ;) 
+				d3.text("../data/category_labels_text01.csv", function(d){
+
+					// category_titles_importedCsvTexts = d;
+					// NOTE: the [0] - there's an array within an array...!
+					category_titles_importedCsvTexts = d3.csv.parseRows( d )[0];
+					// console.log(.log(">>>> loading category labels file, which looks like this : \n\t "+d+"\n\t"+category_titles_importedCsvTexts );
+
+					////  then use the data to set up the labels...
+					set_up_category_labels();
+
+
+
+					///////
+					///////
+					/////////   NOTE NOTE NOTE : the INITIAL SORTING happens here
+					//////
+					//////
+					// console.log(.log(" initial sorting!!! ");
+					sort_start_function__new( "Dataset Score", animation_transition_duration__instant );
+
+
+					////  an the Tooltip!
+					//////////  set up the tooltip! 
+					set_up_tooltip();
+
+				})
+
+
+				////////////////////
+				///////////////////   DATA RESTRUCTURING
+				///////////////////
+
+
+
+
+
+				//// CONVERT the relevant numbers to numbers
+				//  rather than keeping them all as strings
+				//	AND make data pair arrays of the [ category_score, isDataOpen ] data pairs
+
+				////  loop
+				//  go row-by-row, PLEASE NOTE starting with the row after the headers, please
+				for( var row_i = 1; row_i < parsed_rows.length; row_i++  ){
+
+					///  debugging
+					///// console.log(" > working on in_row "+row_i+"  which has "+parsed_rows[0].length+" of elements" );
+
+					var curr_reparsed_data_row_i = row_i -1;
+					//  make a new subarray in the new array
+					reparsed_data[curr_reparsed_data_row_i] = [];
+
+					// parse column - i.e. individual items 
+					//  for( var col_i = 0; col_i < parsed_rows[0].length; col_i++ ){
+					for( var col_i = 0; col_i < parsed_rows[ row_i ].length ; col_i++ ){
+
+						// the first item is the country name, 
+						//   and this can remain as text
+						if( col_i === 0 || col_i === 1 || col_i === 2  || col_i === 3){
+							reparsed_data[ curr_reparsed_data_row_i ][ col_i ] = parsed_rows[ row_i ][ col_i ];
+						}
+						else{
+							// special for the country score
+							// convert it to a number please
+							reparsed_data[ curr_reparsed_data_row_i ][ col_i ] = parseFloat( parsed_rows[ row_i ][ col_i ] );
+						}
+
+					} 
+
+				} // end reparsing data function
+
+
+				////  convert the data to be subarray groups of items belonging
+				//    to a particular country.
+				//		- i.e. all the data rows get grouped into a subarray 
+				//		of the country
+
+				data_dataItemsGroupedByCountry = group_data_rows_by_country();
+
+				// check for hiccups
+				check_countryGrouping_results( data_dataItemsGroupedByCountry );
+
+				//remove the header row ( useful for the data display items )		
+				parsed_rows_minus_labelsOnTop = data_dataItemsGroupedByCountry.slice( 1, data_dataItemsGroupedByCountry.length );
+					
+
+				///// try figuring out the average score per country
+				// 		and adding it to the data arrays
+				calculate_country_average_score_and_add_it_to_relev_country_data_arrays_group();
+
+
+				// ///////////  set up the data graphics
+
+				////  First - as they go below
+				////   the static background rectangles
+				static_background_rectangles = basics_body.append("g").attr("id", "static_background_rectangles");
+
+				// and set them up
+				static_background_rectangles.selectAll("rect")
+											.data( parsed_rows_minus_labelsOnTop )
+											.enter()
+											.append("rect")					
+												.attr("class", function(d,i){
+													var className = "backgroundRectangle "; 
+													if( i % 2 === 0 ){
+														className += " even";
+													} else{
+														className += " odd";
+													}
+													return className;
+												})
+												// define the general transform/location
+												.attr("transform", function(d,i){
+															// put the offsets here please
+															return "translate( "+data_rows_initial_offset_x+", "+((i*data_row_spacing_vertical_px_y)+data_rows_initial_offset_y)+")" ;
+													})	
+												//  and then the offsets
+												.attr("x", country_background_rects__offset_px_x)
+												.attr("y", country_background_rects__offset_px_y)
+												.attr("width", country_background_rects__width_px_x )
+												.attr("height", country_background_rects__height_px_y );
+												
+
+
+				///// COUNTRY+DATA GROUPS 
+				//// set up the groups
+				//		and bind data to them
+				//    please NOTE: this is on top because of the drawing order
+				//				( so these are underneath )
+				countries_expmtl__groups = basics_body.append("g").attr("id", "countries_expmtl__groups")
+								.selectAll("g")
+								.data( parsed_rows_minus_labelsOnTop )
+								.enter()
+								.append("g")
+									.attr("id", function(d,i){ 
+										// console.log(.log( "setting up country group #"+i+" - data length === "+d.length );
+										// the d is all the country
+										// groups - about 14 - 
+										// so just take the name anyone, 
+										// like the first...
+										return d[0][data__countryName_col_i]; 
+										// hopefully this is the country name
+									})
+									.attr("transform", function(d,i){
+										// put the offsets here please
+										return "translate( "+data_rows_initial_offset_x+", "+((i*data_row_spacing_vertical_px_y)+data_rows_initial_offset_y)+")" ;
+									});	
+																										
+
+
+				/////  NOTE NOTE: this is a good place
+				//					to do the mouseoverRegions!
+				/////    background rectangles
+				//				different colour on every other row
+
+/*
+				/// make one per group
+				country_background_rects = countries_expmtl__groups.append("rect")
+												.attr("class", "backgroundRectangle");
+
+				//  and define them visually :) 
+				country_background_rects.attr("x", country_background_rects__offset_px_x)
+										.attr("y", country_background_rects__offset_px_y)
+										.attr("width", country_background_rects__width_px_x )
+										.attr("height", country_background_rects__height_px_y );
+										///// .style("fill", "none");
+*/
+
+
+
+
+				/////  ( back to ) COUNTRIES DATA elements
+				//
+
+				score_gfx_groups = countries_expmtl__groups.selectAll("g")
+								.data( function(d, i){ 
+									// console.log(.log("i === "+i+", d === "+d ); 
+									// REMOVING the 
+									// last element, which is the 
+									//	county average score
+									return d.slice( 0, d.length-1 ) ; 
+											} )
+								.enter()
+								.append("g")
+									.attr("id", function(d,i){
+										return "score_gfx_main_group_"+d[data__datasetName_col_i];
+									})
+									.attr( "transform", function(d,i){
+										var grp_x_loc = (i * data_col_spacing_px_x ) +score_gfx_group_offset_x;
+										return "translate( "+grp_x_loc+", "+score_gfx_group_offset_y+")";
+									}) ;
+
+
+
+												
+				var score_gfx_realValue_groups = score_gfx_groups.append("g")
+												.data( function(d){
+													return d;
+												})
+												.attr("id", function(d,i){
+													return "score_gfx_real "+d;
+												});
+
+
+				score_gfx_indidivudal_score_circle_elements = score_gfx_realValue_groups
+								.selectAll("circle")
+								.data( function(d,i){ return [ d ]; } ) 
+								.enter()
+								.append("circle")
+									.attr("class", function(d,i){
+											var class_text = "datacircle";
+											if( d[data__isOpen_col_i] === 0 ){
+												class_text += " dataIsClosed";
+											} else{
+												class_text += " dataIsOpen";
+											}
+											return class_text;
+										})
+										.attr("cx", scroe_gfx_circle_offset_x )
+										.attr("cy", scroe_gfx_circle_offset_y )
+										.attr("r", function(d, i){ 
+											
+											// fetch the actual data value from 
+											//		the [ value, isDataOpen ] pairing
+											var data_value = d[data__calculatedScore_col_i];
+
+											//  calculate a default value
+											var	calculated_pixel_size = data_unit__minimal_data_value_in_pixels;
+
+											// catch the data zero values
+											//		which might result in no graphics at all
+											//		(which might not be desirable)
+											if( data_value > 0 ){
+												calculated_pixel_size = data_value*data_unit__data_value_of_one_in_pixels;
+											}
+
+											return calculated_pixel_size ;
+										 }) ;
+
+
+
+				// set up separate groups for the mouseover versions of the graphics
+				//		and the actual score graphics
+
+				score_gfx_mouseover_groups = score_gfx_groups.append("g")
+												.data( function(d){
+													return d;
+												})
+												.attr("id", function(d,i){
+													return "score_mouseOver_version "+d;
+												})
+												.attr("opacity", "1");
+
+
+				// some circles for the mouseover interaction
+				score_gfx_indidivudal_score_circle_elements__for_mouseovers = score_gfx_mouseover_groups
+								.selectAll("circle")
+								.data( function(d,i){ return [ d ];} ) 
+								.enter()
+								.append("rect")
+									.classed( "mouseOverElementFor_DataCircle", true )
+									.attr("x", function(){
+										return -(score_gfx_mouseover_element_width/2);
+										 })
+									.attr("y", function(){
+										return -(score_gfx_mouseover_element_height/2);
+										 })
+									.attr("width", function(d, i){ 
+										// for the mouseover circle
+										return score_gfx_mouseover_element_width;
+									 })										
+									.attr("height", function(d, i){ 
+										// for the mouseover circle
+										return score_gfx_mouseover_element_height;
+									 })			
+									//  update the text info in the tooltip 
+									//  window
+									.on("mouseenter", function(d){
+										/* console.log(" mousevoer at d === "+d ); */
+
+										// DEBUGGING DEBUGGING DEBUGGING
+										/// debugging : mouselocs
+										/* console.log(" mouse locs === \n\t\t mouseLoc(this) === "+d3.mouse(this)+" \n\t\t d3.mouse( bodydiv ) === "+mouseLoc_relativeToBodyDiv ); */
+
+
+										//// calculate the tooltip position
+										//		based on a combination
+										//		of the mouse loc pos relative to 
+										//		the body div 
+										//		and the curr data element area loc
+										var toolTip_testArea_loc_x = mouseLoc_relativeToBodyDiv[ mouseLoc_x_coord_i ] - d3.mouse(this)[ mouseLoc_x_coord_i ] + toolTip_offset_vs_dataMouseOverArea_x ;
+
+										/// to restrict the group from 
+										//	travelling too far to the right
+										if( tooltip_group__restrict_right_most_loc_of_group ){
+											if( toolTip_testArea_loc_x > tooltip_group__rightMost_coordinate_possible ){
+												toolTip_testArea_loc_x = tooltip_group__rightMost_coordinate_possible;
+											}
+										}
+
+										var toolTip_testArea_loc_y = mouseLoc_relativeToBodyDiv[ mouseLoc_y_coord_i ] - d3.mouse(this)[ mouseLoc_y_coord_i ] + toolTip_offset_vs_dataMouseOverArea_y;
+
+										///// set the relevant coordinates of the tooltip
+										tooltip_group.transition().duration(200).attr("transform", function(){
+														return "translate( "+toolTip_testArea_loc_x+", "+toolTip_testArea_loc_y+" )" ;
+													} );
+
+
+										//  update the info in the tooltip
+										update_mouseover_tooltip_window_info_w_this_circle_info( d, this );
+									})
+									// make sure the tooltip follows the mouse
+									.on("mousemove", function(){
+										////   update_mouseover_tooltip_location_for_this_circle();
+									}  )
+									// and then when the mouse exits
+									.on("mouseleave", function(){
+
+										///   update_mouseover_tooltip_for_mouseLeave();
+									});
+
+
+
+			
+
+				
+				/////   and add the country names/titles 
+				country_names = countries_expmtl__groups.selectAll("text")
+										.data( function(d){ 
+													// console.log(.log(" d[0][data__countryName_col_i] === "+d[0][data__countryName_col_i] );
+													return [ d[0][data__countryName_col_i] ]; } )
+										.enter()
+										.append("text")
+											.attr("class", "countryname")
+											.attr("x", countrynames__offset_px_x )
+											.attr("y", countrynames__offset_px_y )
+											.text( function(d,i){ 
+													//  debugging
+													// console.log(.log(" text === "+d) ; 
+													//  
+													return d; 
+												} );
+
+
+
+				/////
+				///// add some space for the MEAN COUNTRY SCORE bits/column
+				//
+				scores__average_value_per_country__groups = countries_expmtl__groups
+														.append("g")
+														.attr( "class", "scores__average_value_per_country__groups")
+															.append("text")
+																.attr("class", "scores__average_value_per_country")
+																.text(function(d){ 
+																	// console.log(.log(" setting average score - trying to fetch "+d[ data__perCountryDataRows__average_country_score_DATA_ROW_INDEX ][0] );
+
+																	var avg_score = parseInt( d[ data__perCountryDataRows__average_country_score_DATA_ROW_INDEX ][0] );
+																	return avg_score;
+
+																 })
+																.attr("x", category_label__averageDataSetScore__dataColumn__offset_x )
+																.attr("y", category_label__averageDataSetScore__dataColumn__offset_y );
+
+
+				////////////////
+				////////////////
+				////////////////	jquery things setup
+				////////////////
+				////////////////
+
+				//// including that search box
+				setup_jquery_things();																
+
+		});  // end of csv import and setup
+
+
+		
+
+		var set_up_tooltip = function(){
+
+			// console.log(.log('>>> setting up the tooltip thingies');
+
+			///// make a larger outside group
+			tooltip_group = basics_body.append("g")
+									.attr("id", "tooltip_group ")
+									.attr("transform", "translate( "+0+", "+0+" )" )
+									// make the tooltip disappear
+									.attr("display", "none" );
+
+			////   add a TRANSPARENT BACKGROUND RECTANGLE
+			//		for the transparent background
+			tooltip_group__backgroundTranspRect = tooltip_group.append("rect")
+														.attr("id", "tooltip_group__backgroundTranspRect")
+														.attr("x", tooltip_group__transpBackRect_loc_x)
+														.attr("y", tooltip_group__transpBackRect_loc_y)
+														.attr("width", tooltip_group__transpBackRect__width_x)
+														.attr("height", tooltip_group__transpBackRect__height_y);
+
+
+			////   add a SOLID BACKGROUND RECTANGLE
+			//		as the tooltip solid background
+			tooltip_group__backgroundTranspRect = tooltip_group.append("rect")
+														.attr("id", "tooltip_group__solideBackRect")
+														.attr("x", tooltip_group__solideBackRect_loc_x)
+														.attr("y", tooltip_group__solideBackRect_loc_y)
+														.attr("width", tooltip_group__solideBackRect__width_x )
+														.attr("height", tooltip_group__solideBackRect__height_y );
+
+
+			/////  the heading
+			tooltip_group__headingText = tooltip_group.append("text")
+							.attr("id", "tooltip_group__headingText")
+							.attr("x", tooltip_group__headingText__offset_x)
+							.attr("y", tooltip_group__headingText__offset_y)
+							.text("Dataset name");
+
+
+			////  set up a group to hold the  category + data TEXTS
+			tooltip_group__data_categories_textS_group = tooltip_group.append("g")
+							.attr("id", "tooltip_group__data_categories_textS_group");
+
+
+			// and the texts that go there		
+			//  PLEASE NOTE that this doesn't cover the 'is open text'
+			tooltip_group__data_categories_texts_group__individual_texts = tooltip_group__data_categories_textS_group.selectAll("text")
+					.data( tooltip_group_textTexts_of_data_categories )
+					.enter()
+						.append("text")
+						.classed("dataCategoriesText" ,true )
+						.attr("x", data_categories_texts__offset_x )
+						.attr("y", function(d,i){ return (i*data_categories_texts__leading_y) + data_categories_texts__offset_y; })
+						.text( function(d){ return d; } );
+
+			// and the IS OPEN SPECIAL EDITION solution
+			tooltip_group__data_categories_texts_group__is_open__general_text_ref__and_first_words = 
+				tooltip_group__data_categories_textS_group						
+							.append("text")
+							.classed("dataCategoriesText" ,true )
+							.attr("x", data_categories_texts__is_open_txt_special_edition__offset_x )
+							.attr("y", function(){ return (11*data_categories_texts__leading_y) + data_categories_texts__is_open_txt_special_edition__offset_y; })
+							.text( "Yes/No - " );
+
+
+			//  line 2 of the "is open" line
+			tooltip_group__data_categories_texts_group__is_open__text_line2 = 
+				tooltip_group__data_categories_textS_group.append("text")
+						.classed("dataCategoriesText" ,true )
+						.attr("x", data_categories_texts__is_open_txt_special_edition__forLine2__offset_x )
+						.attr("y", function(){ return (12*data_categories_texts__leading_y) + data_categories_texts__is_open_txt_special_edition__offset_y; })
+						.text( "Open Definition is/not available" );
+
+
+
+			////  set up a group to hold the  DATA TEXTS
+			tooltip_group__data_texts_group = tooltip_group.append("g")
+							.attr("id", "tooltip_group__data_texts_group");
+
+
+			// and the texts that go there		
+			tooltip_group__data_texts_group__individual_texts = tooltip_group__data_texts_group.selectAll("text")
+					//  NOTE - the range is according to the variable array referenced below
+					//			( which is exceptionally short due to the is open 
+					//				text being handled separately )
+					.data( tooltip_group_textTexts_of_data_categories )
+					.enter()
+						.append("text")
+						.classed("dataResultsText" ,true )
+						.attr("x", data_results_texts__offset_x )
+						.attr("y", function(d,i){ return i*data_results_texts__leading_y+data_results_texts__offset_y; })
+						.text( function(d){ return d; } );
+
+
+
+
+/*
+
+			////  make a group for the data results text!
+			tooltip_group__data_texts_group = tooltip_group__data_categories_texts_group.append("g").attr("id", "tooltip_group__data_texts_group");
+
+			// and the data results texts that go there
+			tooltip_group__data_texts_group__individual_texts = 
+			tooltip_group__data_texts_group.selectAll("text")
+					.data( d3.range( 12 ) )
+					.enter()
+						.classed("dataResultsText" ,true )
+						.append("text")
+						.attr("x", 40 )
+						.attr("y", function(d,i){ return i*10; })
+						.text( function(d){ return d;} );
+*/
+		}
+
+
+
+		////////  multidimensionally group data items by country  
+
+		var group_data_rows_by_country = function(){
+
+			// console.log(.log(">>>>>>  starting :  group_data_rows_by_country"); 
+
+
+			/////////  setup / variables initialisation
+
+			////  all the country groups things go in here
+			var multidimensional_outArray = [];
+
+			///   and a list of countries is here 
+			list_of_countries = [];
+
+			// setup the relevant number of out array subarrays
+			//// NOTE: 14 is the number of items per country
+			var country_items_in_outArray = ( reparsed_data.length -1 ) / 15;
+
+			// console.log(.log(" country_items_in_outArray : "+country_items_in_outArray );
+
+
+
+			////// compare to previous and insert as appropriate :) 
+
+			//  this is where the countryname is found in each row of the reparsed data
+			var dataIndex_countryName = 1;
+
+			var prevline_countryName = "";
+			var similarItemCount = 0;
+
+			var curr_outArray_country_i = 0;
+
+			// set up the first out item :) 
+			multidimensional_outArray[ curr_outArray_country_i ] = [];
+
+			/// loop :) 
+			for( var i = 0; i < reparsed_data.length; i++ ){
+
+				/// console.log(" >>> group_data_rows_by_country : workign on reparsed data line "+i );
+
+				//  manual effort for the last line of the 
+				//	data - due to there not being much to compare with
+				if( i === reparsed_data.length-1 ){
+					// console.log(.log(">>> ok, we're on the last line #"+i );
+
+					//  add items to the out array
+					multidimensional_outArray[ curr_outArray_country_i ].push( reparsed_data[ i ] );
+
+					// console.log(" aha - "+prevline_countryName+" has "+similarItemCount+" num of items - outarrayCheck: "+multidimensional_outArray[ curr_outArray_country_i ].length );
+				}
+				else if( prevline_countryName === reparsed_data[ i ][ dataIndex_countryName ] ){
+					// ok, it's another line for the same country
+					multidimensional_outArray[ curr_outArray_country_i ].push( reparsed_data[ i ] );
+					similarItemCount++;
+				}
+				else{
+					// ok, new country! 
+					//  feedback about the previous one
+					///// console.log(" aha - "+prevline_countryName+" has "+similarItemCount+" num of items - outarrayCheck: "+multidimensional_outArray[ curr_outArray_country_i ].length );
+
+					// set the new countryname to compare new array items to
+					prevline_countryName = reparsed_data[ i ][ dataIndex_countryName ];
+					// ( and add the countryname to the list of countrynames )
+					list_of_countries.push( reparsed_data[ i ][ dataIndex_countryName ] );
+
+					// reset the count of found items
+					similarItemCount = 1;
+
+					// update which line we're working on, in the outarray
+					curr_outArray_country_i ++;
+					// make a new subarray in the outarray
+					multidimensional_outArray[ curr_outArray_country_i ] = [];
+
+					// add the current reparsed data row to the new subarray 
+					multidimensional_outArray[ curr_outArray_country_i ].push( reparsed_data[ i ] );
+				}
+			}// end outArraying loop :) 
+			
+
+			return multidimensional_outArray;
+		}
+
+
+
+		/////////   calculate each countrys average score and add it to 
+		//				as a row to the relevant country's data rows
+
+		var calculate_country_average_score_and_add_it_to_relev_country_data_arrays_group = function(){
+
+			// console.log(.log(">>> calculate_country_average_score_and_add_it_to_relev_country_data_arrays_group: starting ");
+
+			///// loop through each group
+			for( var country_group_i = 0; country_group_i < parsed_rows_minus_labelsOnTop.length; country_group_i++ ){
+
+				// console.log(.log("\t working on country group of country "+parsed_rows_minus_labelsOnTop[ country_group_i ][0][data__countryName_col_i] );
+
+				//// (loop) find the cumulative numebr
+				//			of scores
+
+				var cumulative_score = 0;
+
+				for( var country_group_data_row_i = 0; country_group_data_row_i < parsed_rows_minus_labelsOnTop[ country_group_i ].length; country_group_data_row_i++ ){
+
+					cumulative_score += parsed_rows_minus_labelsOnTop[ country_group_i ][ country_group_data_row_i ][ data__calculatedScore_col_i ];
+
+					///// console.log(" \t\t\t - adding "+parsed_rows_minus_labelsOnTop[ country_group_i ][ country_group_data_row_i ][ data__datasetName_col_i ]+" "+parsed_rows_minus_labelsOnTop[ country_group_i ][ country_group_data_row_i ][ data__calculatedScore_col_i ] );
+					//
+				}
+
+				//// divide the cumulative num to find the average
+				var averageScore_this_country = cumulative_score / parsed_rows_minus_labelsOnTop[ country_group_i ].length;
+
+				// feedback
+				// console.log(.log(" \t\t cumulative score = "+cumulative_score+" divided by "+parsed_rows_minus_labelsOnTop[ country_group_i ].length+" ==>> "+averageScore_this_country );
+
+				//// add it to the array group of the country
+				parsed_rows_minus_labelsOnTop[ country_group_i ].push( [averageScore_this_country] );
+			}
+
+		}
+
+
+
+		////////  a little function to check the results of the country grouping
+
+		var check_countryGrouping_results = function( inArray ){
+
+			var col_num_of_countryElement_identifiers = 3;
+
+			var countryElement_identifiers = ["D1 - Map","D2 - Land","D4 - Census","D5 - Budget","D6 - Spend","D7 - Company","D8 - Legislation","D9 - Transport","D10 - Trade","D11 - Health","D12 - Education","D13 - Crime","D14 - Environment","D15 - Elections","D16 - Contracts"];
+
+
+			var found_hiccups = 0;
+			var checked_items = 0;
+
+			/// start at 1 to skip the header row
+			for( var i = 1; i < inArray.length; i++ ){
+
+				// check if the row has the relevant number of items
+				if( inArray[i].length != countryElement_identifiers.length ){
+					// console.log(" ooooops!!!! looks like the length of this rown is not the same as the number of country identifiers - "+inArray[i].length+" vs. "+countryElement_identifiers.length );
+				}
+
+				// loop and compare the country identifiers
+				for( var j = 0; j < inArray[ i].length; j++  ){
+
+					if( inArray[i][j][ col_num_of_countryElement_identifiers ] !=  countryElement_identifiers[ j ] ){
+
+						//// console.log(" oooops! looks like there's a mismatch of country identifiers | in row "+i+" item "+j+"  which should have "+countryElement_identifiers[ j ]+" but has "+inArray[i][j][ col_num_of_countryElement_identifiers ] );
+
+						found_hiccups++;
+					} else{
+						checked_items++ ;
+
+						//  dirty debug
+						//// console.log(" looking at row row "+i+" item "+j+"  which should have "+countryElement_identifiers[ j ]+" / "+inArray[i][j][ col_num_of_countryElement_identifiers ] );
+					}
+
+				}
+			} // end outer loop
+
+			//  conclusion feedback
+			// console.log(.log(" checked "+checked_items+" number of items, of "+(inArray.length-1)+" number of items and found "+found_hiccups+" hiccups ");
+
+		} //  end function 
+
+
+
+
+
+		///////   count how many similar country entries there are
+		//			- this is a way of checking how many 
+		//			items per country there are
+
+		var count_num_of_similar_items = function(){
+
+			// console.log(.log(">>>>>> starting : count_num_of_similar_items ");
+
+			
+			// index: countryname 
+			var countryName_i = 1;
+
+			// set up a comparison variable
+			var prevline = "";
+			// and a count of how many similar items we've seen
+			var similarItemCount = 0;
+
+			//  & loop :) 
+			for( var i = 0; i < parsed_rows.length; i++ ){
+
+				// compare the current item to the previous one 
+				//   and feedback accordingly 
+
+				// if similar, add to the count 
+				if(  parsed_rows[i][ countryName_i ] === prevline ){
+					similarItemCount++ ;
+				}
+				// if we meet a new item
+				else{
+					// console.log(.log(" aha - "+prevline+" had "+similarItemCount+" # of items ");
+
+					// reset things 
+					prevline = parsed_rows[i][ countryName_i ];
+					similarItemCount = 1;
+				}
+			}
+
+		}
+
+
+		
+		///////////
+		///////////   set up the various category labels
+		///////////
+
+		var set_up_category_labels = function(){
+
+
+			// some feedback
+			// console.log(.log(">>>> starting: set_up_category_labels() -  and category_titles_importedCsvTexts === \n\t"+category_titles_importedCsvTexts );
+
+
+			////////  	add the CATEGORIES GROUPS and texts 
+			//			
+
+			// make a separate group, to separate things
+			category_labels__main_group = basics_header.append("g").attr("id", "category_labels__main_group" );
+
+			// individual categories - after the average score column
+			category_labels__individualCategory_groups	= category_labels__main_group.selectAll("g")
+															.data( function(){
+																// console.log(.log(" category titles === "+ category_titles_importedCsvTexts.slice( category_labels_textArray__dataCategoryLabelsStart_i, category_titles_importedCsvTexts.length ) );
+																// note the [0] at the end
+																// - this is because the sliced
+																//		item is still an array
+																//		...with just one array
+																//		of categories
+																// NOTE2 - the second slice is just
+																//			to rid ourselves of the
+																//			country text
+																//			- which we'll set up 
+																//			separately
+																// #harcoded
+																return category_titles_importedCsvTexts.slice( category_labels_textArray__dataCategoryLabelsStart_i, category_titles_importedCsvTexts.length );
+															} )
+															.enter()
+															.append("g")
+																.attr("id", function(d,i){ return d; })
+																.attr("class", function(d,i){ return "categoryLabelNum"+i; })
+																.attr("transform", function(d,i){
+																	return "translate( "+((i*data_col_spacing_px_x)+category_labels__group__offset_left_x )+", "+category_labels__group__offset_top_y+" ) rotate(-45)" ;
+																})			
+																.on("click", function(d){
+																	// console.log(.log(" click on "+d );
+
+																	// in the event we've been searching and some countries are a bit transparent
+																	search_set_opacity_of_all_countries_to_nonTransparent();
+
+																	// remove the markup on the other texts 
+																	remove_bold_category_text_on_all_categories();
+
+																	// set the markup on this text to bold 
+																	// text to bold
+																	d3.select(this).selectAll("text").classed("category_label_text_BOLD", true);
+
+																	/// and the same for the background rect
+																	d3.select(this).selectAll("rect").classed("mouseOverRect_on_SELECTED", true);
+
+
+																	// set the initial value of the input field
+																	$("input").val("search for country" );
+
+																	sort_start_function__new( d, animation_transition_duration__regular );
+																})
+																.on("mouseover", function(){
+																	d3.select(this).selectAll("rect").classed("mouseOverRect_on_MOUSEOVER", true);
+																})
+																.on("mouseleave", function(){
+																	d3.select(this).selectAll("rect").classed("mouseOverRect_on_MOUSEOVER", false);
+																});
+
+
+
+			///  the category rects
+			category_labels__mouseoverRects = category_labels__individualCategory_groups
+													.selectAll('rect')
+													.data( function(d){
+														return [d];
+													} )
+													.enter()
+													.append("rect")
+														.attr("class", function(d,i){ 
+															return "mouseOverRect mouseOverRectNum"+i+" -"+d;
+														})		
+														.attr("x", category_labels__mouseOVerBackgroundRectangles_offset_x)
+														.attr("y", category_labels__mouseOVerBackgroundRectangles_offset_y)
+														.attr("width", data_col_spacing_px_x*3.0 )
+														.attr("height", data_row_spacing_vertical_px_y/1.4 );
+
+			///  the category names
+			category_labels__category_texts = category_labels__individualCategory_groups
+													.selectAll('text')
+													.data( function(d){
+														// this is just to remove the country
+														// name from the list of texts to creat
+														//	- we'll make the graphics for that separately
+														//		as it's much further left from the 
+														//		other labels	
+														// console.log(.log(" cateogry labels text d === ");
+														// console.log(.log( d );
+														return [d] ;
+													} )
+													.enter()
+													.append("text")		
+														.text( function(d,i){ 
+															// debugging
+															// console.log(.log( "i, d  / d[0] / d.length === "+i+", "+d+" / "+d[0]+" / "+d.length );
+
+															// extract the text correctly
+															// this is a bit of a HACK
+															//	- there should be better
+															//		ways of checking this…
+															if( d.length > 2 ){
+																return d;
+															} else{
+																return d[0];
+															}
+
+															 })
+														.attr("class", function(d,i){
+																// same idea as above
+																if( i <= 1 ){
+																	return "category_label_text "+d;
+																} else{
+																	return "category_label_text "+d[0];
+																}
+															} )
+														.attr("x", function(){
+															return data_col_spacing_px_x/2 ;
+														})
+														.attr("y", function(){
+															return data_row_spacing_vertical_px_y/3 ;
+														});
+
+
+
+			///  add the group for the COUNTRY CATEGORY LABEL 
+			//		(i.e. for the text 'country')
+			category_labels__countryLabelText_group = category_labels__main_group.append('g').attr( "id", "country_label_outer")
+						.attr("transform", function(d,i){
+								return "translate( "+category_labels__countryLabelText_group__offset_x+", "+category_labels__countryLabelText_group__offset_y+" ) rotate(-45)" ;
+											})
+									.on("click", function(){
+										// console.log(.log(" click on: countryName" );
+
+									// in the event we've been searching and some countries are a bit transparent
+									search_set_opacity_of_all_countries_to_nonTransparent();
+
+										// remove the markup on the other texts 
+										remove_bold_category_text_on_all_categories();
+
+										// set the markup on this text to bold 
+										// text to bold
+										d3.select(this).selectAll("text").classed("category_label_text_BOLD", true);
+
+										/// and the same for the background rect
+										d3.select(this).selectAll("rect").classed("mouseOverRect_on_SELECTED", true);
+
+										// set the initial value of the input field
+										$("input").val("search for country" );
+
+										//  start sort
+										sort_start_function__new( "Country", animation_transition_duration__regular );
+									})
+									.on("mouseover", function(){
+										category_labels__countryLabelText_rect.classed("mouseOverRect_on_MOUSEOVER", true);
+									})
+									.on("mouseleave", function(){
+										category_labels__countryLabelText_rect.classed("mouseOverRect_on_MOUSEOVER", false);
+									});
+
+			// and the mouseover rectangle
+			category_labels__countryLabelText_rect = category_labels__countryLabelText_group
+													.append("rect")
+														.attr("class", function(d,i){ 
+															return "mouseOverRect mouseOverRectNumCountry";
+														})
+														.attr("x", category_labels__mouseOVerBackgroundRectangles_offset_x)
+														.attr("y", category_labels__mouseOVerBackgroundRectangles_offset_y )
+														.attr("width", data_col_spacing_px_x*4 )
+														.attr("height", 
+															//data_row_spacing_vertical_px_y/2.5 
+															data_row_spacing_vertical_px_y/1.4
+														);
+
+			//  and the actual text
+			category_labels__countryLabelText_text = category_labels__countryLabelText_group.append("text")
+														.text( category_titles_importedCsvTexts[1] )
+														.attr("class", function(d,i){
+															return "category_label_text Country"; })
+														.attr("x", function(){
+															return data_col_spacing_px_x/2 ;
+														})
+														.attr("y", function(){
+															return data_row_spacing_vertical_px_y/3 ;
+														});
+
+
+
+			//////
+			//  add a special text element for the AVERAGE COUNTRY SCORE TEXT
+			avergeCountryScore_category_group = category_labels__main_group.append("g")
+												.attr("id", "averageCountryScoreTextGroup")
+												.attr("transform", function(d,i){
+												return "translate( "+(category_label__averageDataSetScore__text__offset_x)+", "+category_label__averageDataSetScore__text__offset_y+" ) rotate(-45)" ;
+											})
+											.attr("id", "DataSetScore")
+											.attr("class", "categoryLabelNumDataSetScore")
+											.on("click", function(){
+												// console.log(.log(" click on: 'Dataset Score'" );
+
+												//// change the text markup on click
+
+												// in the event we've been searching and some countries are a bit transparent
+												search_set_opacity_of_all_countries_to_nonTransparent();
+
+												// remove the markup on the other texts 
+												remove_bold_category_text_on_all_categories();
+
+												// set the markup on this text to bold 
+												// text to bold
+												d3.select(this).selectAll("text").classed("category_label_text_BOLD", true);
+
+												/// and the same for the background rect
+												d3.select(this).selectAll("rect").classed("mouseOverRect_on_SELECTED", true);
+
+												// set the initial value of the input field
+												$("input").val("search for country" );
+
+												// start the sorting
+												sort_start_function__new( "Dataset Score", animation_transition_duration__regular );
+											})
+											.on("mouseover", function(){
+												avergeCountryScore_category_group__background_rect.classed("mouseOverRect_on_MOUSEOVER", true);
+											})
+											.on("mouseleave", function(){
+												avergeCountryScore_category_group__background_rect.classed("mouseOverRect_on_MOUSEOVER", false);
+											});
+
+			// add the background rect
+			avergeCountryScore_category_group__background_rect = avergeCountryScore_category_group
+									.append("rect")
+									.attr("class", function(d,i){ 
+												return "mouseOverRect mouseOverRectNumDataSetScore";
+											})
+									.attr("x", -15)
+									.attr("y", -20)
+									.attr("width", data_col_spacing_px_x*4 )
+									.attr("height", data_row_spacing_vertical_px_y/1.4 );
+											
+			//  and add the averageCountryScore text please
+			avergeCountryScore_category_group_text = avergeCountryScore_category_group.append('text')
+												.attr( "class", "category_label_text" )
+												.text( category_titles_importedCsvTexts[2] );
+
+
+		}
+
+
+		///////////  sorting & interaction
+
+		////  set the country groups according to their (sort) order in the 
+		//			groups array
+		var set_and_animate_countryGroups_transform_loc_acc_to_their_countryGroups_array_order = function( animatedOrInstant_trueFalse_ ){
+
+			//  set the animation duration according to 
+			//    whether things should happen instantly or not…
+			var animation_duration = 2000;
+			//  if we want to do this instantly, such as when 
+			//     the page opens ( i.e. initial sortings on page opening )
+			//		then we set the animation duration to zero 
+			if( animatedOrInstant_trueFalse_ === false ){
+				animation_duration = 0;
+			}
+
+			//  set the px positions based on the new order
+			//		and move 
+			countries_expmtl__groups.transition().duration(animation_duration)
+								.attr("transform", function(d,i){
+								// put the offsets here please
+								return "translate( "+data_rows_initial_offset_x+", "+((i*data_row_spacing_vertical_px_y)+data_rows_initial_offset_y)+")" ;
+									});
+			//
+		}
+
+
+
+		//////  this is a kind of global to help us 
+		// 		figure out which of all the data we're comparing
+		// 
+		
+
+		var sorting__comparison_function__forNumericValues_new = function( obj_a, obj_b ){
+
+			///   console.log(">>>>  sorting__comparison_function__forNumericValues_new : comparing obj a/b (len: "+obj_a.length+")/(len: "+obj_b.length+") \n\t some : a :  "+obj_a[ 0 ]+" \n\t some : b :  "+obj_b[ 0 ]+"  \n\t    some : b[0].length :  "+obj_b[ 0 ].length+"  \n\t    some : b[0][1] :  "+obj_b[ 0 ][1].length+"   \n\t -- all "+obj_a+" / "+obj_b );
+
+
+			var sorting_val_to_return = 1;
+
+			//  special case for non-first-data-element 
+			//	( i.e. countryname ) comparison
+			//	
+			if( sorting__curr_data_col_to_compare >= 0 ){
+
+				if( obj_a[ sorting__curr_data_col_to_compare ][ data__calculatedScore_col_i ] > obj_b[ sorting__curr_data_col_to_compare ][ data__calculatedScore_col_i ] ){
+					sorting_val_to_return = -1;
+				}	
+			}
+
+			//  special case for the average country score  
+			//
+			//	
+			if( sorting__curr_data_col_to_compare === -1 ){
+
+				if( obj_a[ data__perCountryDataRows__average_country_score_DATA_ROW_INDEX ][ data__perCountryDataRows__average_country_score_DATA_ROW_INDEX__dataIndex ] > obj_b[ data__perCountryDataRows__average_country_score_DATA_ROW_INDEX ][ data__perCountryDataRows__average_country_score_DATA_ROW_INDEX__dataIndex ] ){
+					sorting_val_to_return = -1;
+				}	
+			}
+
+			//  special case for non-first-data-element 
+			//	( i.e. countryname ) comparison
+			//	
+			if( sorting__curr_data_col_to_compare === -2 ){
+
+
+				// NOTE NOTE NOTE : HARDCODING! (for testing purposes, naturally )
+				// --- the "[ 0 ]" is just that we'll use the first 
+				//		row/column object for the name comparison 
+				//		( all the rows/cols of a country's many datasets 
+				//		( ALL have the country name in the same position ))
+				///////  console.log(" >> comparing a/b "+obj_a[ 0 ][ data__countryName_col_i ]+" / "+obj_b[ 0 ][ data__countryName_col_i ] );
+				//
+				sorting_val_to_return = d3.ascending( obj_a[ 0 ][ data__countryName_col_i ], obj_b[ 0 ][ data__countryName_col_i ] );
+			}
+
+			//  console.log(" comparing data col#"+sorting__curr_data_col_to_compare+" val a/b "+obj_a[ sorting__curr_data_col_to_compare ][ data__calculatedScore_col_i ]+" / "+obj_b[ sorting__curr_data_col_to_compare ][ data__calculatedScore_col_i ]+"  return val === "+sorting_val_to_return );
+
+			// 
+			return sorting_val_to_return; 
+		}
+
+
+
+
+		//   start sorting - 
+		////   - the function that's called when a label is clicked
+		var sort_start_function__new = function( data_item_from_label, animatedOrInstant_trueFalse ){
+
+			// console.log(.log(">>>   sort_start_function - received |"+data_item_from_label+"|  doing some sorting" );
+
+			//  this is  a placeholder for the column number that'll be used 
+			//		to indicate which column of the dataset to use for comparisons
+			sorting__curr_data_col_to_compare = -99 ;
+
+			// NOTE NOTE NOTE: 
+			// NOTE NOTE NOTE: there are TWO MORE ITEMS in the infovis list of categories
+			// NOTE NOTE NOTE: 	compared to the order of the data rows+categories per country
+			// NOTE NOTE NOTE: 
+			//
+			//						list of categories copamred to 
+			//						the list of categories from the textfile
+			//  how many extra columns there are in the list of categories
+			//  ( as imported from that small csv file ) compared to the 
+			//	order of the data columns
+			//  ( that is, this is an offset such that the number of the 
+			//		clicked and found category item corresponds to the relevant 
+			//		data set number (i.e. map,land,census,etc…), for sorting )
+			//		( the order of the datasets should be the same as the category titles
+			//			except that the category titles also include the country name and 
+			//			the country average score, which isn't present as a data 
+			//			row/column item in a regular sense )
+			var num_of_onscreen_category_items_compared_to_country_dataset_rows = -3;
+
+			//
+			// loop and see which data column item the received cateogry label corresponds to
+			for( var i = 0; i < category_titles_importedCsvTexts.length; i++  ){
+				// compare 
+				if( data_item_from_label === category_titles_importedCsvTexts[i] ){
+					sorting__curr_data_col_to_compare = i + num_of_onscreen_category_items_compared_to_country_dataset_rows;
+				}
+			}
+
+			// dirty debugging…
+			// console.log(.log(" \\  sort_start_function - found that "+data_item_from_label+" corresponds to item #"+sorting__curr_data_col_to_compare+" from the loaded label list ->"+category_titles_importedCsvTexts[ (sorting__curr_data_col_to_compare - num_of_onscreen_category_items_compared_to_country_dataset_rows) ]+" (unfiletered - "+category_titles_importedCsvTexts[ sorting__curr_data_col_to_compare ]  );
+
+			/// sorting__curr_data_col_to_compare = data_col_to_sort_i;
+
+			///// do relevant sorting 
+			//			( eg. column 0 is the start of the data values 
+			//			( except the country score ... which we have to calculate
+			//			( separate )
+			//			( -1 is the country score, -2 the country name )
+			if( sorting__curr_data_col_to_compare >= -2 ){
+				countries_expmtl__groups.sort( sorting__comparison_function__forNumericValues_new );
+			}
+
+
+			///// and then get something to animate :) 
+			set_and_animate_countryGroups_transform_loc_acc_to_their_countryGroups_array_order( animatedOrInstant_trueFalse );
+		}
+
+
+
+
+		//////// NOTE NOTE NOTE: OLD OLD OLD
+		///////// - for when we used keys to do this
+		//// the main sorting activation function
+		var sort_start_function = function( data_col_to_sort_i ){
+
+			sorting__curr_data_col_to_compare = data_col_to_sort_i;
+
+			countries_expmtl__groups.sort( sorting__comparison_function__forNumericValues );
+		}
+
+
+/*
+		// and some test key handling 
+		d3.select("body").on("keydown", function() {
+	        
+	        ///// catch the different keys
+	        // "1"
+	        if( d3.event.keyCode === 49 ){
+	        	sort_start_function( 1 );
+	        }
+	        // "2"
+	        if( d3.event.keyCode === 50 ){
+	        	sort_start_function( 2 );
+	        }
+	        // "3"
+	        if( d3.event.keyCode === 51 ){
+	        	sort_start_function( 3 );
+	        }
+	        // "4"
+	        if( d3.event.keyCode === 52 ){
+	        	sort_start_function( 4 );
+	        }
+	        // "5"
+	        if( d3.event.keyCode === 53 ){
+	        	sort_start_function( 5 );
+	        }
+	        // "6"
+	        if( d3.event.keyCode === 54 ){
+	        	sort_start_function( 6 );
+	        }
+	        // "7"
+	        if( d3.event.keyCode === 55 ){
+	        	sort_start_function( 7 );
+	        }
+	        // "8"
+	        if( d3.event.keyCode === 56 ){
+	        	sort_start_function( 8 );
+	        }
+	        // "9"
+	        if( d3.event.keyCode === 57 ){
+	        	sort_start_function( 9 );
+	        }
+	        // "q"
+	        if( d3.event.keyCode === 81 ){
+	        	sort_start_function( 10 );
+	        }
+	        // "w"
+	        if( d3.event.keyCode === 87 ){
+	        	sort_start_function( 11 );
+	        }
+	        // "e"
+	        if( d3.event.keyCode === 69 ){
+	        	sort_start_function( 12 );
+	        }
+	        // "r"
+	        if( d3.event.keyCode === 82 ){
+	        	sort_start_function( 13 );
+	        }
+	        // "t"
+		        if( d3.event.keyCode === 84 ){
+	        	sort_start_function( 14 );
+	        }
+	        // "y"
+	        if( d3.event.keyCode === 89 ){
+	        	sort_start_function( 15 );
+	        }
+
+
+	        // and then do the new location calculation and transition
+	        set_and_animate_countryGroups_transform_loc_acc_to_their_countryGroups_array_order();
+
+        });
+*/	
+
+		//  update the info in the tooltip with the information
+		//		of this windwo
+		var update_mouseover_tooltip_window_info_w_this_circle_info = function( indata, this_ ){
+
+			////  debug / feedback
+			/* console.log(" >>>   setting up the mouse over/tip for element "+(d3.select( this_ ).attr("id"))+"  of data "+indata ); */
+			///   console.log(" the current mouse loc === "+mouseLoc_relativeToSVGpageDiv );
+			/// console.log(" \t mouse2 === "+d3.mouse( domSelected__d3graphicsContainerDiv ) );
+
+
+			////  update the tooltip text please
+
+			//// heading
+			//  include countryname+dataset name in the heading
+			var heading = indata[ data__datasetName_col_i ]+ " ( "+indata[ data__countryName_col_i ]+" )" ;
+			tooltip_group__headingText.text( heading );
+
+
+			///  test implementation
+			//  of the data texts
+
+			tooltip_group__data_texts_group__individual_texts
+				//// .data( indata.slice( data__calculatedScore_col_i, indata.length ) )
+				//  PLEASE NOTE - the array length is one shorter than the amount
+				//				of data, due to the last bit - the "is open" bit
+				//				being handled differently - in plain text rather
+				//				than by number score - than the rest of the results
+				.data( [indata[data__calculatedScore_col_i]].concat(indata.slice(data__isOpen_col_i+1,indata.length)) )
+				.text( function(d){ return d; } );
+
+
+
+			///  SPECIAL : set the "is open score according to the data score
+			//		and set it in text please :) 
+		
+
+			if( indata[data__isOpen_col_i] === 1 ){
+				tooltip_group__data_categories_texts_group__is_open__general_text_ref__and_first_words
+					.text("Yes")
+					.classed("dataResultsText__is_open_text__edition", true)
+						.append("svg:tspan")
+						.text(", data meeting the")
+						.classed("dataCategoriesText", true)
+							.append("svg:a")
+							.attr("xlink:href", "http://opendefinition.org/" )
+								.append("svg:tspan")
+								.text(" Open Definition ")
+								.attr("class", "tooltip__open_defintion_text__markup");
+
+				// and then the second line
+				tooltip_group__data_categories_texts_group__is_open__text_line2
+					.text("is available")
+			} else{				
+				tooltip_group__data_categories_texts_group__is_open__general_text_ref__and_first_words
+					.text("No")
+					.classed("dataResultsText__is_open_text__edition", true)
+						.append("svg:tspan")
+						.text(",  data meeting the")
+						.classed("dataCategoriesText", true)
+							.append("svg:a")
+							.attr("xlink:href", "http://opendefinition.org/" )
+								.append("svg:tspan")
+								.text(" Open Definition ")
+								.attr("class", "tooltip__open_defintion_text__markup");
+
+				// and then the second line
+				tooltip_group__data_categories_texts_group__is_open__text_line2
+					.text("is not available")		
+			}
+
+
+
+
+
+
+
+			////    set the visibility to 100%
+			//
+			tooltip_group.attr("display", "inline");
+		}
+
+
+
+
+		//  update the location as the tooltip is over the 
+		//		data circle
+		var update_mouseover_tooltip_location_for_this_circle = function( indata, this_ ){
+
+			/////  console.log(" the current mouse loc === "+mouseLoc_relativeToSVGpageDiv );
+			/// console.log(" \t mouse2 === "+d3.mouse( domSelected__d3graphicsContainerDiv ) );
+
+
+			///// set the relevant coordinates of the tooltip
+			tooltip_group.attr("transform", function(){
+							return "translate( "+( mouseLoc_relativeToSVGpageDiv[ mouseLoc_x_coord_i ] + toolTip_offset_x ) +", "+(( mouseLoc_relativeToSVGpageDiv[ mouseLoc_y_coord_i ] - basics_header_h )+toolTip_offset_y)+" )" ;
+						} );
+		}
+
+
+
+		//  hide the mouse tip when the mouse exits the data circle area
+		//
+		var update_mouseover_tooltip_for_mouseLeave = function(){
+
+			// make the tooltip disappear
+			tooltip_group.attr("display", "none" );
+			//
+		}
+
+
+
+		///   for removing the bold class from all cateogry texts
+		var remove_bold_category_text_on_all_categories = function(){
+
+			//// set all category 
+			// label texts to basic
+			category_labels__category_texts.classed("category_label_text_BOLD", false);
+
+			// and the average dataset score
+			avergeCountryScore_category_group_text.classed("category_label_text_BOLD", false);
+
+			// and the country label
+			category_labels__countryLabelText_text.classed("category_label_text_BOLD", false);
+
+
+
+			/////  set all the rectangles to a basic markup
+
+			// general category labels
+			category_labels__mouseoverRects.classed("mouseOverRect_on_SELECTED", false);
+
+			// and the average dataset score
+			avergeCountryScore_category_group__background_rect.classed("mouseOverRect_on_SELECTED", false);
+
+			// country labels
+			category_labels__countryLabelText_rect.classed("mouseOverRect_on_SELECTED", false);
+
+		}
+
+
+		////////////
+		////////////  
+		///////////		search sorting function
+		////////////
+		////////////
+
+		var search_set_opacity_depending_on_search_finding = function( countryNameToFind ){
+
+
+			// try setting the opacity according to 
+			//		whether the countryname is the same
+			countries_expmtl__groups.classed("searchedFor_notFoundCountry", function(d, i){
+
+				// check and compare
+				// ( just checking with the first data row of each country 
+				//		- all the data rows contain the countryname, so one could 
+				//			check with any data row of a country. 
+				//			for simplicity I'm just checking the first rown )
+				if( d[0][data__countryName_col_i].toLowerCase() === countryNameToFind.toLowerCase() ){
+					// feedback 
+					// console.log(.log(" \t FOUND d[0][1] === "+d[0][data__countryName_col_i] );
+					return false; 
+				}else{
+					// console.log(.log(" \t\t NOT FOUND - return true ");
+					return true;
+				}
+
+			});
+		}
+
+
+		////////		( for when we sort by other means than by search )
+		////////	set all countries to non-transparent 
+		///////	
+
+		var search_set_opacity_of_all_countries_to_nonTransparent = function(){
+
+			countries_expmtl__groups.classed("searchedFor_notFoundCountry", false );
+		}
+
+
+		///   sorting function for search
+
+
+
+		var sorting_function_for_search_results = function( obj_a, obj_b ){
+
+			//// console.log(" sorting! - countryname to match === |"+countryNameToFind_global+"|");
+
+			//  first check if the countryname 
+			//		is the right one
+			if( obj_a[ 0 ][ data__countryName_col_i ].toLowerCase() === countryNameToFind_global.toLowerCase() ){
+				return -1 ; 
+			} else{
+				return 1;
+			}
+			// if the countryname doesn't match, then 
+			//		just compare the names alphabetically
+			/*
+			if(  obj_a[ 0 ][ 1 ] != countryNameToFind_global ){
+
+				//
+				return d3.ascending( obj_a[ 0 ][ data__countryName_col_i ], obj_b[ 0 ][ data__countryName_col_i ] );
+			}
+			*/
+
+		}
+
+
+
+		////////////
+		////////////  
+		///////////		jquery land
+		////////////
+		////////////
+
+
+		var setup_jquery_things = function(){
+
+					///////////////////////////    
+					//////////////////////////		and then the jQuery things
+					//////////////////////////
+
+					$( document ).ready(function() {
+					  // Handler for .ready() called.
+
+						// console.log(.log(" hellow - jquery ready :) ");
+
+						$(function() {
+						    $( "#tags" ).autocomplete({
+						      source: list_of_countries,
+						      select: function (event, ui) {
+						        // console.log(.log("selected item === "+ui.item.label );
+
+						        //  set up which country to be on top
+						        countryNameToFind_global = ui.item.label;
+
+						        //  remove any bold category labels
+						        // remove the markup on the other texts 
+								remove_bold_category_text_on_all_categories();
+
+
+						        search_set_opacity_depending_on_search_finding( countryNameToFind_global );
+
+						        //  sort country groups  according to the criteria
+						        countries_expmtl__groups.sort( sorting_function_for_search_results );
+
+						        //    set up their new coordinates & animate
+						        set_and_animate_countryGroups_transform_loc_acc_to_their_countryGroups_array_order( true );
+
+						        // set the initial value of the input field
+								////  $("input").val("search for country" );
+
+						        return false;
+							    }
+						    });
+						  });
+					
+
+					// set the initial value of the input field
+					$("input").val("search for country" );
+
+					//  clear the field when clicked 
+					$("input").click( function(){
+						$(this).val("");
+					});
+
+					  
+					}); // end of document ready
+
+				} ///   end of jquery setup
+
+
+		</script>
+
+	</body>
+
+</html>

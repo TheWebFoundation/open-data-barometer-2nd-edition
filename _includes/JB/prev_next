@@ -1,0 +1,69 @@
+{% comment %}<!--
+The pages_list include is a listing helper.
+Usage:
+  1) assign the 'pages_list' variable to a valid array of pages or posts.
+  2) include JB/pages_list
+  example:
+    <ul>
+  	  {% assign pages_list = site.pages %}  
+  	  {% include JB/pages_list %}
+  	</ul>
+  	
+  Grouping: (optional): 
+  	assign the 'group' variable to constrain the list to only pages/posts
+  	in the given group. Note you must define the group manually in the page/post
+  	meta-data to use this feature.
+  	Grouping is mainly helpful for non-post pages.
+  	If you want to group posts, it's easier/better to tag them, then pass the tagged posts array.
+  	i.e. site.tags.cool_tag (this returns an array of posts tagged: cool_tag)
+  	
+  This helper can be seen in use at: ../_layouts/default.html
+-->{% endcomment %}
+{% assign pages_list = site.pages | sort:"weight"  %}
+{% assign group = 'navigation' %}
+{% assign next_page = '' %}
+  {% for node in pages_list %}
+    {% if node.title != null %}
+      {% if group != null and group == node.group %}
+      	         	   
+      	        
+              	{% if found_page == 1 and next_page == ""%}
+          	        {% assign next_page = node.url %}
+          	    {% endif %}
+
+                {% if page.url == node.url%}{% assign found_page = 1 %}{%endif%}
+                
+      	        {% if found_page != 1 %}
+                    {% assign prev_page = node.url %}
+                {% endif %} 
+      	         	     
+              	{% for subnode in pages_list %}
+              	    {% if subnode.group == node.subgroup %}
+                  	   
+              	        {% if found_page == 1 and next_page == ""%}
+                  	        {% assign next_page = subnode.url %}
+                  	    {% endif %}
+              	        {% if page.url == subnode.url%}{% assign found_page = 1 %}{%endif%}
+              	        
+              	        {% if found_page != 1 %}
+                            {% assign prev_page = subnode.url %}
+                        {% endif %}
+              	        
+              	    {% endif %}
+              	{% endfor %}
+      {% endif %}
+    {% endif %}
+  {% endfor %}
+
+  <nav>
+    <ul class="pager">
+      {% if prev_page != "" %}<li><a href="{{ prev_page }} ">Previous</a></li>{% endif %}
+      {% if next_page != "" %}<li><a href="{{ next_page}}">Next</a></li>{% endif %}
+    </ul>
+  </nav>
+
+
+{% assign pages_list = nil %}
+{% assign group = nil %}
+
+

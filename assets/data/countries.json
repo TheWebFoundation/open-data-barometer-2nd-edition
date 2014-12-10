@@ -1,0 +1,3614 @@
+[
+ {
+  "className": "UAE", 
+  "isocode": "AE", 
+  "axes": [
+   {
+    "value": 81, 
+    "axis": "Readiness: Government"
+   }, 
+   {
+    "value": 0, 
+    "axis": "Impact: Economic"
+   }, 
+   {
+    "value": 0, 
+    "axis": "Impact: Social"
+   }, 
+   {
+    "value": 22, 
+    "axis": "Impact: Political"
+   }, 
+   {
+    "value": 20, 
+    "axis": "Datasets: Innovation"
+   }, 
+   {
+    "value": 36, 
+    "axis": "Datasets: Social Policy"
+   }, 
+   {
+    "value": 15, 
+    "axis": "Datasets: Accountability"
+   }, 
+   {
+    "value": 63, 
+    "axis": "Readiness: Entrepreneurs"
+   }, 
+   {
+    "value": 11, 
+    "axis": "Readiness: Citizens"
+   }
+  ]
+ }, 
+ {
+  "className": "Argentina", 
+  "isocode": "AR", 
+  "axes": [
+   {
+    "value": 42, 
+    "axis": "Readiness: Government"
+   }, 
+   {
+    "value": 20, 
+    "axis": "Impact: Economic"
+   }, 
+   {
+    "value": 17, 
+    "axis": "Impact: Social"
+   }, 
+   {
+    "value": 22, 
+    "axis": "Impact: Political"
+   }, 
+   {
+    "value": 42, 
+    "axis": "Datasets: Innovation"
+   }, 
+   {
+    "value": 38, 
+    "axis": "Datasets: Social Policy"
+   }, 
+   {
+    "value": 31, 
+    "axis": "Datasets: Accountability"
+   }, 
+   {
+    "value": 44, 
+    "axis": "Readiness: Entrepreneurs"
+   }, 
+   {
+    "value": 60, 
+    "axis": "Readiness: Citizens"
+   }
+  ]
+ }, 
+ {
+  "className": "Australia", 
+  "isocode": "AU", 
+  "axes": [
+   {
+    "value": 99, 
+    "axis": "Readiness: Government"
+   }, 
+   {
+    "value": 40, 
+    "axis": "Impact: Economic"
+   }, 
+   {
+    "value": 46, 
+    "axis": "Impact: Social"
+   }, 
+   {
+    "value": 24, 
+    "axis": "Impact: Political"
+   }, 
+   {
+    "value": 86, 
+    "axis": "Datasets: Innovation"
+   }, 
+   {
+    "value": 55, 
+    "axis": "Datasets: Social Policy"
+   }, 
+   {
+    "value": 58, 
+    "axis": "Datasets: Accountability"
+   }, 
+   {
+    "value": 83, 
+    "axis": "Readiness: Entrepreneurs"
+   }, 
+   {
+    "value": 88, 
+    "axis": "Readiness: Citizens"
+   }
+  ]
+ }, 
+ {
+  "className": "Austria", 
+  "isocode": "AT", 
+  "axes": [
+   {
+    "value": 81, 
+    "axis": "Readiness: Government"
+   }, 
+   {
+    "value": 59, 
+    "axis": "Impact: Economic"
+   }, 
+   {
+    "value": 100, 
+    "axis": "Impact: Social"
+   }, 
+   {
+    "value": 57, 
+    "axis": "Impact: Political"
+   }, 
+   {
+    "value": 44, 
+    "axis": "Datasets: Innovation"
+   }, 
+   {
+    "value": 28, 
+    "axis": "Datasets: Social Policy"
+   }, 
+   {
+    "value": 53, 
+    "axis": "Datasets: Accountability"
+   }, 
+   {
+    "value": 79, 
+    "axis": "Readiness: Entrepreneurs"
+   }, 
+   {
+    "value": 84, 
+    "axis": "Readiness: Citizens"
+   }
+  ]
+ }, 
+ {
+  "className": "Belgium", 
+  "isocode": "BE", 
+  "axes": [
+   {
+    "value": 84, 
+    "axis": "Readiness: Government"
+   }, 
+   {
+    "value": 61, 
+    "axis": "Impact: Economic"
+   }, 
+   {
+    "value": 43, 
+    "axis": "Impact: Social"
+   }, 
+   {
+    "value": 48, 
+    "axis": "Impact: Political"
+   }, 
+   {
+    "value": 21, 
+    "axis": "Datasets: Innovation"
+   }, 
+   {
+    "value": 33, 
+    "axis": "Datasets: Social Policy"
+   }, 
+   {
+    "value": 39, 
+    "axis": "Datasets: Accountability"
+   }, 
+   {
+    "value": 75, 
+    "axis": "Readiness: Entrepreneurs"
+   }, 
+   {
+    "value": 96, 
+    "axis": "Readiness: Citizens"
+   }
+  ]
+ }, 
+ {
+  "className": "Benin", 
+  "isocode": "BJ", 
+  "axes": [
+   {
+    "value": 6, 
+    "axis": "Readiness: Government"
+   }, 
+   {
+    "value": 0, 
+    "axis": "Impact: Economic"
+   }, 
+   {
+    "value": 0, 
+    "axis": "Impact: Social"
+   }, 
+   {
+    "value": 0, 
+    "axis": "Impact: Political"
+   }, 
+   {
+    "value": 15, 
+    "axis": "Datasets: Innovation"
+   }, 
+   {
+    "value": 32, 
+    "axis": "Datasets: Social Policy"
+   }, 
+   {
+    "value": 8, 
+    "axis": "Datasets: Accountability"
+   }, 
+   {
+    "value": 12, 
+    "axis": "Readiness: Entrepreneurs"
+   }, 
+   {
+    "value": 37, 
+    "axis": "Readiness: Citizens"
+   }
+  ]
+ }, 
+ {
+  "className": "Burkina Faso", 
+  "isocode": "BF", 
+  "axes": [
+   {
+    "value": 36, 
+    "axis": "Readiness: Government"
+   }, 
+   {
+    "value": 0, 
+    "axis": "Impact: Economic"
+   }, 
+   {
+    "value": 0, 
+    "axis": "Impact: Social"
+   }, 
+   {
+    "value": 0, 
+    "axis": "Impact: Political"
+   }, 
+   {
+    "value": 7, 
+    "axis": "Datasets: Innovation"
+   }, 
+   {
+    "value": 22, 
+    "axis": "Datasets: Social Policy"
+   }, 
+   {
+    "value": 9, 
+    "axis": "Datasets: Accountability"
+   }, 
+   {
+    "value": 19, 
+    "axis": "Readiness: Entrepreneurs"
+   }, 
+   {
+    "value": 44, 
+    "axis": "Readiness: Citizens"
+   }
+  ]
+ }, 
+ {
+  "className": "Bangladesh", 
+  "isocode": "BD", 
+  "axes": [
+   {
+    "value": 24, 
+    "axis": "Readiness: Government"
+   }, 
+   {
+    "value": 6, 
+    "axis": "Impact: Economic"
+   }, 
+   {
+    "value": 0, 
+    "axis": "Impact: Social"
+   }, 
+   {
+    "value": 0, 
+    "axis": "Impact: Political"
+   }, 
+   {
+    "value": 15, 
+    "axis": "Datasets: Innovation"
+   }, 
+   {
+    "value": 13, 
+    "axis": "Datasets: Social Policy"
+   }, 
+   {
+    "value": 14, 
+    "axis": "Datasets: Accountability"
+   }, 
+   {
+    "value": 21, 
+    "axis": "Readiness: Entrepreneurs"
+   }, 
+   {
+    "value": 34, 
+    "axis": "Readiness: Citizens"
+   }
+  ]
+ }, 
+ {
+  "className": "Bahrain", 
+  "isocode": "BH", 
+  "axes": [
+   {
+    "value": 69, 
+    "axis": "Readiness: Government"
+   }, 
+   {
+    "value": 0, 
+    "axis": "Impact: Economic"
+   }, 
+   {
+    "value": 0, 
+    "axis": "Impact: Social"
+   }, 
+   {
+    "value": 0, 
+    "axis": "Impact: Political"
+   }, 
+   {
+    "value": 12, 
+    "axis": "Datasets: Innovation"
+   }, 
+   {
+    "value": 26, 
+    "axis": "Datasets: Social Policy"
+   }, 
+   {
+    "value": 7, 
+    "axis": "Datasets: Accountability"
+   }, 
+   {
+    "value": 52, 
+    "axis": "Readiness: Entrepreneurs"
+   }, 
+   {
+    "value": 6, 
+    "axis": "Readiness: Citizens"
+   }
+  ]
+ }, 
+ {
+  "className": "Brazil", 
+  "isocode": "BR", 
+  "axes": [
+   {
+    "value": 65, 
+    "axis": "Readiness: Government"
+   }, 
+   {
+    "value": 6, 
+    "axis": "Impact: Economic"
+   }, 
+   {
+    "value": 0, 
+    "axis": "Impact: Social"
+   }, 
+   {
+    "value": 17, 
+    "axis": "Impact: Political"
+   }, 
+   {
+    "value": 49, 
+    "axis": "Datasets: Innovation"
+   }, 
+   {
+    "value": 71, 
+    "axis": "Datasets: Social Policy"
+   }, 
+   {
+    "value": 62, 
+    "axis": "Datasets: Accountability"
+   }, 
+   {
+    "value": 63, 
+    "axis": "Readiness: Entrepreneurs"
+   }, 
+   {
+    "value": 69, 
+    "axis": "Readiness: Citizens"
+   }
+  ]
+ }, 
+ {
+  "className": "Botswana", 
+  "isocode": "BW", 
+  "axes": [
+   {
+    "value": 29, 
+    "axis": "Readiness: Government"
+   }, 
+   {
+    "value": 0, 
+    "axis": "Impact: Economic"
+   }, 
+   {
+    "value": 0, 
+    "axis": "Impact: Social"
+   }, 
+   {
+    "value": 0, 
+    "axis": "Impact: Political"
+   }, 
+   {
+    "value": 8, 
+    "axis": "Datasets: Innovation"
+   }, 
+   {
+    "value": 11, 
+    "axis": "Datasets: Social Policy"
+   }, 
+   {
+    "value": 10, 
+    "axis": "Datasets: Accountability"
+   }, 
+   {
+    "value": 27, 
+    "axis": "Readiness: Entrepreneurs"
+   }, 
+   {
+    "value": 27, 
+    "axis": "Readiness: Citizens"
+   }
+  ]
+ }, 
+ {
+  "className": "Canada", 
+  "isocode": "CA", 
+  "axes": [
+   {
+    "value": 90, 
+    "axis": "Readiness: Government"
+   }, 
+   {
+    "value": 39, 
+    "axis": "Impact: Economic"
+   }, 
+   {
+    "value": 60, 
+    "axis": "Impact: Social"
+   }, 
+   {
+    "value": 50, 
+    "axis": "Impact: Political"
+   }, 
+   {
+    "value": 92, 
+    "axis": "Datasets: Innovation"
+   }, 
+   {
+    "value": 72, 
+    "axis": "Datasets: Social Policy"
+   }, 
+   {
+    "value": 51, 
+    "axis": "Datasets: Accountability"
+   }, 
+   {
+    "value": 86, 
+    "axis": "Readiness: Entrepreneurs"
+   }, 
+   {
+    "value": 88, 
+    "axis": "Readiness: Citizens"
+   }
+  ]
+ }, 
+ {
+  "className": "Switzerland", 
+  "isocode": "CH", 
+  "axes": [
+   {
+    "value": 71, 
+    "axis": "Readiness: Government"
+   }, 
+   {
+    "value": 53, 
+    "axis": "Impact: Economic"
+   }, 
+   {
+    "value": 17, 
+    "axis": "Impact: Social"
+   }, 
+   {
+    "value": 93, 
+    "axis": "Impact: Political"
+   }, 
+   {
+    "value": 34, 
+    "axis": "Datasets: Innovation"
+   }, 
+   {
+    "value": 53, 
+    "axis": "Datasets: Social Policy"
+   }, 
+   {
+    "value": 26, 
+    "axis": "Datasets: Accountability"
+   }, 
+   {
+    "value": 81, 
+    "axis": "Readiness: Entrepreneurs"
+   }, 
+   {
+    "value": 87, 
+    "axis": "Readiness: Citizens"
+   }
+  ]
+ }, 
+ {
+  "className": "Chile", 
+  "isocode": "CL", 
+  "axes": [
+   {
+    "value": 69, 
+    "axis": "Readiness: Government"
+   }, 
+   {
+    "value": 13, 
+    "axis": "Impact: Economic"
+   }, 
+   {
+    "value": 0, 
+    "axis": "Impact: Social"
+   }, 
+   {
+    "value": 7, 
+    "axis": "Impact: Political"
+   }, 
+   {
+    "value": 82, 
+    "axis": "Datasets: Innovation"
+   }, 
+   {
+    "value": 57, 
+    "axis": "Datasets: Social Policy"
+   }, 
+   {
+    "value": 70, 
+    "axis": "Datasets: Accountability"
+   }, 
+   {
+    "value": 61, 
+    "axis": "Readiness: Entrepreneurs"
+   }, 
+   {
+    "value": 78, 
+    "axis": "Readiness: Citizens"
+   }
+  ]
+ }, 
+ {
+  "className": "China", 
+  "isocode": "CN", 
+  "axes": [
+   {
+    "value": 64, 
+    "axis": "Readiness: Government"
+   }, 
+   {
+    "value": 13, 
+    "axis": "Impact: Economic"
+   }, 
+   {
+    "value": 9, 
+    "axis": "Impact: Social"
+   }, 
+   {
+    "value": 26, 
+    "axis": "Impact: Political"
+   }, 
+   {
+    "value": 20, 
+    "axis": "Datasets: Innovation"
+   }, 
+   {
+    "value": 45, 
+    "axis": "Datasets: Social Policy"
+   }, 
+   {
+    "value": 12, 
+    "axis": "Datasets: Accountability"
+   }, 
+   {
+    "value": 56, 
+    "axis": "Readiness: Entrepreneurs"
+   }, 
+   {
+    "value": 34, 
+    "axis": "Readiness: Citizens"
+   }
+  ]
+ }, 
+ {
+  "className": "Cameroon", 
+  "isocode": "CM", 
+  "axes": [
+   {
+    "value": 15, 
+    "axis": "Readiness: Government"
+   }, 
+   {
+    "value": 0, 
+    "axis": "Impact: Economic"
+   }, 
+   {
+    "value": 0, 
+    "axis": "Impact: Social"
+   }, 
+   {
+    "value": 7, 
+    "axis": "Impact: Political"
+   }, 
+   {
+    "value": 6, 
+    "axis": "Datasets: Innovation"
+   }, 
+   {
+    "value": 6, 
+    "axis": "Datasets: Social Policy"
+   }, 
+   {
+    "value": 7, 
+    "axis": "Datasets: Accountability"
+   }, 
+   {
+    "value": 17, 
+    "axis": "Readiness: Entrepreneurs"
+   }, 
+   {
+    "value": 8, 
+    "axis": "Readiness: Citizens"
+   }
+  ]
+ }, 
+ {
+  "className": "Colombia", 
+  "isocode": "CO", 
+  "axes": [
+   {
+    "value": 65, 
+    "axis": "Readiness: Government"
+   }, 
+   {
+    "value": 20, 
+    "axis": "Impact: Economic"
+   }, 
+   {
+    "value": 9, 
+    "axis": "Impact: Social"
+   }, 
+   {
+    "value": 24, 
+    "axis": "Impact: Political"
+   }, 
+   {
+    "value": 21, 
+    "axis": "Datasets: Innovation"
+   }, 
+   {
+    "value": 44, 
+    "axis": "Datasets: Social Policy"
+   }, 
+   {
+    "value": 27, 
+    "axis": "Datasets: Accountability"
+   }, 
+   {
+    "value": 42, 
+    "axis": "Readiness: Entrepreneurs"
+   }, 
+   {
+    "value": 59, 
+    "axis": "Readiness: Citizens"
+   }
+  ]
+ }, 
+ {
+  "className": "Costa Rica", 
+  "isocode": "CR", 
+  "axes": [
+   {
+    "value": 59, 
+    "axis": "Readiness: Government"
+   }, 
+   {
+    "value": 13, 
+    "axis": "Impact: Economic"
+   }, 
+   {
+    "value": 0, 
+    "axis": "Impact: Social"
+   }, 
+   {
+    "value": 0, 
+    "axis": "Impact: Political"
+   }, 
+   {
+    "value": 24, 
+    "axis": "Datasets: Innovation"
+   }, 
+   {
+    "value": 61, 
+    "axis": "Datasets: Social Policy"
+   }, 
+   {
+    "value": 15, 
+    "axis": "Datasets: Accountability"
+   }, 
+   {
+    "value": 48, 
+    "axis": "Readiness: Entrepreneurs"
+   }, 
+   {
+    "value": 61, 
+    "axis": "Readiness: Citizens"
+   }
+  ]
+ }, 
+ {
+  "className": "Czech Republic", 
+  "isocode": "CZ", 
+  "axes": [
+   {
+    "value": 44, 
+    "axis": "Readiness: Government"
+   }, 
+   {
+    "value": 39, 
+    "axis": "Impact: Economic"
+   }, 
+   {
+    "value": 26, 
+    "axis": "Impact: Social"
+   }, 
+   {
+    "value": 52, 
+    "axis": "Impact: Political"
+   }, 
+   {
+    "value": 58, 
+    "axis": "Datasets: Innovation"
+   }, 
+   {
+    "value": 53, 
+    "axis": "Datasets: Social Policy"
+   }, 
+   {
+    "value": 65, 
+    "axis": "Datasets: Accountability"
+   }, 
+   {
+    "value": 61, 
+    "axis": "Readiness: Entrepreneurs"
+   }, 
+   {
+    "value": 87, 
+    "axis": "Readiness: Citizens"
+   }
+  ]
+ }, 
+ {
+  "className": "Germany", 
+  "isocode": "DE", 
+  "axes": [
+   {
+    "value": 82, 
+    "axis": "Readiness: Government"
+   }, 
+   {
+    "value": 46, 
+    "axis": "Impact: Economic"
+   }, 
+   {
+    "value": 26, 
+    "axis": "Impact: Social"
+   }, 
+   {
+    "value": 65, 
+    "axis": "Impact: Political"
+   }, 
+   {
+    "value": 69, 
+    "axis": "Datasets: Innovation"
+   }, 
+   {
+    "value": 65, 
+    "axis": "Datasets: Social Policy"
+   }, 
+   {
+    "value": 59, 
+    "axis": "Datasets: Accountability"
+   }, 
+   {
+    "value": 74, 
+    "axis": "Readiness: Entrepreneurs"
+   }, 
+   {
+    "value": 96, 
+    "axis": "Readiness: Citizens"
+   }
+  ]
+ }, 
+ {
+  "className": "Denmark", 
+  "isocode": "DK", 
+  "axes": [
+   {
+    "value": 83, 
+    "axis": "Readiness: Government"
+   }, 
+   {
+    "value": 87, 
+    "axis": "Impact: Economic"
+   }, 
+   {
+    "value": 69, 
+    "axis": "Impact: Social"
+   }, 
+   {
+    "value": 85, 
+    "axis": "Impact: Political"
+   }, 
+   {
+    "value": 64, 
+    "axis": "Datasets: Innovation"
+   }, 
+   {
+    "value": 51, 
+    "axis": "Datasets: Social Policy"
+   }, 
+   {
+    "value": 42, 
+    "axis": "Datasets: Accountability"
+   }, 
+   {
+    "value": 100, 
+    "axis": "Readiness: Entrepreneurs"
+   }, 
+   {
+    "value": 91, 
+    "axis": "Readiness: Citizens"
+   }
+  ]
+ }, 
+ {
+  "className": "Ecuador", 
+  "isocode": "EC", 
+  "axes": [
+   {
+    "value": 42, 
+    "axis": "Readiness: Government"
+   }, 
+   {
+    "value": 0, 
+    "axis": "Impact: Economic"
+   }, 
+   {
+    "value": 9, 
+    "axis": "Impact: Social"
+   }, 
+   {
+    "value": 7, 
+    "axis": "Impact: Political"
+   }, 
+   {
+    "value": 52, 
+    "axis": "Datasets: Innovation"
+   }, 
+   {
+    "value": 62, 
+    "axis": "Datasets: Social Policy"
+   }, 
+   {
+    "value": 15, 
+    "axis": "Datasets: Accountability"
+   }, 
+   {
+    "value": 34, 
+    "axis": "Readiness: Entrepreneurs"
+   }, 
+   {
+    "value": 55, 
+    "axis": "Readiness: Citizens"
+   }
+  ]
+ }, 
+ {
+  "className": "Egypt", 
+  "isocode": "EG", 
+  "axes": [
+   {
+    "value": 25, 
+    "axis": "Readiness: Government"
+   }, 
+   {
+    "value": 0, 
+    "axis": "Impact: Economic"
+   }, 
+   {
+    "value": 0, 
+    "axis": "Impact: Social"
+   }, 
+   {
+    "value": 0, 
+    "axis": "Impact: Political"
+   }, 
+   {
+    "value": 9, 
+    "axis": "Datasets: Innovation"
+   }, 
+   {
+    "value": 20, 
+    "axis": "Datasets: Social Policy"
+   }, 
+   {
+    "value": 25, 
+    "axis": "Datasets: Accountability"
+   }, 
+   {
+    "value": 34, 
+    "axis": "Readiness: Entrepreneurs"
+   }, 
+   {
+    "value": 26, 
+    "axis": "Readiness: Citizens"
+   }
+  ]
+ }, 
+ {
+  "className": "Spain", 
+  "isocode": "ES", 
+  "axes": [
+   {
+    "value": 81, 
+    "axis": "Readiness: Government"
+   }, 
+   {
+    "value": 53, 
+    "axis": "Impact: Economic"
+   }, 
+   {
+    "value": 17, 
+    "axis": "Impact: Social"
+   }, 
+   {
+    "value": 33, 
+    "axis": "Impact: Political"
+   }, 
+   {
+    "value": 86, 
+    "axis": "Datasets: Innovation"
+   }, 
+   {
+    "value": 48, 
+    "axis": "Datasets: Social Policy"
+   }, 
+   {
+    "value": 41, 
+    "axis": "Datasets: Accountability"
+   }, 
+   {
+    "value": 68, 
+    "axis": "Readiness: Entrepreneurs"
+   }, 
+   {
+    "value": 83, 
+    "axis": "Readiness: Citizens"
+   }
+  ]
+ }, 
+ {
+  "className": "Estonia", 
+  "isocode": "EE", 
+  "axes": [
+   {
+    "value": 78, 
+    "axis": "Readiness: Government"
+   }, 
+   {
+    "value": 60, 
+    "axis": "Impact: Economic"
+   }, 
+   {
+    "value": 46, 
+    "axis": "Impact: Social"
+   }, 
+   {
+    "value": 57, 
+    "axis": "Impact: Political"
+   }, 
+   {
+    "value": 53, 
+    "axis": "Datasets: Innovation"
+   }, 
+   {
+    "value": 55, 
+    "axis": "Datasets: Social Policy"
+   }, 
+   {
+    "value": 42, 
+    "axis": "Datasets: Accountability"
+   }, 
+   {
+    "value": 79, 
+    "axis": "Readiness: Entrepreneurs"
+   }, 
+   {
+    "value": 90, 
+    "axis": "Readiness: Citizens"
+   }
+  ]
+ }, 
+ {
+  "className": "Ethiopia", 
+  "isocode": "ET", 
+  "axes": [
+   {
+    "value": 26, 
+    "axis": "Readiness: Government"
+   }, 
+   {
+    "value": 0, 
+    "axis": "Impact: Economic"
+   }, 
+   {
+    "value": 0, 
+    "axis": "Impact: Social"
+   }, 
+   {
+    "value": 0, 
+    "axis": "Impact: Political"
+   }, 
+   {
+    "value": 8, 
+    "axis": "Datasets: Innovation"
+   }, 
+   {
+    "value": 20, 
+    "axis": "Datasets: Social Policy"
+   }, 
+   {
+    "value": 7, 
+    "axis": "Datasets: Accountability"
+   }, 
+   {
+    "value": 14, 
+    "axis": "Readiness: Entrepreneurs"
+   }, 
+   {
+    "value": 16, 
+    "axis": "Readiness: Citizens"
+   }
+  ]
+ }, 
+ {
+  "className": "Finland", 
+  "isocode": "FI", 
+  "axes": [
+   {
+    "value": 86, 
+    "axis": "Readiness: Government"
+   }, 
+   {
+    "value": 80, 
+    "axis": "Impact: Economic"
+   }, 
+   {
+    "value": 69, 
+    "axis": "Impact: Social"
+   }, 
+   {
+    "value": 46, 
+    "axis": "Impact: Political"
+   }, 
+   {
+    "value": 67, 
+    "axis": "Datasets: Innovation"
+   }, 
+   {
+    "value": 52, 
+    "axis": "Datasets: Social Policy"
+   }, 
+   {
+    "value": 38, 
+    "axis": "Datasets: Accountability"
+   }, 
+   {
+    "value": 90, 
+    "axis": "Readiness: Entrepreneurs"
+   }, 
+   {
+    "value": 98, 
+    "axis": "Readiness: Citizens"
+   }
+  ]
+ }, 
+ {
+  "className": "France", 
+  "isocode": "FR", 
+  "axes": [
+   {
+    "value": 96, 
+    "axis": "Readiness: Government"
+   }, 
+   {
+    "value": 79, 
+    "axis": "Impact: Economic"
+   }, 
+   {
+    "value": 60, 
+    "axis": "Impact: Social"
+   }, 
+   {
+    "value": 74, 
+    "axis": "Impact: Political"
+   }, 
+   {
+    "value": 75, 
+    "axis": "Datasets: Innovation"
+   }, 
+   {
+    "value": 79, 
+    "axis": "Datasets: Social Policy"
+   }, 
+   {
+    "value": 61, 
+    "axis": "Datasets: Accountability"
+   }, 
+   {
+    "value": 83, 
+    "axis": "Readiness: Entrepreneurs"
+   }, 
+   {
+    "value": 90, 
+    "axis": "Readiness: Citizens"
+   }
+  ]
+ }, 
+ {
+  "className": "UK", 
+  "isocode": "GB", 
+  "axes": [
+   {
+    "value": 96, 
+    "axis": "Readiness: Government"
+   }, 
+   {
+    "value": 80, 
+    "axis": "Impact: Economic"
+   }, 
+   {
+    "value": 77, 
+    "axis": "Impact: Social"
+   }, 
+   {
+    "value": 98, 
+    "axis": "Impact: Political"
+   }, 
+   {
+    "value": 96, 
+    "axis": "Datasets: Innovation"
+   }, 
+   {
+    "value": 92, 
+    "axis": "Datasets: Social Policy"
+   }, 
+   {
+    "value": 96, 
+    "axis": "Datasets: Accountability"
+   }, 
+   {
+    "value": 98, 
+    "axis": "Readiness: Entrepreneurs"
+   }, 
+   {
+    "value": 91, 
+    "axis": "Readiness: Citizens"
+   }
+  ]
+ }, 
+ {
+  "className": "Ghana", 
+  "isocode": "GH", 
+  "axes": [
+   {
+    "value": 35, 
+    "axis": "Readiness: Government"
+   }, 
+   {
+    "value": 0, 
+    "axis": "Impact: Economic"
+   }, 
+   {
+    "value": 0, 
+    "axis": "Impact: Social"
+   }, 
+   {
+    "value": 0, 
+    "axis": "Impact: Political"
+   }, 
+   {
+    "value": 31, 
+    "axis": "Datasets: Innovation"
+   }, 
+   {
+    "value": 39, 
+    "axis": "Datasets: Social Policy"
+   }, 
+   {
+    "value": 39, 
+    "axis": "Datasets: Accountability"
+   }, 
+   {
+    "value": 28, 
+    "axis": "Readiness: Entrepreneurs"
+   }, 
+   {
+    "value": 50, 
+    "axis": "Readiness: Citizens"
+   }
+  ]
+ }, 
+ {
+  "className": "Greece", 
+  "isocode": "GR", 
+  "axes": [
+   {
+    "value": 49, 
+    "axis": "Readiness: Government"
+   }, 
+   {
+    "value": 6, 
+    "axis": "Impact: Economic"
+   }, 
+   {
+    "value": 0, 
+    "axis": "Impact: Social"
+   }, 
+   {
+    "value": 37, 
+    "axis": "Impact: Political"
+   }, 
+   {
+    "value": 40, 
+    "axis": "Datasets: Innovation"
+   }, 
+   {
+    "value": 45, 
+    "axis": "Datasets: Social Policy"
+   }, 
+   {
+    "value": 44, 
+    "axis": "Datasets: Accountability"
+   }, 
+   {
+    "value": 60, 
+    "axis": "Readiness: Entrepreneurs"
+   }, 
+   {
+    "value": 71, 
+    "axis": "Readiness: Citizens"
+   }
+  ]
+ }, 
+ {
+  "className": "Haiti", 
+  "isocode": "HT", 
+  "axes": [
+   {
+    "value": 1, 
+    "axis": "Readiness: Government"
+   }, 
+   {
+    "value": 0, 
+    "axis": "Impact: Economic"
+   }, 
+   {
+    "value": 0, 
+    "axis": "Impact: Social"
+   }, 
+   {
+    "value": 0, 
+    "axis": "Impact: Political"
+   }, 
+   {
+    "value": 4, 
+    "axis": "Datasets: Innovation"
+   }, 
+   {
+    "value": 5, 
+    "axis": "Datasets: Social Policy"
+   }, 
+   {
+    "value": 7, 
+    "axis": "Datasets: Accountability"
+   }, 
+   {
+    "value": 12, 
+    "axis": "Readiness: Entrepreneurs"
+   }, 
+   {
+    "value": 8, 
+    "axis": "Readiness: Citizens"
+   }
+  ]
+ }, 
+ {
+  "className": "Hungary", 
+  "isocode": "HU", 
+  "axes": [
+   {
+    "value": 36, 
+    "axis": "Readiness: Government"
+   }, 
+   {
+    "value": 27, 
+    "axis": "Impact: Economic"
+   }, 
+   {
+    "value": 9, 
+    "axis": "Impact: Social"
+   }, 
+   {
+    "value": 48, 
+    "axis": "Impact: Political"
+   }, 
+   {
+    "value": 44, 
+    "axis": "Datasets: Innovation"
+   }, 
+   {
+    "value": 50, 
+    "axis": "Datasets: Social Policy"
+   }, 
+   {
+    "value": 19, 
+    "axis": "Datasets: Accountability"
+   }, 
+   {
+    "value": 47, 
+    "axis": "Readiness: Entrepreneurs"
+   }, 
+   {
+    "value": 64, 
+    "axis": "Readiness: Citizens"
+   }
+  ]
+ }, 
+ {
+  "className": "Indonesia", 
+  "isocode": "ID", 
+  "axes": [
+   {
+    "value": 49, 
+    "axis": "Readiness: Government"
+   }, 
+   {
+    "value": 0, 
+    "axis": "Impact: Economic"
+   }, 
+   {
+    "value": 29, 
+    "axis": "Impact: Social"
+   }, 
+   {
+    "value": 17, 
+    "axis": "Impact: Political"
+   }, 
+   {
+    "value": 39, 
+    "axis": "Datasets: Innovation"
+   }, 
+   {
+    "value": 70, 
+    "axis": "Datasets: Social Policy"
+   }, 
+   {
+    "value": 12, 
+    "axis": "Datasets: Accountability"
+   }, 
+   {
+    "value": 37, 
+    "axis": "Readiness: Entrepreneurs"
+   }, 
+   {
+    "value": 54, 
+    "axis": "Readiness: Citizens"
+   }
+  ]
+ }, 
+ {
+  "className": "India", 
+  "isocode": "IN", 
+  "axes": [
+   {
+    "value": 57, 
+    "axis": "Readiness: Government"
+   }, 
+   {
+    "value": 0, 
+    "axis": "Impact: Economic"
+   }, 
+   {
+    "value": 0, 
+    "axis": "Impact: Social"
+   }, 
+   {
+    "value": 7, 
+    "axis": "Impact: Political"
+   }, 
+   {
+    "value": 32, 
+    "axis": "Datasets: Innovation"
+   }, 
+   {
+    "value": 54, 
+    "axis": "Datasets: Social Policy"
+   }, 
+   {
+    "value": 25, 
+    "axis": "Datasets: Accountability"
+   }, 
+   {
+    "value": 43, 
+    "axis": "Readiness: Entrepreneurs"
+   }, 
+   {
+    "value": 70, 
+    "axis": "Readiness: Citizens"
+   }
+  ]
+ }, 
+ {
+  "className": "Ireland", 
+  "isocode": "IE", 
+  "axes": [
+   {
+    "value": 63, 
+    "axis": "Readiness: Government"
+   }, 
+   {
+    "value": 19, 
+    "axis": "Impact: Economic"
+   }, 
+   {
+    "value": 0, 
+    "axis": "Impact: Social"
+   }, 
+   {
+    "value": 17, 
+    "axis": "Impact: Political"
+   }, 
+   {
+    "value": 47, 
+    "axis": "Datasets: Innovation"
+   }, 
+   {
+    "value": 41, 
+    "axis": "Datasets: Social Policy"
+   }, 
+   {
+    "value": 30, 
+    "axis": "Datasets: Accountability"
+   }, 
+   {
+    "value": 72, 
+    "axis": "Readiness: Entrepreneurs"
+   }, 
+   {
+    "value": 84, 
+    "axis": "Readiness: Citizens"
+   }
+  ]
+ }, 
+ {
+  "className": "Iceland", 
+  "isocode": "IS", 
+  "axes": [
+   {
+    "value": 61, 
+    "axis": "Readiness: Government"
+   }, 
+   {
+    "value": 67, 
+    "axis": "Impact: Economic"
+   }, 
+   {
+    "value": 14, 
+    "axis": "Impact: Social"
+   }, 
+   {
+    "value": 39, 
+    "axis": "Impact: Political"
+   }, 
+   {
+    "value": 57, 
+    "axis": "Datasets: Innovation"
+   }, 
+   {
+    "value": 42, 
+    "axis": "Datasets: Social Policy"
+   }, 
+   {
+    "value": 13, 
+    "axis": "Datasets: Accountability"
+   }, 
+   {
+    "value": 69, 
+    "axis": "Readiness: Entrepreneurs"
+   }, 
+   {
+    "value": 89, 
+    "axis": "Readiness: Citizens"
+   }
+  ]
+ }, 
+ {
+  "className": "Israel", 
+  "isocode": "IL", 
+  "axes": [
+   {
+    "value": 76, 
+    "axis": "Readiness: Government"
+   }, 
+   {
+    "value": 31, 
+    "axis": "Impact: Economic"
+   }, 
+   {
+    "value": 14, 
+    "axis": "Impact: Social"
+   }, 
+   {
+    "value": 65, 
+    "axis": "Impact: Political"
+   }, 
+   {
+    "value": 47, 
+    "axis": "Datasets: Innovation"
+   }, 
+   {
+    "value": 45, 
+    "axis": "Datasets: Social Policy"
+   }, 
+   {
+    "value": 58, 
+    "axis": "Datasets: Accountability"
+   }, 
+   {
+    "value": 65, 
+    "axis": "Readiness: Entrepreneurs"
+   }, 
+   {
+    "value": 67, 
+    "axis": "Readiness: Citizens"
+   }
+  ]
+ }, 
+ {
+  "className": "Italy", 
+  "isocode": "IT", 
+  "axes": [
+   {
+    "value": 59, 
+    "axis": "Readiness: Government"
+   }, 
+   {
+    "value": 39, 
+    "axis": "Impact: Economic"
+   }, 
+   {
+    "value": 9, 
+    "axis": "Impact: Social"
+   }, 
+   {
+    "value": 43, 
+    "axis": "Impact: Political"
+   }, 
+   {
+    "value": 52, 
+    "axis": "Datasets: Innovation"
+   }, 
+   {
+    "value": 50, 
+    "axis": "Datasets: Social Policy"
+   }, 
+   {
+    "value": 57, 
+    "axis": "Datasets: Accountability"
+   }, 
+   {
+    "value": 39, 
+    "axis": "Readiness: Entrepreneurs"
+   }, 
+   {
+    "value": 72, 
+    "axis": "Readiness: Citizens"
+   }
+  ]
+ }, 
+ {
+  "className": "Jamaica", 
+  "isocode": "JM", 
+  "axes": [
+   {
+    "value": 28, 
+    "axis": "Readiness: Government"
+   }, 
+   {
+    "value": 13, 
+    "axis": "Impact: Economic"
+   }, 
+   {
+    "value": 14, 
+    "axis": "Impact: Social"
+   }, 
+   {
+    "value": 0, 
+    "axis": "Impact: Political"
+   }, 
+   {
+    "value": 21, 
+    "axis": "Datasets: Innovation"
+   }, 
+   {
+    "value": 52, 
+    "axis": "Datasets: Social Policy"
+   }, 
+   {
+    "value": 12, 
+    "axis": "Datasets: Accountability"
+   }, 
+   {
+    "value": 45, 
+    "axis": "Readiness: Entrepreneurs"
+   }, 
+   {
+    "value": 55, 
+    "axis": "Readiness: Citizens"
+   }
+  ]
+ }, 
+ {
+  "className": "Jordan", 
+  "isocode": "JO", 
+  "axes": [
+   {
+    "value": 50, 
+    "axis": "Readiness: Government"
+   }, 
+   {
+    "value": 0, 
+    "axis": "Impact: Economic"
+   }, 
+   {
+    "value": 0, 
+    "axis": "Impact: Social"
+   }, 
+   {
+    "value": 0, 
+    "axis": "Impact: Political"
+   }, 
+   {
+    "value": 8, 
+    "axis": "Datasets: Innovation"
+   }, 
+   {
+    "value": 29, 
+    "axis": "Datasets: Social Policy"
+   }, 
+   {
+    "value": 11, 
+    "axis": "Datasets: Accountability"
+   }, 
+   {
+    "value": 49, 
+    "axis": "Readiness: Entrepreneurs"
+   }, 
+   {
+    "value": 21, 
+    "axis": "Readiness: Citizens"
+   }
+  ]
+ }, 
+ {
+  "className": "Japan", 
+  "isocode": "JP", 
+  "axes": [
+   {
+    "value": 81, 
+    "axis": "Readiness: Government"
+   }, 
+   {
+    "value": 20, 
+    "axis": "Impact: Economic"
+   }, 
+   {
+    "value": 43, 
+    "axis": "Impact: Social"
+   }, 
+   {
+    "value": 17, 
+    "axis": "Impact: Political"
+   }, 
+   {
+    "value": 53, 
+    "axis": "Datasets: Innovation"
+   }, 
+   {
+    "value": 62, 
+    "axis": "Datasets: Social Policy"
+   }, 
+   {
+    "value": 39, 
+    "axis": "Datasets: Accountability"
+   }, 
+   {
+    "value": 74, 
+    "axis": "Readiness: Entrepreneurs"
+   }, 
+   {
+    "value": 86, 
+    "axis": "Readiness: Citizens"
+   }
+  ]
+ }, 
+ {
+  "className": "Kazakhstan", 
+  "isocode": "KZ", 
+  "axes": [
+   {
+    "value": 53, 
+    "axis": "Readiness: Government"
+   }, 
+   {
+    "value": 0, 
+    "axis": "Impact: Economic"
+   }, 
+   {
+    "value": 0, 
+    "axis": "Impact: Social"
+   }, 
+   {
+    "value": 7, 
+    "axis": "Impact: Political"
+   }, 
+   {
+    "value": 27, 
+    "axis": "Datasets: Innovation"
+   }, 
+   {
+    "value": 33, 
+    "axis": "Datasets: Social Policy"
+   }, 
+   {
+    "value": 33, 
+    "axis": "Datasets: Accountability"
+   }, 
+   {
+    "value": 42, 
+    "axis": "Readiness: Entrepreneurs"
+   }, 
+   {
+    "value": 25, 
+    "axis": "Readiness: Citizens"
+   }
+  ]
+ }, 
+ {
+  "className": "Kenya", 
+  "isocode": "KE", 
+  "axes": [
+   {
+    "value": 43, 
+    "axis": "Readiness: Government"
+   }, 
+   {
+    "value": 13, 
+    "axis": "Impact: Economic"
+   }, 
+   {
+    "value": 14, 
+    "axis": "Impact: Social"
+   }, 
+   {
+    "value": 24, 
+    "axis": "Impact: Political"
+   }, 
+   {
+    "value": 9, 
+    "axis": "Datasets: Innovation"
+   }, 
+   {
+    "value": 43, 
+    "axis": "Datasets: Social Policy"
+   }, 
+   {
+    "value": 22, 
+    "axis": "Datasets: Accountability"
+   }, 
+   {
+    "value": 40, 
+    "axis": "Readiness: Entrepreneurs"
+   }, 
+   {
+    "value": 47, 
+    "axis": "Readiness: Citizens"
+   }
+  ]
+ }, 
+ {
+  "className": "Korea", 
+  "isocode": "KR", 
+  "axes": [
+   {
+    "value": 65, 
+    "axis": "Readiness: Government"
+   }, 
+   {
+    "value": 46, 
+    "axis": "Impact: Economic"
+   }, 
+   {
+    "value": 17, 
+    "axis": "Impact: Social"
+   }, 
+   {
+    "value": 59, 
+    "axis": "Impact: Political"
+   }, 
+   {
+    "value": 45, 
+    "axis": "Datasets: Innovation"
+   }, 
+   {
+    "value": 57, 
+    "axis": "Datasets: Social Policy"
+   }, 
+   {
+    "value": 56, 
+    "axis": "Datasets: Accountability"
+   }, 
+   {
+    "value": 83, 
+    "axis": "Readiness: Entrepreneurs"
+   }, 
+   {
+    "value": 84, 
+    "axis": "Readiness: Citizens"
+   }
+  ]
+ }, 
+ {
+  "className": "Morocco", 
+  "isocode": "MA", 
+  "axes": [
+   {
+    "value": 54, 
+    "axis": "Readiness: Government"
+   }, 
+   {
+    "value": 0, 
+    "axis": "Impact: Economic"
+   }, 
+   {
+    "value": 14, 
+    "axis": "Impact: Social"
+   }, 
+   {
+    "value": 33, 
+    "axis": "Impact: Political"
+   }, 
+   {
+    "value": 16, 
+    "axis": "Datasets: Innovation"
+   }, 
+   {
+    "value": 16, 
+    "axis": "Datasets: Social Policy"
+   }, 
+   {
+    "value": 19, 
+    "axis": "Datasets: Accountability"
+   }, 
+   {
+    "value": 40, 
+    "axis": "Readiness: Entrepreneurs"
+   }, 
+   {
+    "value": 49, 
+    "axis": "Readiness: Citizens"
+   }
+  ]
+ }, 
+ {
+  "className": "Mexico", 
+  "isocode": "MX", 
+  "axes": [
+   {
+    "value": 69, 
+    "axis": "Readiness: Government"
+   }, 
+   {
+    "value": 27, 
+    "axis": "Impact: Economic"
+   }, 
+   {
+    "value": 0, 
+    "axis": "Impact: Social"
+   }, 
+   {
+    "value": 33, 
+    "axis": "Impact: Political"
+   }, 
+   {
+    "value": 49, 
+    "axis": "Datasets: Innovation"
+   }, 
+   {
+    "value": 56, 
+    "axis": "Datasets: Social Policy"
+   }, 
+   {
+    "value": 52, 
+    "axis": "Datasets: Accountability"
+   }, 
+   {
+    "value": 56, 
+    "axis": "Readiness: Entrepreneurs"
+   }, 
+   {
+    "value": 78, 
+    "axis": "Readiness: Citizens"
+   }
+  ]
+ }, 
+ {
+  "className": "Mali", 
+  "isocode": "ML", 
+  "axes": [
+   {
+    "value": 17, 
+    "axis": "Readiness: Government"
+   }, 
+   {
+    "value": 6, 
+    "axis": "Impact: Economic"
+   }, 
+   {
+    "value": 0, 
+    "axis": "Impact: Social"
+   }, 
+   {
+    "value": 0, 
+    "axis": "Impact: Political"
+   }, 
+   {
+    "value": 2, 
+    "axis": "Datasets: Innovation"
+   }, 
+   {
+    "value": 2, 
+    "axis": "Datasets: Social Policy"
+   }, 
+   {
+    "value": 6, 
+    "axis": "Datasets: Accountability"
+   }, 
+   {
+    "value": 20, 
+    "axis": "Readiness: Entrepreneurs"
+   }, 
+   {
+    "value": 25, 
+    "axis": "Readiness: Citizens"
+   }
+  ]
+ }, 
+ {
+  "className": "Myanmar", 
+  "isocode": "MM", 
+  "axes": [
+   {
+    "value": 0, 
+    "axis": "Readiness: Government"
+   }, 
+   {
+    "value": 0, 
+    "axis": "Impact: Economic"
+   }, 
+   {
+    "value": 0, 
+    "axis": "Impact: Social"
+   }, 
+   {
+    "value": 0, 
+    "axis": "Impact: Political"
+   }, 
+   {
+    "value": 4, 
+    "axis": "Datasets: Innovation"
+   }, 
+   {
+    "value": 5, 
+    "axis": "Datasets: Social Policy"
+   }, 
+   {
+    "value": 6, 
+    "axis": "Datasets: Accountability"
+   }, 
+   {
+    "value": 0, 
+    "axis": "Readiness: Entrepreneurs"
+   }, 
+   {
+    "value": 10, 
+    "axis": "Readiness: Citizens"
+   }
+  ]
+ }, 
+ {
+  "className": "Mozambique", 
+  "isocode": "MZ", 
+  "axes": [
+   {
+    "value": 16, 
+    "axis": "Readiness: Government"
+   }, 
+   {
+    "value": 0, 
+    "axis": "Impact: Economic"
+   }, 
+   {
+    "value": 0, 
+    "axis": "Impact: Social"
+   }, 
+   {
+    "value": 0, 
+    "axis": "Impact: Political"
+   }, 
+   {
+    "value": 19, 
+    "axis": "Datasets: Innovation"
+   }, 
+   {
+    "value": 39, 
+    "axis": "Datasets: Social Policy"
+   }, 
+   {
+    "value": 11, 
+    "axis": "Datasets: Accountability"
+   }, 
+   {
+    "value": 15, 
+    "axis": "Readiness: Entrepreneurs"
+   }, 
+   {
+    "value": 40, 
+    "axis": "Readiness: Citizens"
+   }
+  ]
+ }, 
+ {
+  "className": "Mauritius", 
+  "isocode": "MU", 
+  "axes": [
+   {
+    "value": 39, 
+    "axis": "Readiness: Government"
+   }, 
+   {
+    "value": 0, 
+    "axis": "Impact: Economic"
+   }, 
+   {
+    "value": 0, 
+    "axis": "Impact: Social"
+   }, 
+   {
+    "value": 7, 
+    "axis": "Impact: Political"
+   }, 
+   {
+    "value": 21, 
+    "axis": "Datasets: Innovation"
+   }, 
+   {
+    "value": 45, 
+    "axis": "Datasets: Social Policy"
+   }, 
+   {
+    "value": 13, 
+    "axis": "Datasets: Accountability"
+   }, 
+   {
+    "value": 29, 
+    "axis": "Readiness: Entrepreneurs"
+   }, 
+   {
+    "value": 41, 
+    "axis": "Readiness: Citizens"
+   }
+  ]
+ }, 
+ {
+  "className": "Malawi", 
+  "isocode": "MW", 
+  "axes": [
+   {
+    "value": 27, 
+    "axis": "Readiness: Government"
+   }, 
+   {
+    "value": 0, 
+    "axis": "Impact: Economic"
+   }, 
+   {
+    "value": 0, 
+    "axis": "Impact: Social"
+   }, 
+   {
+    "value": 0, 
+    "axis": "Impact: Political"
+   }, 
+   {
+    "value": 14, 
+    "axis": "Datasets: Innovation"
+   }, 
+   {
+    "value": 22, 
+    "axis": "Datasets: Social Policy"
+   }, 
+   {
+    "value": 10, 
+    "axis": "Datasets: Accountability"
+   }, 
+   {
+    "value": 21, 
+    "axis": "Readiness: Entrepreneurs"
+   }, 
+   {
+    "value": 37, 
+    "axis": "Readiness: Citizens"
+   }
+  ]
+ }, 
+ {
+  "className": "Malaysia", 
+  "isocode": "MY", 
+  "axes": [
+   {
+    "value": 64, 
+    "axis": "Readiness: Government"
+   }, 
+   {
+    "value": 6, 
+    "axis": "Impact: Economic"
+   }, 
+   {
+    "value": 0, 
+    "axis": "Impact: Social"
+   }, 
+   {
+    "value": 0, 
+    "axis": "Impact: Political"
+   }, 
+   {
+    "value": 36, 
+    "axis": "Datasets: Innovation"
+   }, 
+   {
+    "value": 53, 
+    "axis": "Datasets: Social Policy"
+   }, 
+   {
+    "value": 22, 
+    "axis": "Datasets: Accountability"
+   }, 
+   {
+    "value": 40, 
+    "axis": "Readiness: Entrepreneurs"
+   }, 
+   {
+    "value": 29, 
+    "axis": "Readiness: Citizens"
+   }
+  ]
+ }, 
+ {
+  "className": "Namibia", 
+  "isocode": "", 
+  "axes": [
+   {
+    "value": 27, 
+    "axis": "Readiness: Government"
+   }, 
+   {
+    "value": 0, 
+    "axis": "Impact: Economic"
+   }, 
+   {
+    "value": 0, 
+    "axis": "Impact: Social"
+   }, 
+   {
+    "value": 0, 
+    "axis": "Impact: Political"
+   }, 
+   {
+    "value": 8, 
+    "axis": "Datasets: Innovation"
+   }, 
+   {
+    "value": 17, 
+    "axis": "Datasets: Social Policy"
+   }, 
+   {
+    "value": 10, 
+    "axis": "Datasets: Accountability"
+   }, 
+   {
+    "value": 23, 
+    "axis": "Readiness: Entrepreneurs"
+   }, 
+   {
+    "value": 29, 
+    "axis": "Readiness: Citizens"
+   }
+  ]
+ }, 
+ {
+  "className": "Nigeria", 
+  "isocode": "NG", 
+  "axes": [
+   {
+    "value": 34, 
+    "axis": "Readiness: Government"
+   }, 
+   {
+    "value": 13, 
+    "axis": "Impact: Economic"
+   }, 
+   {
+    "value": 0, 
+    "axis": "Impact: Social"
+   }, 
+   {
+    "value": 0, 
+    "axis": "Impact: Political"
+   }, 
+   {
+    "value": 8, 
+    "axis": "Datasets: Innovation"
+   }, 
+   {
+    "value": 8, 
+    "axis": "Datasets: Social Policy"
+   }, 
+   {
+    "value": 10, 
+    "axis": "Datasets: Accountability"
+   }, 
+   {
+    "value": 44, 
+    "axis": "Readiness: Entrepreneurs"
+   }, 
+   {
+    "value": 40, 
+    "axis": "Readiness: Citizens"
+   }
+  ]
+ }, 
+ {
+  "className": "Netherlands", 
+  "isocode": "NL", 
+  "axes": [
+   {
+    "value": 93, 
+    "axis": "Readiness: Government"
+   }, 
+   {
+    "value": 46, 
+    "axis": "Impact: Economic"
+   }, 
+   {
+    "value": 26, 
+    "axis": "Impact: Social"
+   }, 
+   {
+    "value": 76, 
+    "axis": "Impact: Political"
+   }, 
+   {
+    "value": 79, 
+    "axis": "Datasets: Innovation"
+   }, 
+   {
+    "value": 82, 
+    "axis": "Datasets: Social Policy"
+   }, 
+   {
+    "value": 56, 
+    "axis": "Datasets: Accountability"
+   }, 
+   {
+    "value": 93, 
+    "axis": "Readiness: Entrepreneurs"
+   }, 
+   {
+    "value": 91, 
+    "axis": "Readiness: Citizens"
+   }
+  ]
+ }, 
+ {
+  "className": "Norway", 
+  "isocode": "NO", 
+  "axes": [
+   {
+    "value": 89, 
+    "axis": "Readiness: Government"
+   }, 
+   {
+    "value": 48, 
+    "axis": "Impact: Economic"
+   }, 
+   {
+    "value": 17, 
+    "axis": "Impact: Social"
+   }, 
+   {
+    "value": 100, 
+    "axis": "Impact: Political"
+   }, 
+   {
+    "value": 70, 
+    "axis": "Datasets: Innovation"
+   }, 
+   {
+    "value": 83, 
+    "axis": "Datasets: Social Policy"
+   }, 
+   {
+    "value": 58, 
+    "axis": "Datasets: Accountability"
+   }, 
+   {
+    "value": 85, 
+    "axis": "Readiness: Entrepreneurs"
+   }, 
+   {
+    "value": 85, 
+    "axis": "Readiness: Citizens"
+   }
+  ]
+ }, 
+ {
+  "className": "Nepal", 
+  "isocode": "NP", 
+  "axes": [
+   {
+    "value": 14, 
+    "axis": "Readiness: Government"
+   }, 
+   {
+    "value": 0, 
+    "axis": "Impact: Economic"
+   }, 
+   {
+    "value": 0, 
+    "axis": "Impact: Social"
+   }, 
+   {
+    "value": 0, 
+    "axis": "Impact: Political"
+   }, 
+   {
+    "value": 16, 
+    "axis": "Datasets: Innovation"
+   }, 
+   {
+    "value": 10, 
+    "axis": "Datasets: Social Policy"
+   }, 
+   {
+    "value": 27, 
+    "axis": "Datasets: Accountability"
+   }, 
+   {
+    "value": 32, 
+    "axis": "Readiness: Entrepreneurs"
+   }, 
+   {
+    "value": 50, 
+    "axis": "Readiness: Citizens"
+   }
+  ]
+ }, 
+ {
+  "className": "New Zealand", 
+  "isocode": "NZ", 
+  "axes": [
+   {
+    "value": 82, 
+    "axis": "Readiness: Government"
+   }, 
+   {
+    "value": 67, 
+    "axis": "Impact: Economic"
+   }, 
+   {
+    "value": 0, 
+    "axis": "Impact: Social"
+   }, 
+   {
+    "value": 69, 
+    "axis": "Impact: Political"
+   }, 
+   {
+    "value": 76, 
+    "axis": "Datasets: Innovation"
+   }, 
+   {
+    "value": 83, 
+    "axis": "Datasets: Social Policy"
+   }, 
+   {
+    "value": 92, 
+    "axis": "Datasets: Accountability"
+   }, 
+   {
+    "value": 68, 
+    "axis": "Readiness: Entrepreneurs"
+   }, 
+   {
+    "value": 93, 
+    "axis": "Readiness: Citizens"
+   }
+  ]
+ }, 
+ {
+  "className": "Pakistan", 
+  "isocode": "PK", 
+  "axes": [
+   {
+    "value": 12, 
+    "axis": "Readiness: Government"
+   }, 
+   {
+    "value": 6, 
+    "axis": "Impact: Economic"
+   }, 
+   {
+    "value": 0, 
+    "axis": "Impact: Social"
+   }, 
+   {
+    "value": 0, 
+    "axis": "Impact: Political"
+   }, 
+   {
+    "value": 18, 
+    "axis": "Datasets: Innovation"
+   }, 
+   {
+    "value": 9, 
+    "axis": "Datasets: Social Policy"
+   }, 
+   {
+    "value": 13, 
+    "axis": "Datasets: Accountability"
+   }, 
+   {
+    "value": 38, 
+    "axis": "Readiness: Entrepreneurs"
+   }, 
+   {
+    "value": 50, 
+    "axis": "Readiness: Citizens"
+   }
+  ]
+ }, 
+ {
+  "className": "Peru", 
+  "isocode": "PE", 
+  "axes": [
+   {
+    "value": 41, 
+    "axis": "Readiness: Government"
+   }, 
+   {
+    "value": 0, 
+    "axis": "Impact: Economic"
+   }, 
+   {
+    "value": 0, 
+    "axis": "Impact: Social"
+   }, 
+   {
+    "value": 0, 
+    "axis": "Impact: Political"
+   }, 
+   {
+    "value": 53, 
+    "axis": "Datasets: Innovation"
+   }, 
+   {
+    "value": 67, 
+    "axis": "Datasets: Social Policy"
+   }, 
+   {
+    "value": 25, 
+    "axis": "Datasets: Accountability"
+   }, 
+   {
+    "value": 35, 
+    "axis": "Readiness: Entrepreneurs"
+   }, 
+   {
+    "value": 62, 
+    "axis": "Readiness: Citizens"
+   }
+  ]
+ }, 
+ {
+  "className": "Philippines", 
+  "isocode": "PH", 
+  "axes": [
+   {
+    "value": 53, 
+    "axis": "Readiness: Government"
+   }, 
+   {
+    "value": 0, 
+    "axis": "Impact: Economic"
+   }, 
+   {
+    "value": 14, 
+    "axis": "Impact: Social"
+   }, 
+   {
+    "value": 7, 
+    "axis": "Impact: Political"
+   }, 
+   {
+    "value": 10, 
+    "axis": "Datasets: Innovation"
+   }, 
+   {
+    "value": 22, 
+    "axis": "Datasets: Social Policy"
+   }, 
+   {
+    "value": 27, 
+    "axis": "Datasets: Accountability"
+   }, 
+   {
+    "value": 61, 
+    "axis": "Readiness: Entrepreneurs"
+   }, 
+   {
+    "value": 58, 
+    "axis": "Readiness: Citizens"
+   }
+  ]
+ }, 
+ {
+  "className": "Poland", 
+  "isocode": "PL", 
+  "axes": [
+   {
+    "value": 26, 
+    "axis": "Readiness: Government"
+   }, 
+   {
+    "value": 6, 
+    "axis": "Impact: Economic"
+   }, 
+   {
+    "value": 0, 
+    "axis": "Impact: Social"
+   }, 
+   {
+    "value": 7, 
+    "axis": "Impact: Political"
+   }, 
+   {
+    "value": 41, 
+    "axis": "Datasets: Innovation"
+   }, 
+   {
+    "value": 59, 
+    "axis": "Datasets: Social Policy"
+   }, 
+   {
+    "value": 35, 
+    "axis": "Datasets: Accountability"
+   }, 
+   {
+    "value": 46, 
+    "axis": "Readiness: Entrepreneurs"
+   }, 
+   {
+    "value": 69, 
+    "axis": "Readiness: Citizens"
+   }
+  ]
+ }, 
+ {
+  "className": "Portugal", 
+  "isocode": "PT", 
+  "axes": [
+   {
+    "value": 63, 
+    "axis": "Readiness: Government"
+   }, 
+   {
+    "value": 6, 
+    "axis": "Impact: Economic"
+   }, 
+   {
+    "value": 0, 
+    "axis": "Impact: Social"
+   }, 
+   {
+    "value": 31, 
+    "axis": "Impact: Political"
+   }, 
+   {
+    "value": 67, 
+    "axis": "Datasets: Innovation"
+   }, 
+   {
+    "value": 42, 
+    "axis": "Datasets: Social Policy"
+   }, 
+   {
+    "value": 37, 
+    "axis": "Datasets: Accountability"
+   }, 
+   {
+    "value": 64, 
+    "axis": "Readiness: Entrepreneurs"
+   }, 
+   {
+    "value": 81, 
+    "axis": "Readiness: Citizens"
+   }
+  ]
+ }, 
+ {
+  "className": "Qatar", 
+  "isocode": "QA", 
+  "axes": [
+   {
+    "value": 66, 
+    "axis": "Readiness: Government"
+   }, 
+   {
+    "value": 0, 
+    "axis": "Impact: Economic"
+   }, 
+   {
+    "value": 0, 
+    "axis": "Impact: Social"
+   }, 
+   {
+    "value": 0, 
+    "axis": "Impact: Political"
+   }, 
+   {
+    "value": 12, 
+    "axis": "Datasets: Innovation"
+   }, 
+   {
+    "value": 14, 
+    "axis": "Datasets: Social Policy"
+   }, 
+   {
+    "value": 10, 
+    "axis": "Datasets: Accountability"
+   }, 
+   {
+    "value": 55, 
+    "axis": "Readiness: Entrepreneurs"
+   }, 
+   {
+    "value": 14, 
+    "axis": "Readiness: Citizens"
+   }
+  ]
+ }, 
+ {
+  "className": "Russia", 
+  "isocode": "RU", 
+  "axes": [
+   {
+    "value": 60, 
+    "axis": "Readiness: Government"
+   }, 
+   {
+    "value": 61, 
+    "axis": "Impact: Economic"
+   }, 
+   {
+    "value": 9, 
+    "axis": "Impact: Social"
+   }, 
+   {
+    "value": 41, 
+    "axis": "Impact: Political"
+   }, 
+   {
+    "value": 35, 
+    "axis": "Datasets: Innovation"
+   }, 
+   {
+    "value": 69, 
+    "axis": "Datasets: Social Policy"
+   }, 
+   {
+    "value": 38, 
+    "axis": "Datasets: Accountability"
+   }, 
+   {
+    "value": 52, 
+    "axis": "Readiness: Entrepreneurs"
+   }, 
+   {
+    "value": 48, 
+    "axis": "Readiness: Citizens"
+   }
+  ]
+ }, 
+ {
+  "className": "Rwanda", 
+  "isocode": "RW", 
+  "axes": [
+   {
+    "value": 52, 
+    "axis": "Readiness: Government"
+   }, 
+   {
+    "value": 0, 
+    "axis": "Impact: Economic"
+   }, 
+   {
+    "value": 0, 
+    "axis": "Impact: Social"
+   }, 
+   {
+    "value": 9, 
+    "axis": "Impact: Political"
+   }, 
+   {
+    "value": 39, 
+    "axis": "Datasets: Innovation"
+   }, 
+   {
+    "value": 46, 
+    "axis": "Datasets: Social Policy"
+   }, 
+   {
+    "value": 21, 
+    "axis": "Datasets: Accountability"
+   }, 
+   {
+    "value": 31, 
+    "axis": "Readiness: Entrepreneurs"
+   }, 
+   {
+    "value": 28, 
+    "axis": "Readiness: Citizens"
+   }
+  ]
+ }, 
+ {
+  "className": "Saudi Arabia", 
+  "isocode": "SA", 
+  "axes": [
+   {
+    "value": 62, 
+    "axis": "Readiness: Government"
+   }, 
+   {
+    "value": 0, 
+    "axis": "Impact: Economic"
+   }, 
+   {
+    "value": 0, 
+    "axis": "Impact: Social"
+   }, 
+   {
+    "value": 0, 
+    "axis": "Impact: Political"
+   }, 
+   {
+    "value": 13, 
+    "axis": "Datasets: Innovation"
+   }, 
+   {
+    "value": 30, 
+    "axis": "Datasets: Social Policy"
+   }, 
+   {
+    "value": 8, 
+    "axis": "Datasets: Accountability"
+   }, 
+   {
+    "value": 51, 
+    "axis": "Readiness: Entrepreneurs"
+   }, 
+   {
+    "value": 0, 
+    "axis": "Readiness: Citizens"
+   }
+  ]
+ }, 
+ {
+  "className": "Senegal", 
+  "isocode": "SN", 
+  "axes": [
+   {
+    "value": 19, 
+    "axis": "Readiness: Government"
+   }, 
+   {
+    "value": 0, 
+    "axis": "Impact: Economic"
+   }, 
+   {
+    "value": 0, 
+    "axis": "Impact: Social"
+   }, 
+   {
+    "value": 0, 
+    "axis": "Impact: Political"
+   }, 
+   {
+    "value": 7, 
+    "axis": "Datasets: Innovation"
+   }, 
+   {
+    "value": 16, 
+    "axis": "Datasets: Social Policy"
+   }, 
+   {
+    "value": 8, 
+    "axis": "Datasets: Accountability"
+   }, 
+   {
+    "value": 40, 
+    "axis": "Readiness: Entrepreneurs"
+   }, 
+   {
+    "value": 48, 
+    "axis": "Readiness: Citizens"
+   }
+  ]
+ }, 
+ {
+  "className": "Singapore", 
+  "isocode": "SG", 
+  "axes": [
+   {
+    "value": 87, 
+    "axis": "Readiness: Government"
+   }, 
+   {
+    "value": 38, 
+    "axis": "Impact: Economic"
+   }, 
+   {
+    "value": 43, 
+    "axis": "Impact: Social"
+   }, 
+   {
+    "value": 28, 
+    "axis": "Impact: Political"
+   }, 
+   {
+    "value": 39, 
+    "axis": "Datasets: Innovation"
+   }, 
+   {
+    "value": 57, 
+    "axis": "Datasets: Social Policy"
+   }, 
+   {
+    "value": 22, 
+    "axis": "Datasets: Accountability"
+   }, 
+   {
+    "value": 87, 
+    "axis": "Readiness: Entrepreneurs"
+   }, 
+   {
+    "value": 30, 
+    "axis": "Readiness: Citizens"
+   }
+  ]
+ }, 
+ {
+  "className": "Sierra Leone", 
+  "isocode": "SL", 
+  "axes": [
+   {
+    "value": 15, 
+    "axis": "Readiness: Government"
+   }, 
+   {
+    "value": 0, 
+    "axis": "Impact: Economic"
+   }, 
+   {
+    "value": 0, 
+    "axis": "Impact: Social"
+   }, 
+   {
+    "value": 0, 
+    "axis": "Impact: Political"
+   }, 
+   {
+    "value": 4, 
+    "axis": "Datasets: Innovation"
+   }, 
+   {
+    "value": 8, 
+    "axis": "Datasets: Social Policy"
+   }, 
+   {
+    "value": 20, 
+    "axis": "Datasets: Accountability"
+   }, 
+   {
+    "value": 10, 
+    "axis": "Readiness: Entrepreneurs"
+   }, 
+   {
+    "value": 40, 
+    "axis": "Readiness: Citizens"
+   }
+  ]
+ }, 
+ {
+  "className": "Sweden", 
+  "isocode": "SE", 
+  "axes": [
+   {
+    "value": 97, 
+    "axis": "Readiness: Government"
+   }, 
+   {
+    "value": 53, 
+    "axis": "Impact: Economic"
+   }, 
+   {
+    "value": 91, 
+    "axis": "Impact: Social"
+   }, 
+   {
+    "value": 85, 
+    "axis": "Impact: Political"
+   }, 
+   {
+    "value": 67, 
+    "axis": "Datasets: Innovation"
+   }, 
+   {
+    "value": 81, 
+    "axis": "Datasets: Social Policy"
+   }, 
+   {
+    "value": 71, 
+    "axis": "Datasets: Accountability"
+   }, 
+   {
+    "value": 96, 
+    "axis": "Readiness: Entrepreneurs"
+   }, 
+   {
+    "value": 100, 
+    "axis": "Readiness: Citizens"
+   }
+  ]
+ }, 
+ {
+  "className": "Thailand", 
+  "isocode": "TH", 
+  "axes": [
+   {
+    "value": 28, 
+    "axis": "Readiness: Government"
+   }, 
+   {
+    "value": 0, 
+    "axis": "Impact: Economic"
+   }, 
+   {
+    "value": 0, 
+    "axis": "Impact: Social"
+   }, 
+   {
+    "value": 0, 
+    "axis": "Impact: Political"
+   }, 
+   {
+    "value": 18, 
+    "axis": "Datasets: Innovation"
+   }, 
+   {
+    "value": 28, 
+    "axis": "Datasets: Social Policy"
+   }, 
+   {
+    "value": 21, 
+    "axis": "Datasets: Accountability"
+   }, 
+   {
+    "value": 40, 
+    "axis": "Readiness: Entrepreneurs"
+   }, 
+   {
+    "value": 33, 
+    "axis": "Readiness: Citizens"
+   }
+  ]
+ }, 
+ {
+  "className": "Tunisia", 
+  "isocode": "TN", 
+  "axes": [
+   {
+    "value": 59, 
+    "axis": "Readiness: Government"
+   }, 
+   {
+    "value": 26, 
+    "axis": "Impact: Economic"
+   }, 
+   {
+    "value": 0, 
+    "axis": "Impact: Social"
+   }, 
+   {
+    "value": 52, 
+    "axis": "Impact: Political"
+   }, 
+   {
+    "value": 24, 
+    "axis": "Datasets: Innovation"
+   }, 
+   {
+    "value": 25, 
+    "axis": "Datasets: Social Policy"
+   }, 
+   {
+    "value": 13, 
+    "axis": "Datasets: Accountability"
+   }, 
+   {
+    "value": 46, 
+    "axis": "Readiness: Entrepreneurs"
+   }, 
+   {
+    "value": 71, 
+    "axis": "Readiness: Citizens"
+   }
+  ]
+ }, 
+ {
+  "className": "Turkey", 
+  "isocode": "TR", 
+  "axes": [
+   {
+    "value": 42, 
+    "axis": "Readiness: Government"
+   }, 
+   {
+    "value": 0, 
+    "axis": "Impact: Economic"
+   }, 
+   {
+    "value": 0, 
+    "axis": "Impact: Social"
+   }, 
+   {
+    "value": 17, 
+    "axis": "Impact: Political"
+   }, 
+   {
+    "value": 32, 
+    "axis": "Datasets: Innovation"
+   }, 
+   {
+    "value": 47, 
+    "axis": "Datasets: Social Policy"
+   }, 
+   {
+    "value": 28, 
+    "axis": "Datasets: Accountability"
+   }, 
+   {
+    "value": 53, 
+    "axis": "Readiness: Entrepreneurs"
+   }, 
+   {
+    "value": 47, 
+    "axis": "Readiness: Citizens"
+   }
+  ]
+ }, 
+ {
+  "className": "Tanzania", 
+  "isocode": "TZ", 
+  "axes": [
+   {
+    "value": 21, 
+    "axis": "Readiness: Government"
+   }, 
+   {
+    "value": 6, 
+    "axis": "Impact: Economic"
+   }, 
+   {
+    "value": 0, 
+    "axis": "Impact: Social"
+   }, 
+   {
+    "value": 0, 
+    "axis": "Impact: Political"
+   }, 
+   {
+    "value": 9, 
+    "axis": "Datasets: Innovation"
+   }, 
+   {
+    "value": 27, 
+    "axis": "Datasets: Social Policy"
+   }, 
+   {
+    "value": 14, 
+    "axis": "Datasets: Accountability"
+   }, 
+   {
+    "value": 15, 
+    "axis": "Readiness: Entrepreneurs"
+   }, 
+   {
+    "value": 21, 
+    "axis": "Readiness: Citizens"
+   }
+  ]
+ }, 
+ {
+  "className": "Uganda", 
+  "isocode": "UG", 
+  "axes": [
+   {
+    "value": 19, 
+    "axis": "Readiness: Government"
+   }, 
+   {
+    "value": 0, 
+    "axis": "Impact: Economic"
+   }, 
+   {
+    "value": 0, 
+    "axis": "Impact: Social"
+   }, 
+   {
+    "value": 7, 
+    "axis": "Impact: Political"
+   }, 
+   {
+    "value": 20, 
+    "axis": "Datasets: Innovation"
+   }, 
+   {
+    "value": 23, 
+    "axis": "Datasets: Social Policy"
+   }, 
+   {
+    "value": 13, 
+    "axis": "Datasets: Accountability"
+   }, 
+   {
+    "value": 19, 
+    "axis": "Readiness: Entrepreneurs"
+   }, 
+   {
+    "value": 40, 
+    "axis": "Readiness: Citizens"
+   }
+  ]
+ }, 
+ {
+  "className": "Ukraine", 
+  "isocode": "UA", 
+  "axes": [
+   {
+    "value": 23, 
+    "axis": "Readiness: Government"
+   }, 
+   {
+    "value": 13, 
+    "axis": "Impact: Economic"
+   }, 
+   {
+    "value": 0, 
+    "axis": "Impact: Social"
+   }, 
+   {
+    "value": 0, 
+    "axis": "Impact: Political"
+   }, 
+   {
+    "value": 31, 
+    "axis": "Datasets: Innovation"
+   }, 
+   {
+    "value": 19, 
+    "axis": "Datasets: Social Policy"
+   }, 
+   {
+    "value": 22, 
+    "axis": "Datasets: Accountability"
+   }, 
+   {
+    "value": 33, 
+    "axis": "Readiness: Entrepreneurs"
+   }, 
+   {
+    "value": 59, 
+    "axis": "Readiness: Citizens"
+   }
+  ]
+ }, 
+ {
+  "className": "Uruguay", 
+  "isocode": "UY", 
+  "axes": [
+   {
+    "value": 68, 
+    "axis": "Readiness: Government"
+   }, 
+   {
+    "value": 20, 
+    "axis": "Impact: Economic"
+   }, 
+   {
+    "value": 31, 
+    "axis": "Impact: Social"
+   }, 
+   {
+    "value": 24, 
+    "axis": "Impact: Political"
+   }, 
+   {
+    "value": 48, 
+    "axis": "Datasets: Innovation"
+   }, 
+   {
+    "value": 63, 
+    "axis": "Datasets: Social Policy"
+   }, 
+   {
+    "value": 39, 
+    "axis": "Datasets: Accountability"
+   }, 
+   {
+    "value": 46, 
+    "axis": "Readiness: Entrepreneurs"
+   }, 
+   {
+    "value": 88, 
+    "axis": "Readiness: Citizens"
+   }
+  ]
+ }, 
+ {
+  "className": "US", 
+  "isocode": "US", 
+  "axes": [
+   {
+    "value": 100, 
+    "axis": "Readiness: Government"
+   }, 
+   {
+    "value": 100, 
+    "axis": "Impact: Economic"
+   }, 
+   {
+    "value": 54, 
+    "axis": "Impact: Social"
+   }, 
+   {
+    "value": 98, 
+    "axis": "Impact: Political"
+   }, 
+   {
+    "value": 95, 
+    "axis": "Datasets: Innovation"
+   }, 
+   {
+    "value": 77, 
+    "axis": "Datasets: Social Policy"
+   }, 
+   {
+    "value": 80, 
+    "axis": "Datasets: Accountability"
+   }, 
+   {
+    "value": 94, 
+    "axis": "Readiness: Entrepreneurs"
+   }, 
+   {
+    "value": 87, 
+    "axis": "Readiness: Citizens"
+   }
+  ]
+ }, 
+ {
+  "className": "Venezuela", 
+  "isocode": "VE", 
+  "axes": [
+   {
+    "value": 20, 
+    "axis": "Readiness: Government"
+   }, 
+   {
+    "value": 0, 
+    "axis": "Impact: Economic"
+   }, 
+   {
+    "value": 0, 
+    "axis": "Impact: Social"
+   }, 
+   {
+    "value": 0, 
+    "axis": "Impact: Political"
+   }, 
+   {
+    "value": 21, 
+    "axis": "Datasets: Innovation"
+   }, 
+   {
+    "value": 22, 
+    "axis": "Datasets: Social Policy"
+   }, 
+   {
+    "value": 10, 
+    "axis": "Datasets: Accountability"
+   }, 
+   {
+    "value": 28, 
+    "axis": "Readiness: Entrepreneurs"
+   }, 
+   {
+    "value": 15, 
+    "axis": "Readiness: Citizens"
+   }
+  ]
+ }, 
+ {
+  "className": "Vietnam", 
+  "isocode": "VN", 
+  "axes": [
+   {
+    "value": 27, 
+    "axis": "Readiness: Government"
+   }, 
+   {
+    "value": 7, 
+    "axis": "Impact: Economic"
+   }, 
+   {
+    "value": 0, 
+    "axis": "Impact: Social"
+   }, 
+   {
+    "value": 0, 
+    "axis": "Impact: Political"
+   }, 
+   {
+    "value": 20, 
+    "axis": "Datasets: Innovation"
+   }, 
+   {
+    "value": 42, 
+    "axis": "Datasets: Social Policy"
+   }, 
+   {
+    "value": 18, 
+    "axis": "Datasets: Accountability"
+   }, 
+   {
+    "value": 19, 
+    "axis": "Readiness: Entrepreneurs"
+   }, 
+   {
+    "value": 6, 
+    "axis": "Readiness: Citizens"
+   }
+  ]
+ }, 
+ {
+  "className": "Yemen", 
+  "isocode": "YE", 
+  "axes": [
+   {
+    "value": 5, 
+    "axis": "Readiness: Government"
+   }, 
+   {
+    "value": 6, 
+    "axis": "Impact: Economic"
+   }, 
+   {
+    "value": 0, 
+    "axis": "Impact: Social"
+   }, 
+   {
+    "value": 0, 
+    "axis": "Impact: Political"
+   }, 
+   {
+    "value": 8, 
+    "axis": "Datasets: Innovation"
+   }, 
+   {
+    "value": 9, 
+    "axis": "Datasets: Social Policy"
+   }, 
+   {
+    "value": 11, 
+    "axis": "Datasets: Accountability"
+   }, 
+   {
+    "value": 20, 
+    "axis": "Readiness: Entrepreneurs"
+   }, 
+   {
+    "value": 16, 
+    "axis": "Readiness: Citizens"
+   }
+  ]
+ }, 
+ {
+  "className": "South Africa", 
+  "isocode": "ZA", 
+  "axes": [
+   {
+    "value": 29, 
+    "axis": "Readiness: Government"
+   }, 
+   {
+    "value": 0, 
+    "axis": "Impact: Economic"
+   }, 
+   {
+    "value": 14, 
+    "axis": "Impact: Social"
+   }, 
+   {
+    "value": 26, 
+    "axis": "Impact: Political"
+   }, 
+   {
+    "value": 37, 
+    "axis": "Datasets: Innovation"
+   }, 
+   {
+    "value": 25, 
+    "axis": "Datasets: Social Policy"
+   }, 
+   {
+    "value": 34, 
+    "axis": "Datasets: Accountability"
+   }, 
+   {
+    "value": 53, 
+    "axis": "Readiness: Entrepreneurs"
+   }, 
+   {
+    "value": 62, 
+    "axis": "Readiness: Citizens"
+   }
+  ]
+ }, 
+ {
+  "className": "Zambia", 
+  "isocode": "ZM", 
+  "axes": [
+   {
+    "value": 19, 
+    "axis": "Readiness: Government"
+   }, 
+   {
+    "value": 0, 
+    "axis": "Impact: Economic"
+   }, 
+   {
+    "value": 0, 
+    "axis": "Impact: Social"
+   }, 
+   {
+    "value": 0, 
+    "axis": "Impact: Political"
+   }, 
+   {
+    "value": 15, 
+    "axis": "Datasets: Innovation"
+   }, 
+   {
+    "value": 7, 
+    "axis": "Datasets: Social Policy"
+   }, 
+   {
+    "value": 10, 
+    "axis": "Datasets: Accountability"
+   }, 
+   {
+    "value": 21, 
+    "axis": "Readiness: Entrepreneurs"
+   }, 
+   {
+    "value": 24, 
+    "axis": "Readiness: Citizens"
+   }
+  ]
+ }, 
+ {
+  "className": "Zimbabwe", 
+  "isocode": "ZW", 
+  "axes": [
+   {
+    "value": 20, 
+    "axis": "Readiness: Government"
+   }, 
+   {
+    "value": 0, 
+    "axis": "Impact: Economic"
+   }, 
+   {
+    "value": 0, 
+    "axis": "Impact: Social"
+   }, 
+   {
+    "value": 7, 
+    "axis": "Impact: Political"
+   }, 
+   {
+    "value": 13, 
+    "axis": "Datasets: Innovation"
+   }, 
+   {
+    "value": 13, 
+    "axis": "Datasets: Social Policy"
+   }, 
+   {
+    "value": 12, 
+    "axis": "Datasets: Accountability"
+   }, 
+   {
+    "value": 25, 
+    "axis": "Readiness: Entrepreneurs"
+   }, 
+   {
+    "value": 18, 
+    "axis": "Readiness: Citizens"
+   }
+  ]
+ }
+]

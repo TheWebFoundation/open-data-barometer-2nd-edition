@@ -25,15 +25,31 @@ Usage:
 {% else %}
   {% for node in pages_list %}
     {% if node.title != null %}
-      {% if group == null or group == node.group %}
-      	{% if page.url == node.url %}
-      	<li class="active"><a href="{{ BASE_PATH }}{{node.url}}" class="active">{{node.title}}</a></li>
-      	{% else %}
-      	<li><a href="{{ BASE_PATH }}{{node.url}}">{{node.title}}</a></li>
-      	{% endif %}
+      {% if group != null and group == node.group %}
+      	{%if node.subgroup != null %}
+          	    <li><a href="#" class="dropdown-toggle" data-toggle="dropdown">{{node.menu_title}} <b class="caret"></b></a>
+                   <ul class="dropdown-menu">
+                  	    <li><a href="{{ BASE_PATH }}{{node.url}}">{{node.title}}</a></li>
+              	{% for subnode in pages_list %}
+              	    {% if subnode.group == node.subgroup %}
+              	         <li><a href="{{ BASE_PATH }}{{subnode.url}}">{{subnode.title}}</a></li>
+              	    {% endif %}
+              	{% endfor %}
+              	</ul></li>
+         {% else %}
+             {% if page.url == node.url or node.subgroup == page.group %}
+           	    <li class="active"><a href="{{ BASE_PATH }}{{node.url}}" class="active">{{node.title}}</a></li>
+           	 {% else %}
+           	    <li><a href="{{ BASE_PATH }}{{node.url}}">{{node.title}}</a></li>
+           	 {% endif %}
+         {% endif %}
+   
+      	
       {% endif %}
     {% endif %}
   {% endfor %}
 {% endif %}
 {% assign pages_list = nil %}
 {% assign group = nil %}
+
+

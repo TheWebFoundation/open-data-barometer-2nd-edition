@@ -13,6 +13,28 @@
 /*.navbar .nav {
   float: right; }*/
 
+.frontrow {
+    margin-bottom:30px;
+}
+
+.dataset-status-0 {
+    opacity:0.3;
+}
+
+.infographic {
+    text-align:center;
+}
+.exec-box {
+    height:180px;
+    overflow:hidden;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.front-title {
+    text-align:center;
+}
+
 .frontbox {
     height:300px;
 }
@@ -29,8 +51,8 @@
     position:relative;
     top:200px;
     height:100px;
-    background-color:white;
-    background-opacity:0.8;
+    background-color:rgba(255,255,255,0.9);
+    font-weight:bold;
 }
 
 #footer {

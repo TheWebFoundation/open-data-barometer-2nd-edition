@@ -23,7 +23,7 @@ Usage:
 {% assign group = 'navigation' %}
 {% assign next_page = '' %}
   {% for node in pages_list %}
-    {% if node.title != null %}
+    {% if node.title != null%}
       {% if group != null and group == node.group %}
       	         	   
       	        

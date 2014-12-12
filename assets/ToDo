@@ -1,15 +1,6 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN"
-   "http://www.w3.org/TR/html4/strict.dtd">
+Generate images
 
-<html lang="en">
-<head>
-	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-	<title>ToDo</title>
-	<meta name="generator" content="TextMate http://macromates.com/">
-	<meta name="author" content="Timothy Davies">
-	<!-- Date: 2014-11-26 -->
-</head>
-<body>
+~/Documents/University/PhD/Projects/IDRC/ODB2014/Report/jekyll-bootstrap/assets/images/charts
+screenshot --selector #headerDiv  ~/Documents/University/PhD/Projects/IDRC/ODB2014/Report/jekyll-bootstrap/assets/images/charts/datasets.png
 
-</body>
-</html>
+screenshot --selector #bodyDiv  ~/Documents/University/PhD/Projects/IDRC/ODB2014/Report/jekyll-bootstrap/assets/images/charts/datasets2.png

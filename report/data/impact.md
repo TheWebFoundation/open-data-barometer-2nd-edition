@@ -46,33 +46,6 @@ The scatter plot below shows the readiness sub-index plotted against the impact 
 
 The correlation between Readiness and Impact subindexes is between 0.8 and 0.9, indicating a strong connection between a countries readiness and the impact that expert researchers observe. 
 
-### Impact regressions 
-
-It is possible to explore this correlation further using regression analysis. Regression analysis is a statistical technique to explore the relationship between a dependent variable (such as impact), and a set of independent variables which might affect it. 
-
-In a regression model against the Impact sub-index with all the individual readiness variables, we observe the presence of city initiatives, government support for innovation, and the percentage of the population who are Internet users, have a statistically significant positive relationship with perceived open data impacts. 
-
-{:.table}
-|                 | Estimate| Std. Error| Significance|
-|:----------------|--------:|----------:|------------------:|
-|(Intercept)      |    0.065|      0.045|             |
-|WB.NetUsers      |    0.239|      0.094|         *   |
-|FH               |    0.098|      0.081|             |
-|WEF.GCI.9.02     |   -0.099|      0.094|             |
-|WEF.GITR.8.01    |    0.127|      0.072|        .    |
-|ODB.2013.C.INIT  |   -0.023|      0.096|             |
-|ODB.2013.C.CITY  |    0.310|      0.093|         **  |
-|ODB.2013.C.RTI   |    0.022|      0.069|             |
-|ODB.2013.C.CSOC  |    0.087|      0.097|             |
-|ODB.2013.C.SUPIN |    0.248|      0.084|        **   |
-|ODB.2013.C.DPL   |   -0.043|      0.082|             |
-|ODB.2013.C.TRAIN |    0.016|      0.094|             |
-
-Significance levels: 0 = * * *, 0.001  = * *, 0.01 = *, 0.05 = .
-
-
-In the Open Data Barometer we have an overall Impact sub-index, which is then divided into three sub-components: political, social and economic. Further regressions against these sub-indices suggest city initiatives are a particularly important factor in supporting perceived political impacts of open data.
-
 
 <script>
 

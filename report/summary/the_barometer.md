@@ -1,26 +1,25 @@
 ---
 layout: page
 weight: 2
-menu_title: Introduction
-title: Introduction
-group: navigation
-subgroup: introduction
+menu_title: Background
+title: Background and Introduction
+group: summary
 ---
 
-# Introduction
+# Introduction:
 
 <span class="lead">The core idea behind Open Government Data (OGD) is a simple one: public data should be a shared resource. It is not only valuable to the government departments that collect it, but also has value for citizens, entrepreneurs and other parts of the public sector. </span>
 
 However, moving from the idea of OGD, to its implementation, takes dedicated and sustained policy attention. Widespread impacts from open data release rely upon not only on the supply of high-quality data, but also upon the capacity of users to work with data, and the ability of government to engage proactively with those users. 
 
-In our complex world, securing government accountability, coordinating action to improve society, and bootstrapping new business ideas can all benefit from access to government data. Yet far too often, access to data, and the skills to use it, are unequally distributed, and there are unnecessary technical and legal restrictions that prevent its use. With renewed 'Data Revolution' attention on ensuring the collection and management of high quality data around the world, through strengthened statistical capacity and through using new big data collection methods, questions of who has access to that data, and whether citizens have the freedom and ability to access and analyse data about their own communities and concerns become even more important. 
+In our complex world, securing government accountability, coordinating action to improve society, and bootstrapping new business ideas can all benefit from access to government data. Yet far too often, access to data, and the skills to use it, are unequally distributed, and there are unnecessary technical and legal restrictions that prevent its use. With calls for a [data revolution](http://www.undatarevolution.org) placing renewed attention on ensuring the collection and management of high quality data around the world through strengthened statistical capacity and through using new big data collection methods, questions of who has access to that data, and whether citizens have the freedom and ability to create, access and analyse data about their own communities and concerns in becoming even more important. 
 
 ## The Open Data Barometer
 This report brings together the results of expert survey research, technical assessments of data supply, and secondary data, in order to contribute to deeper understandings of the global landscape of open data. It looks at:
 
-* **Readiness**, including the legal, political, economic, social, organisational and technical foundations in countries that can support the supply and use of open data. 
+* **Readiness** to secure benefits from open data: including the legal, political, economic, social, organisational and technical foundations in countries that can support the supply and use of open data. 
 
-* **Implementation** of open data practice, measured through the openness of 15 key categories of data, and the adoption for those datasets of common practices as set out in the [Open Definition](LINK), and [Open Government Data Principles](LINK).
+* **Implementation** of open data practice, measured through the openness of 15 key categories of data, and the adoption for those datasets of common practices as set out in the [Open Definition](http://opendefinition.org/), and [Open Government Data Principles](http://opengovdata.org/).
 
 * **Impacts** of open data, measured through media and academic mentions of data use and impact.
 
@@ -29,7 +28,7 @@ As the second edition of the Open Data Barometer this report broadly replicates 
 The following sections of this report present selected statistics and commentary based on our data collection, as well as offering a composite ranking of countries. However, this report is just one part of the Open Data Barometer. We hope that by providing the underlying data gathered during the project, other advocates, scholars and practitioners will be able to draw upon it to ask further research questions, and to refine shared understanding of how to achieve positive impacts from open data. 
 
 ## Defining open data
-The last year has witnessed growing concern, and confusion, about the boundaries between personal or private data, and open data. As citizens have grown more aware of the ways in which surveillance agencies and corporations have abused their personal data (CITATIONS), or have seen mistakes made by government in publishing inappropriately anonymised data[^1], trust in government data handling has been undermined (CITATION NEEDED). And as governments have sought to make better use of the records they hold on individual citizens, or to engage with big data, they have often clouded the distinction between 'data sharing' (where there can still be restrictions on who can use the data, and what for), and 'open data', which should be accessible for anyone to re-use for any purpose. It is important therefore to draw clear definitions and distinctions.
+The last year has witnessed growing concern, and confusion, about the boundaries between personal or private data, and open data. As citizens have grown more aware of the ways in which surveillance agencies and corporations have abused their personal data, or have seen mistakes made by government in publishing inappropriately anonymised data[^1], trust in government data handling has been undermined. And as governments have sought to make better use of the records they hold on individual citizens, or to engage with big data, they have often clouded the distinction between 'data sharing' (where there can still be restrictions on who can use the data, and what for), and 'open data', which should be accessible for anyone to re-use for any purpose. It is important therefore to draw clear definitions and distinctions.
 
 When we discuss open data in this report, we are discussing data that is:
 
@@ -61,6 +60,8 @@ The Open Data Barometer is based upon three kinds of data:
 * **Secondary data** selected to complement our expert survey data. This is used in the readiness section of the Barometer, and is taken from the World Economic Forum, United Nations e-Government Survey, and Freedom House. The data is normalised using z-scores prior to inclusion in the Barometer. 
 
 The list of countries included in the 2014 Barometer is based upon [the Web Index](http://www.thewebindex.org) sample, which was designed to represent a broad range of different regions, political systems and levels of development. 
+
+You can read more about the detailed research process in the [methodology section](/report/about/method.html).
 
   </div>
 </div>

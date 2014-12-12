@@ -223,7 +223,7 @@ The weightings were adjusted as described above.
 
 ### Data collection
 
-Primary data collection was carried out using a custom survey platform build by [Oomph Inc](http://www.oomphinc.com/) for the World Wide Web Foundation. Details of the [platform can be found on GitHub](https://github.com/practicalparticipation/barometer-survey-tool). 
+Primary data collection was carried out using a custom survey platform build by [Oomph Inc](http://www.oomphinc.com/) for the World Wide Web Foundation. Details of the [platform can be found on GitHub](https://github.com/TheWebFoundation/barometer-survey-tool). 
 
 ### Analysis
 

@@ -1,8 +1,8 @@
 var RadarChart = {
   defaultConfig: {
     containerClass: 'radar-chart',
-    w: 350,
-    h: 350,
+    w: 400,
+    h: 400,
     factor: 0.85,
     factorLegend: 0.85,
     levels: 5,

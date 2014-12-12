@@ -239,8 +239,8 @@ function country_names(data,countries) {
           url: "/assets/data/countries.json",
           success: function (data) { 
             $(".radarchart").each(function(chart){
-                countries = $(this).data("countries").split(",")
-                filtered = radar_select_country(data,countries)
+                countries = $(this).data("countries").split(",");
+                filtered = radar_select_country(data,countries);
                 RadarChart.draw("#"+$(this).attr("id"), filtered);
                 $(this).append("<div class='radar-legend'><span class='item'>"+country_names(data,countries).join(", </span><span class='item'>")+"</span></div>")
             })

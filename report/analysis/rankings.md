@@ -12,8 +12,11 @@ javascript:
  - script: /assets/js/odb.js
  - script: /assets/js/d3.v3.min.js
  - script: /assets/js/radarChart.js
+ - script: /assets/js/select2.min.js
 css:
  - stylesheet: /assets/js/jquery.dataTables.min.css
+ - stylesheet: /assets/js/select2-bootstrap.css
+ - stylesheet: /assets/js/select2.css
 ---
 
 # Global rankings
@@ -90,8 +93,11 @@ In Nigeria, the Minister of Communication Technology launched an OGD initiative 
 At the other end of the table, Keyna has fallen 27 places in the overall rankings, and seen a reducation in scaled ODB score from 43 to 26. Whilst many hoped in 2011 that the high-profile launch of an open data portal would be followed by ongoing commitment and a policy framework for open data, no such framework has come into force, and few updates have been made to the data on the portal over recent years. The stagnation of Kenya's open data activities have been much discussed, including by some of its lead architects, who argue for a renewed commitment which builds on legislative foundations in Right to Information and Data Protection Laws[^ke1]. Kenya has also gone through a process of constitutional reform, devolving power to localities. Whilst this presents an important opportunity to design new infrastructures of administrative data management which apply 'open by default' principles, there is little evidence that this is happening. The failure of Kenya to sustain the supply of timely and relevant open data, and the limited sustainability and scalability of applications built be local developer communities using government data[^ke2], should raise significant questions about the best design of open data initiatives in capacity constrained countries. 
 
 There are considerable similarities in the readiness levels of Nigeria, Indonesia and Kenya. Whether or not initiatives in Nigeria and Indonesia can be sustained beyond initial donor investments and interest may depend on whether the models of open data initiative adopted can shift from transplanting practice from higher capacity countries, to developing open data practices which respond to the local availability of technical intermediaries, the capacities of different parts of government, and the local social dynamics of information access and trust[^ke3]. Ghana also provides a useful point of comparison: where supply has increased, but impacts are not yet seen. In Ghana, the Barometer records a minor drop in readiness in this edition, as the country's 2012 launch of an open data initiative appears not to have been followed up with substantial policy attention. However the last year has seen steady growth in open data availability from [data.gov.gh](http://data.gov.gh/). The portal has replicated the idea of hosting thematic communities, an idea initially developed in the USA, but there is little evidence of community engagement at present, and the Barometer records no evidence of impacts from open data use in Ghana. 
+<select multiple="true" id="radar-countries" style="min-width:300px;"></select>
+<button type="button" class="btn btn-primary" id="redraw-button">Visualize</button>
+<div><div class="radarchart" id="capacity2" data-countries="NP,UG,BF,BW,SL"></div>
 
-<div class="radarchart" id="capacity2" data-countries="NP,UG,BF,BW,SL"></div>Two countries which have been exploring alternative models for open data are Nepal and Uganda, where civil society networks have been created, establishing [Open Nepal](http://opennepal.net/), and [Open Development Uganda](http://www.opendev.ug/), as well as creating their own data portals independently of government[^ne1]. The current focus of the Open Data Barometer on data government activities does not fully capture these efforts in the quantitative scoring, but in each country there have been efforts to engage with government - including through technical agencies and through specific ministries. These initiatives points towards one possible future for an inclusive data revolution, in which open data initiatives are developed as equal multi-stakeholder partnerships between civil society, government, donors and social entrepreneurs, cooperatively working to increase the quantity and quality of data available to improve decision making by all parties. However, the extent to which current models of support and financing for open data activities are set-up to enable growth of models like this is unclear. 
+</div>Two countries which have been exploring alternative models for open data are Nepal and Uganda, where civil society networks have been created, establishing [Open Nepal](http://opennepal.net/), and [Open Development Uganda](http://www.opendev.ug/), as well as creating their own data portals independently of government[^ne1]. The current focus of the Open Data Barometer on data government activities does not fully capture these efforts in the quantitative scoring, but in each country there have been efforts to engage with government - including through technical agencies and through specific ministries. These initiatives points towards one possible future for an inclusive data revolution, in which open data initiatives are developed as equal multi-stakeholder partnerships between civil society, government, donors and social entrepreneurs, cooperatively working to increase the quantity and quality of data available to improve decision making by all parties. However, the extent to which current models of support and financing for open data activities are set-up to enable growth of models like this is unclear. 
 
 Countries to watch in the coming year in this cluster include Botswana, where an open data readiness assessment was recently undertaken[^bw1], and Burkina Faso, which launched an open data initiative led by the Ministry for Digital Economy, and funded by a World Bank loan, in April 2014[^bf1]. Both countries currently lack Right to Information laws. Sierra Leone, with a newly passed RTI law, also has potential to develop open data activities over the coming year, exploring ways to integrate open data into the roll out of the new right to information processes, and to make data accessible both digitally and in non-digital forms[^sl1]. 
 
@@ -238,13 +244,22 @@ function country_names(data,countries) {
           type: "GET",
           url: "/assets/data/countries.json",
           success: function (data) { 
+            $("#radar-countries").select2({
+                minimumInputLength: 1
+            });
+            $("#redraw-button").on("click", function(){
+                var newCountries = $.map($("#radar-countries").select2("data"), function(d){return d.id});
+                RadarChart.draw("#capacity2", radar_select_country(data, newCountries));
+            });
+            $('#radar-countries').append( $.map(data, function(v, i){ return $('<option>', { val: v.isocode, text: v.className }); }) );
             $(".radarchart").each(function(chart){
-                countries = $(this).data("countries").split(",")
-                filtered = radar_select_country(data,countries)
+                countries = $(this).data("countries").split(",");
+                filtered = radar_select_country(data,countries);
+                console.log(filtered);
                 RadarChart.draw("#"+$(this).attr("id"), filtered);
                 $(this).append("<div class='radar-legend'><span class='item'>"+country_names(data,countries).join(", </span><span class='item'>")+"</span></div>")
             })
-
+            //Only activate after successful ajax
          }
       });
   });

@@ -33,7 +33,7 @@ tagline: 2014 Global Report
 
 <div class="col-sm-4 frontbox" markdown="1">
 <div class="frontbox-inner" style="background-image:url('/assets/images/seconded/rankings.png')">
-<div class="front-text"><a href="report/data/rankings.html">Rankings</a> > We combine each dimension of the Barometer to provide a global ranking, comparing progress of countries year-to-year.</div>
+<div class="front-text"><a href="report/analysis/rankings.html">Rankings</a> > We combine each dimension of the Barometer to provide a global ranking, comparing progress of countries year-to-year.</div>
 </div>
 </div>
 
@@ -44,13 +44,13 @@ tagline: 2014 Global Report
     
 <div class="col-sm-4 frontbox" markdown="1">
 <div class="frontbox-inner" style="background-image:url('/assets/images/seconded/impact.png')">
-<div class="front-text"><a href="report/data/">Analysis</a> > Section-by-section analysis of readiness, implementation and impact, presented with commentary and interactive charts to let you explore the data.</div>
+<div class="front-text"><a href="report/analysis/">Analysis</a> > Section-by-section analysis of readiness, implementation and impact, presented with commentary and interactive charts to let you explore the data.</div>
 </div>
 </div>
 
 <div class="col-sm-4 frontbox" markdown="1">
 <div class="frontbox-inner" style="background-image:url('/assets/images/seconded/explorer.png')">
-<div class="front-text"><a href="report/data/explorer.html">Explorer</a> > Drill down into the strengths and weaknesses of government open data activity in individual countries.</div>
+<div class="front-text"><a href="report/analysis/explorer.html">Explorer</a> > Drill down into the strengths and weaknesses of government open data activity in individual countries.</div>
 </div>
 </div>
 

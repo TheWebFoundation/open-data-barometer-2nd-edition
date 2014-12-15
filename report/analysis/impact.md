@@ -16,9 +16,11 @@ css:
 
 <span class="lead">Entrepreneurial open data use has overtaken accountability as the most observed impact from OGD initiatives. The effective use of open data to increase environmental sustainability and support greater inclusion of marginalised groups remains extremely limited.</span>
 
-As a proxy measure for impact, the Open Data Barometer asks researchers to identify case studies in media or academic literature, over the last twelve months, of open data being used to create various kinds of impacts. The maximum scores are available for cases of strong peer-reviewed evidence. In general, most evidence of open data impacts remains anecdotal or captured in journalistic rather than academic reviews, and stories initially cited in research often describe outputs rather than outcomes and impacts. This influences the relatively low average scores in this section of the Barometer report. 
+As a proxy measure for impact, the Open Data Barometer asks researchers to identify case studies in media or academic literature, over the last twelve months, of open data being used to create various kinds of impacts. The maximum scores are available for cases of strong peer-reviewed evidence. In general, most evidence of open data impacts remains anecdotal or captured in journalistic rather than academic reviews, and stories initially cited in research often describe outputs rather than outcomes and impacts. This influences the relatively low average scores in this section of the Barometer report.
 
-When countries <a href='javascript:$("#select_comparison").val("init").trigger("change")'>without an open data initiative</a>, or those with <a href='javascript:$("#select_comparison").val("all").trigger("strong")'>weaker and earlier stage initiatives</a>, are removed from the sample, there is a clear trend towards greater perceived impact.
+## Areas of impact
+
+When countries <a href='javascript:$("#select_comparison").val("init").trigger("change")'>without an open data initiative</a>, or those with <a href='javascript:$("#select_comparison").val("all").trigger("change")'>weaker and earlier stage initiatives</a>, are removed from the sample, there is a clear trend towards greater perceived impact.
 
 Over the last year there has been a growth in the perceived use of open data by entrepreneurs to build new products and services. By contrast, there has been relatively little change in the perceived use of data to address environmental issues, or to increase inclusion. It is also notable that evidence proving the economic growth returns on open data, to back up the strong claims that have been made based on theoretical arguments, is not yet forthcoming. 
 

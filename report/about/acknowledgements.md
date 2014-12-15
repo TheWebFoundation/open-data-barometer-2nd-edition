@@ -10,15 +10,13 @@ group: about
 
 <span class="lead">The Open Data Barometer is only possible thanks to the contributions of a wide network of contributors. Our thanks to the following:</span>
 
-**Lead Author:** [Tim Davies](http://www.timdavies.org.uk), with Raed M. Sharif and Jose M. Alonso.
+**Lead Author:** Tim Davies, with Raed M. Sharif and Jose M. Alonso.
 
 **Research Coordination:** Carlos Iglesias, Raed M. Sharif, Ginette Law, Aman Grewal, Jose M. Alonso and Laura M. James Bromwich
 
-**Visualisation:** [Dave Tarrant](http://theodi.org/team/david-tarrant), Tim Davies, Alvaro Graves and Miska Knapek
+**Visualisation:** Dave Tarrant, Tim Davies, Alvaro Graves and Miska Knapek
 
 **Research Design Advisor:** Hania Farhan
-
-**Survey platform:** Ben Doherty, [Oomph Inc.](http://www.oomphinc.com/) 
 
 The process for collecting new primary data was based on an expert researcher assessment survey. The work of scorers was supported by peer reviewers for each country (the scorer and the peer reviewer did their work independently of each other), in order to validate or otherwise question and improve the scorers results. A group of technical reviewers and regional reviewers also examined the scores for each indicator.  A final level of checking and validation was conducted by the project team.
 
@@ -37,6 +35,8 @@ The World Wide Web Foundation would like to thank the following participants, wh
 * [Freedom House](http://www.freedomhouse.org/report/freedom-world-aggregate-and-subcategory-scores)
 
 **Report developed using:** [R](http://www.rstudio.com/), [Jekyll](http://jekyllrb.com/), [bootstrap](http://getbootstrap.com), [d3](http://d3js.org/), [nvd3](http://nvd3.org/), [jquery](https://jquery.com/), [radarChart](https://github.com/alangrafu/radar-chart-d3), [jquery csv](https://code.google.com/p/jquery-csv/), [jquery dataTables](http://www.datatables.net/), [databars](https://github.com/ts-3156/databar), [datamaps](https://datamaps.github.io)
+
+**Survey platform:** Ben Doherty, Oomph Inc.
 
 **Icons from [the Noun Project](http://thenounproject.com/)** With thanks to Anton Gajdosik, Simple Icons, Jorge Calvo García,  OCHA Visual Information Unit, gilbert bages, hunotika, Lil Squid, Jaime Carrion, Douglas Nash, NAS
 

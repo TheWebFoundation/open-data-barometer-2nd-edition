@@ -13,7 +13,7 @@ subgroup: summary
 
 <div class="row">
 <div class="col-sm-12" markdown="1">
-This second edition of the Open Data Barometer presents a picture of steady growth of data supply and use in leading countries, whilst many others are being left behind, lacking key capacities to produce, share and use open data. Overall, the entrepreneurial use of open data has overtaken transparency and accountability as the widest perceived area of impacts, and evidence of social or environmental impacts from open data remains scarce. As the UN leads a conversation on the need for a '[Data Revolution](http://www.undatarevolution.org)' to support the [Post-2015 Sustainable Development Goals](http://sustainabledevelopment.un.org/post2015.html), our research highlights the lack of accessible and open data on the performance of key public services. If the political and social impacts of open data are to be realised, work to increase the supply of datasets from right across government will be needed, as will investment in capacity building and training for data use.
+This second edition of the Open Data Barometer presents a picture of steady growth of data supply and use in leading countries, whilst many others are being left behind, lacking key capacities to produce, share and use open data. Overall, the entrepreneurial use of open data has overtaken transparency and accountability as the widest perceived area of impacts, and evidence of social or environmental impacts from open data remains scarce. As the UN leads a conversation on the need for a '[Data Revolution](http://www.undatarevolution.org)' to support the [Post-2015 Sustainable Development Goals](http://sustainabledevelopment.un.org/post2015.html), our research highlights the lack of open and accessible data on the performance of key public services. If the political and social impacts of open data are to be realised, work to increase the supply of datasets from right across government will be needed, alongside sustained investment in capacity building, training and support for effective data use.
 </div>
 </div>
 <div class="row">
@@ -23,22 +23,17 @@ This second edition of the Open Data Barometer presents a picture of steady grow
 
 This second edition of the Barometer covers 86 countries, representing a wide range of political, social and economic circumstances. From this sample, we find that:
 
+* Countries with well resourced open data initiatives with senior level government backing are much more likely to see open data impacts, indicating that, as they become established, initiatives do provide a return on effort and investment. 
+
 * Much more needs to be done to support data-enabled democracy around the world. There has been very limited expansion of the transparency and accountability impact of open data over the last year, and too few governments are providing timely access to performance data on public services. This limits the ability of citizens to engage in shaping and monitoring policy, undermining one of the key opportunities of open data. 
 
-* Countries with strong open data initiatives are much more likely to see open data impacts, indicating that, as they become established, initiatives do provide a return on effort and investment. 
-
-* Just over 10% of the 1290 different datasets surveyed for the Barometer were published as full open data in bulk, machine-readable formats and under open licenses. This represents a small but significant increase from 7% of datasets in 2013. 31 countries have at least one open dataset, and amongst the top 11 ranked countries just over 50% of their datasets surveyed qualified as fully open data.
-
-{% comment %} 
-    length(unique(dataset_matrix[dataset_matrix$isOpen==1,"Country"]))
-    table(dataset_matrix[dataset_matrix["ODB-Rank"] < 11,]$isOpen)
-{% endcomment %}
+* For greatest impacts, open data needs go local. Political impacts from open data are greater in countries that have city-level open data activities, not just national initiatives. Widespread availability of data skills training is also correlated with higher political impact.
 
 * Global progress towards embedding open data policies stalled in 2014. Whilst many countries with moderate or strong initiatives in 2013 saw steady growth in the strength of their open data policies, a number of countries made substantial backwards steps, and many countries which made initial steps with open data in 2012/13 have not been sustained their open data activities. Government that is 'open by default' is a long way off for most of the world's citizens. 
 
-* A small number of countries are making promising moves towards establishing a 'Right to Data', and better linking Right to Information (RTI). However in most countries open data policies continue to lack legislative backing. The continued weakness of data protection laws, particularly in light of continued revelations and concerns about data-mining by corporations and states, is a cause for concern. 
+* A small number of countries are moving towards requiring proactive disclosure of government data as part of their Right to Information laws - effectively, establishing a Right to Data. However in most countries open data policies continue to lack legislative backing. The continued weakness of data protection laws, particularly in light of continued revelations and concerns about data-mining by corporations and states, is a cause for concern. 
 
-* Support for innovation in the use of open data plays an important role in enabling impacts: both economic and social. We find that political impacts from open data are correlated with city level open data activities and the widespread availability of data skills training.
+* Just over 10% of the 1290 different datasets surveyed for the Barometer were published as full open data in bulk, machine-readable formats and under open licenses. This represents a small but significant increase from 7% of datasets in 2013. 31 countries have at least one open dataset, and amongst the top 11 ranked countries just over 50% of their datasets surveyed qualified as fully open data.
 
 </div>
 <div class="col-sm-3 infographic">

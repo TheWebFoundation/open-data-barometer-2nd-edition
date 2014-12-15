@@ -1,7 +1,7 @@
 ---
 layout: page
 weight: 3
-menu_title: Data 
+menu_title: Report 
 title: Clusters
 group: navigation
 subgroup: snapshot

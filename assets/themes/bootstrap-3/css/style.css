@@ -55,6 +55,44 @@
     font-weight:bold;
 }
 
+.frontbox2 {
+    height:350px;
+}
+
+.frontbox2-inner {
+    width:100%;
+    height:100%;
+    background-size:cover;
+    background-position-x:50%;
+
+}
+
+.front2-text {
+    position:relative;
+    top:250px;
+    height:100px;
+    background-color:rgba(255,255,255,0.9);
+}
+
+.frontbox-map {
+    height:600px;
+}
+
+.frontbox-map-inner {
+    width:100%;
+    height:100%;
+    background-size:cover;
+    background-position-x:50%;
+
+}
+
+.front-map-text {
+    position:relative;
+    top:500px;
+    height:100px;
+    background-color:rgba(255,255,255,0.9);
+}
+
 #footer {
     height:auto;
     padding-top:5px;

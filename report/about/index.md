@@ -18,6 +18,8 @@ This is the second edition of the Open Data Barometer, completing a two-year pil
 
 The Open Data Barometer forms part of the World Wide Web Foundation’s work on [common assessment methods for open data](http://opendataresearch.org/sites/default/files/posts/Common%20Assessment%20Workshop%20Report.pdf). 
 
+You can contact the Barometer team by emailing: [project-odb@webfoundation.org](mailto:project-odb@webfoundation.org)
+
 ## About the Web Foundation
 
 <div class="col-md-4 pull-right"><img src="/assets/images/logos/webfoundation.png" class="img-responsive"></div>

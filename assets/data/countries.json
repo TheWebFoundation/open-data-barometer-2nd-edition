@@ -1,3957 +1,4559 @@
 [
  {
   "className": "UAE", 
+  "color": "0,0,0", 
   "isocode": "AE", 
   "axes": [
    {
     "value": 81, 
-    "axis": "Readiness: Government"
+    "axis": "Ready: Govt"
    }, 
    {
+    "rotate": -20, 
     "value": 0, 
     "axis": "Impact: Economic"
    }, 
    {
+    "rotate": -60, 
     "value": 0, 
-    "axis": "Impact: Social",
-    "xOffset": -20
+    "xOffset": 0, 
+    "axis": "Impact: Social"
    }, 
    {
+    "rotate": 40, 
     "value": 22, 
     "axis": "Impact: Political"
    }, 
    {
     "value": 20, 
-    "axis": "Datasets: Innovation",
-    "xOffset": -50
+    "xOffset": -20, 
+    "axis": "Data: Innovation"
    }, 
    {
     "value": 36, 
-    "axis": "Datasets: Social Policy",
-    "xOffset": 50
+    "xOffset": 20, 
+    "axis": "Data: Social"
    }, 
    {
+    "rotate": -40, 
     "value": 15, 
-    "axis": "Datasets: Accountability"
+    "axis": "Data: Accountability"
    }, 
    {
+    "rotate": 60, 
     "value": 63, 
-    "axis": "Readiness: Entrepreneurs",
-    "xOffset": 20
+    "xOffset": 0, 
+    "axis": "Ready: Entrepreneurs"
    }, 
    {
+    "rotate": 20, 
     "value": 11, 
-    "axis": "Readiness: Citizens"
+    "axis": "Ready: Citizens"
    }
   ]
  }, 
  {
   "className": "Argentina", 
+  "color": "102,0,0", 
   "isocode": "AR", 
   "axes": [
    {
     "value": 42, 
-    "axis": "Readiness: Government"
+    "axis": "Ready: Govt"
    }, 
    {
+    "rotate": -20, 
     "value": 20, 
     "axis": "Impact: Economic"
    }, 
    {
+    "rotate": -60, 
     "value": 17, 
-    "axis": "Impact: Social",
-    "xOffset": -20
+    "xOffset": 0, 
+    "axis": "Impact: Social"
    }, 
    {
+    "rotate": 40, 
     "value": 22, 
     "axis": "Impact: Political"
    }, 
    {
     "value": 42, 
-    "axis": "Datasets: Innovation",
-    "xOffset": -50
+    "xOffset": -20, 
+    "axis": "Data: Innovation"
    }, 
    {
     "value": 38, 
-    "axis": "Datasets: Social Policy",
-    "xOffset": 50
+    "xOffset": 20, 
+    "axis": "Data: Social"
    }, 
    {
+    "rotate": -40, 
     "value": 31, 
-    "axis": "Datasets: Accountability"
+    "axis": "Data: Accountability"
    }, 
    {
+    "rotate": 60, 
     "value": 44, 
-    "axis": "Readiness: Entrepreneurs",
-    "xOffset": 20
+    "xOffset": 0, 
+    "axis": "Ready: Entrepreneurs"
    }, 
    {
+    "rotate": 20, 
     "value": 60, 
-    "axis": "Readiness: Citizens"
+    "axis": "Ready: Citizens"
    }
   ]
  }, 
  {
   "className": "Australia", 
+  "color": "204,0,0", 
   "isocode": "AU", 
   "axes": [
    {
     "value": 99, 
-    "axis": "Readiness: Government"
+    "axis": "Ready: Govt"
    }, 
    {
+    "rotate": -20, 
     "value": 40, 
     "axis": "Impact: Economic"
    }, 
    {
+    "rotate": -60, 
     "value": 46, 
-    "axis": "Impact: Social",
-    "xOffset": -20
+    "xOffset": 0, 
+    "axis": "Impact: Social"
    }, 
    {
+    "rotate": 40, 
     "value": 24, 
     "axis": "Impact: Political"
    }, 
    {
     "value": 86, 
-    "axis": "Datasets: Innovation",
-    "xOffset": -50
+    "xOffset": -20, 
+    "axis": "Data: Innovation"
    }, 
    {
     "value": 55, 
-    "axis": "Datasets: Social Policy",
-    "xOffset": 50
+    "xOffset": 20, 
+    "axis": "Data: Social"
    }, 
    {
+    "rotate": -40, 
     "value": 58, 
-    "axis": "Datasets: Accountability"
+    "axis": "Data: Accountability"
    }, 
    {
+    "rotate": 60, 
     "value": 83, 
-    "axis": "Readiness: Entrepreneurs",
-    "xOffset": 20
+    "xOffset": 0, 
+    "axis": "Ready: Entrepreneurs"
    }, 
    {
+    "rotate": 20, 
     "value": 88, 
-    "axis": "Readiness: Citizens"
+    "axis": "Ready: Citizens"
    }
   ]
  }, 
  {
   "className": "Austria", 
+  "color": "0,0,51", 
   "isocode": "AT", 
   "axes": [
    {
     "value": 81, 
-    "axis": "Readiness: Government"
+    "axis": "Ready: Govt"
    }, 
    {
+    "rotate": -20, 
     "value": 59, 
     "axis": "Impact: Economic"
    }, 
    {
+    "rotate": -60, 
     "value": 100, 
-    "axis": "Impact: Social",
-    "xOffset": -20
+    "xOffset": 0, 
+    "axis": "Impact: Social"
    }, 
    {
+    "rotate": 40, 
     "value": 57, 
     "axis": "Impact: Political"
    }, 
    {
     "value": 44, 
-    "axis": "Datasets: Innovation",
-    "xOffset": -50
+    "xOffset": -20, 
+    "axis": "Data: Innovation"
    }, 
    {
     "value": 28, 
-    "axis": "Datasets: Social Policy",
-    "xOffset": 50
+    "xOffset": 20, 
+    "axis": "Data: Social"
    }, 
    {
+    "rotate": -40, 
     "value": 53, 
-    "axis": "Datasets: Accountability"
+    "axis": "Data: Accountability"
    }, 
    {
+    "rotate": 60, 
     "value": 79, 
-    "axis": "Readiness: Entrepreneurs",
-    "xOffset": 20
+    "xOffset": 0, 
+    "axis": "Ready: Entrepreneurs"
    }, 
    {
+    "rotate": 20, 
     "value": 84, 
-    "axis": "Readiness: Citizens"
+    "axis": "Ready: Citizens"
    }
   ]
  }, 
  {
   "className": "Belgium", 
+  "color": "102,0,51", 
   "isocode": "BE", 
   "axes": [
    {
     "value": 84, 
-    "axis": "Readiness: Government"
+    "axis": "Ready: Govt"
    }, 
    {
+    "rotate": -20, 
     "value": 61, 
     "axis": "Impact: Economic"
    }, 
    {
+    "rotate": -60, 
     "value": 43, 
-    "axis": "Impact: Social",
-    "xOffset": -20
+    "xOffset": 0, 
+    "axis": "Impact: Social"
    }, 
    {
+    "rotate": 40, 
     "value": 48, 
     "axis": "Impact: Political"
    }, 
    {
     "value": 21, 
-    "axis": "Datasets: Innovation",
-    "xOffset": -50
+    "xOffset": -20, 
+    "axis": "Data: Innovation"
    }, 
    {
     "value": 33, 
-    "axis": "Datasets: Social Policy",
-    "xOffset": 50
+    "xOffset": 20, 
+    "axis": "Data: Social"
    }, 
    {
+    "rotate": -40, 
     "value": 39, 
-    "axis": "Datasets: Accountability"
+    "axis": "Data: Accountability"
    }, 
    {
+    "rotate": 60, 
     "value": 75, 
-    "axis": "Readiness: Entrepreneurs",
-    "xOffset": 20
+    "xOffset": 0, 
+    "axis": "Ready: Entrepreneurs"
    }, 
    {
+    "rotate": 20, 
     "value": 96, 
-    "axis": "Readiness: Citizens"
+    "axis": "Ready: Citizens"
    }
   ]
  }, 
  {
   "className": "Benin", 
+  "color": "204,0,51", 
   "isocode": "BJ", 
   "axes": [
    {
     "value": 6, 
-    "axis": "Readiness: Government"
+    "axis": "Ready: Govt"
    }, 
    {
+    "rotate": -20, 
     "value": 0, 
     "axis": "Impact: Economic"
    }, 
    {
+    "rotate": -60, 
     "value": 0, 
-    "axis": "Impact: Social",
-    "xOffset": -20
+    "xOffset": 0, 
+    "axis": "Impact: Social"
    }, 
    {
+    "rotate": 40, 
     "value": 0, 
     "axis": "Impact: Political"
    }, 
    {
     "value": 15, 
-    "axis": "Datasets: Innovation",
-    "xOffset": -50
+    "xOffset": -20, 
+    "axis": "Data: Innovation"
    }, 
    {
     "value": 32, 
-    "axis": "Datasets: Social Policy",
-    "xOffset": 50
+    "xOffset": 20, 
+    "axis": "Data: Social"
    }, 
    {
+    "rotate": -40, 
     "value": 8, 
-    "axis": "Datasets: Accountability"
+    "axis": "Data: Accountability"
    }, 
    {
+    "rotate": 60, 
     "value": 12, 
-    "axis": "Readiness: Entrepreneurs",
-    "xOffset": 20
+    "xOffset": 0, 
+    "axis": "Ready: Entrepreneurs"
    }, 
    {
+    "rotate": 20, 
     "value": 37, 
-    "axis": "Readiness: Citizens"
+    "axis": "Ready: Citizens"
    }
   ]
  }, 
  {
   "className": "Burkina Faso", 
+  "color": "0,0,102", 
   "isocode": "BF", 
   "axes": [
    {
     "value": 36, 
-    "axis": "Readiness: Government"
+    "axis": "Ready: Govt"
    }, 
    {
+    "rotate": -20, 
     "value": 0, 
     "axis": "Impact: Economic"
    }, 
    {
+    "rotate": -60, 
     "value": 0, 
-    "axis": "Impact: Social",
-    "xOffset": -20
+    "xOffset": 0, 
+    "axis": "Impact: Social"
    }, 
    {
+    "rotate": 40, 
     "value": 0, 
     "axis": "Impact: Political"
    }, 
    {
     "value": 7, 
-    "axis": "Datasets: Innovation",
-    "xOffset": -50
+    "xOffset": -20, 
+    "axis": "Data: Innovation"
    }, 
    {
     "value": 22, 
-    "axis": "Datasets: Social Policy",
-    "xOffset": 50
+    "xOffset": 20, 
+    "axis": "Data: Social"
    }, 
    {
+    "rotate": -40, 
     "value": 9, 
-    "axis": "Datasets: Accountability"
+    "axis": "Data: Accountability"
    }, 
    {
+    "rotate": 60, 
     "value": 19, 
-    "axis": "Readiness: Entrepreneurs",
-    "xOffset": 20
+    "xOffset": 0, 
+    "axis": "Ready: Entrepreneurs"
    }, 
    {
+    "rotate": 20, 
     "value": 44, 
-    "axis": "Readiness: Citizens"
+    "axis": "Ready: Citizens"
    }
   ]
  }, 
  {
   "className": "Bangladesh", 
+  "color": "102,0,102", 
   "isocode": "BD", 
   "axes": [
    {
     "value": 24, 
-    "axis": "Readiness: Government"
+    "axis": "Ready: Govt"
    }, 
    {
+    "rotate": -20, 
     "value": 6, 
     "axis": "Impact: Economic"
    }, 
    {
+    "rotate": -60, 
     "value": 0, 
-    "axis": "Impact: Social",
-    "xOffset": -20
+    "xOffset": 0, 
+    "axis": "Impact: Social"
    }, 
    {
+    "rotate": 40, 
     "value": 0, 
     "axis": "Impact: Political"
    }, 
    {
     "value": 15, 
-    "axis": "Datasets: Innovation",
-    "xOffset": -50
+    "xOffset": -20, 
+    "axis": "Data: Innovation"
    }, 
    {
     "value": 13, 
-    "axis": "Datasets: Social Policy",
-    "xOffset": 50
+    "xOffset": 20, 
+    "axis": "Data: Social"
    }, 
    {
+    "rotate": -40, 
     "value": 14, 
-    "axis": "Datasets: Accountability"
+    "axis": "Data: Accountability"
    }, 
    {
+    "rotate": 60, 
     "value": 21, 
-    "axis": "Readiness: Entrepreneurs",
-    "xOffset": 20
+    "xOffset": 0, 
+    "axis": "Ready: Entrepreneurs"
    }, 
    {
+    "rotate": 20, 
     "value": 34, 
-    "axis": "Readiness: Citizens"
+    "axis": "Ready: Citizens"
    }
   ]
  }, 
  {
   "className": "Bahrain", 
+  "color": "204,0,102", 
   "isocode": "BH", 
   "axes": [
    {
     "value": 69, 
-    "axis": "Readiness: Government"
+    "axis": "Ready: Govt"
    }, 
    {
+    "rotate": -20, 
     "value": 0, 
     "axis": "Impact: Economic"
    }, 
    {
+    "rotate": -60, 
     "value": 0, 
-    "axis": "Impact: Social",
-    "xOffset": -20
+    "xOffset": 0, 
+    "axis": "Impact: Social"
    }, 
    {
+    "rotate": 40, 
     "value": 0, 
     "axis": "Impact: Political"
    }, 
    {
     "value": 12, 
-    "axis": "Datasets: Innovation",
-    "xOffset": -50
+    "xOffset": -20, 
+    "axis": "Data: Innovation"
    }, 
    {
     "value": 26, 
-    "axis": "Datasets: Social Policy",
-    "xOffset": 50
+    "xOffset": 20, 
+    "axis": "Data: Social"
    }, 
    {
+    "rotate": -40, 
     "value": 7, 
-    "axis": "Datasets: Accountability"
+    "axis": "Data: Accountability"
    }, 
    {
+    "rotate": 60, 
     "value": 52, 
-    "axis": "Readiness: Entrepreneurs",
-    "xOffset": 20
+    "xOffset": 0, 
+    "axis": "Ready: Entrepreneurs"
    }, 
    {
+    "rotate": 20, 
     "value": 6, 
-    "axis": "Readiness: Citizens"
+    "axis": "Ready: Citizens"
    }
   ]
  }, 
  {
   "className": "Brazil", 
+  "color": "0,0,153", 
   "isocode": "BR", 
   "axes": [
    {
     "value": 65, 
-    "axis": "Readiness: Government"
+    "axis": "Ready: Govt"
    }, 
    {
+    "rotate": -20, 
     "value": 6, 
     "axis": "Impact: Economic"
    }, 
    {
+    "rotate": -60, 
     "value": 0, 
-    "axis": "Impact: Social",
-    "xOffset": -20
+    "xOffset": 0, 
+    "axis": "Impact: Social"
    }, 
    {
+    "rotate": 40, 
     "value": 17, 
     "axis": "Impact: Political"
    }, 
    {
     "value": 49, 
-    "axis": "Datasets: Innovation",
-    "xOffset": -50
+    "xOffset": -20, 
+    "axis": "Data: Innovation"
    }, 
    {
     "value": 71, 
-    "axis": "Datasets: Social Policy",
-    "xOffset": 50
+    "xOffset": 20, 
+    "axis": "Data: Social"
    }, 
    {
+    "rotate": -40, 
     "value": 62, 
-    "axis": "Datasets: Accountability"
+    "axis": "Data: Accountability"
    }, 
    {
+    "rotate": 60, 
     "value": 63, 
-    "axis": "Readiness: Entrepreneurs",
-    "xOffset": 20
+    "xOffset": 0, 
+    "axis": "Ready: Entrepreneurs"
    }, 
    {
+    "rotate": 20, 
     "value": 69, 
-    "axis": "Readiness: Citizens"
+    "axis": "Ready: Citizens"
    }
   ]
  }, 
  {
   "className": "Botswana", 
+  "color": "102,0,153", 
   "isocode": "BW", 
   "axes": [
    {
     "value": 29, 
-    "axis": "Readiness: Government"
+    "axis": "Ready: Govt"
    }, 
    {
+    "rotate": -20, 
     "value": 0, 
     "axis": "Impact: Economic"
    }, 
    {
+    "rotate": -60, 
     "value": 0, 
-    "axis": "Impact: Social",
-    "xOffset": -20
+    "xOffset": 0, 
+    "axis": "Impact: Social"
    }, 
    {
+    "rotate": 40, 
     "value": 0, 
     "axis": "Impact: Political"
    }, 
    {
     "value": 8, 
-    "axis": "Datasets: Innovation",
-    "xOffset": -50
+    "xOffset": -20, 
+    "axis": "Data: Innovation"
    }, 
    {
     "value": 11, 
-    "axis": "Datasets: Social Policy",
-    "xOffset": 50
+    "xOffset": 20, 
+    "axis": "Data: Social"
    }, 
    {
+    "rotate": -40, 
     "value": 10, 
-    "axis": "Datasets: Accountability"
+    "axis": "Data: Accountability"
    }, 
    {
+    "rotate": 60, 
     "value": 27, 
-    "axis": "Readiness: Entrepreneurs",
-    "xOffset": 20
+    "xOffset": 0, 
+    "axis": "Ready: Entrepreneurs"
    }, 
    {
+    "rotate": 20, 
     "value": 27, 
-    "axis": "Readiness: Citizens"
+    "axis": "Ready: Citizens"
    }
   ]
  }, 
  {
   "className": "Canada", 
+  "color": "204,0,153", 
   "isocode": "CA", 
   "axes": [
    {
     "value": 90, 
-    "axis": "Readiness: Government"
+    "axis": "Ready: Govt"
    }, 
    {
+    "rotate": -20, 
     "value": 39, 
     "axis": "Impact: Economic"
    }, 
    {
+    "rotate": -60, 
     "value": 60, 
-    "axis": "Impact: Social",
-    "xOffset": -20
+    "xOffset": 0, 
+    "axis": "Impact: Social"
    }, 
    {
+    "rotate": 40, 
     "value": 50, 
     "axis": "Impact: Political"
    }, 
    {
     "value": 92, 
-    "axis": "Datasets: Innovation",
-    "xOffset": -50
+    "xOffset": -20, 
+    "axis": "Data: Innovation"
    }, 
    {
     "value": 72, 
-    "axis": "Datasets: Social Policy",
-    "xOffset": 50
+    "xOffset": 20, 
+    "axis": "Data: Social"
    }, 
    {
+    "rotate": -40, 
     "value": 51, 
-    "axis": "Datasets: Accountability"
+    "axis": "Data: Accountability"
    }, 
    {
+    "rotate": 60, 
     "value": 86, 
-    "axis": "Readiness: Entrepreneurs",
-    "xOffset": 20
+    "xOffset": 0, 
+    "axis": "Ready: Entrepreneurs"
    }, 
    {
+    "rotate": 20, 
     "value": 88, 
-    "axis": "Readiness: Citizens"
+    "axis": "Ready: Citizens"
    }
   ]
  }, 
  {
   "className": "Switzerland", 
+  "color": "0,0,204", 
   "isocode": "CH", 
   "axes": [
    {
     "value": 71, 
-    "axis": "Readiness: Government"
+    "axis": "Ready: Govt"
    }, 
    {
+    "rotate": -20, 
     "value": 53, 
     "axis": "Impact: Economic"
    }, 
    {
+    "rotate": -60, 
     "value": 17, 
-    "axis": "Impact: Social",
-    "xOffset": -20
+    "xOffset": 0, 
+    "axis": "Impact: Social"
    }, 
    {
+    "rotate": 40, 
     "value": 93, 
     "axis": "Impact: Political"
    }, 
    {
     "value": 34, 
-    "axis": "Datasets: Innovation",
-    "xOffset": -50
+    "xOffset": -20, 
+    "axis": "Data: Innovation"
    }, 
    {
     "value": 53, 
-    "axis": "Datasets: Social Policy",
-    "xOffset": 50
+    "xOffset": 20, 
+    "axis": "Data: Social"
    }, 
    {
+    "rotate": -40, 
     "value": 26, 
-    "axis": "Datasets: Accountability"
+    "axis": "Data: Accountability"
    }, 
    {
+    "rotate": 60, 
     "value": 81, 
-    "axis": "Readiness: Entrepreneurs",
-    "xOffset": 20
+    "xOffset": 0, 
+    "axis": "Ready: Entrepreneurs"
    }, 
    {
+    "rotate": 20, 
     "value": 87, 
-    "axis": "Readiness: Citizens"
+    "axis": "Ready: Citizens"
    }
   ]
  }, 
  {
   "className": "Chile", 
+  "color": "102,0,204", 
   "isocode": "CL", 
   "axes": [
    {
     "value": 69, 
-    "axis": "Readiness: Government"
+    "axis": "Ready: Govt"
    }, 
    {
+    "rotate": -20, 
     "value": 13, 
     "axis": "Impact: Economic"
    }, 
    {
+    "rotate": -60, 
     "value": 0, 
-    "axis": "Impact: Social",
-    "xOffset": -20
+    "xOffset": 0, 
+    "axis": "Impact: Social"
    }, 
    {
+    "rotate": 40, 
     "value": 7, 
     "axis": "Impact: Political"
    }, 
    {
     "value": 82, 
-    "axis": "Datasets: Innovation",
-    "xOffset": -50
+    "xOffset": -20, 
+    "axis": "Data: Innovation"
    }, 
    {
     "value": 57, 
-    "axis": "Datasets: Social Policy",
-    "xOffset": 50
+    "xOffset": 20, 
+    "axis": "Data: Social"
    }, 
    {
+    "rotate": -40, 
     "value": 70, 
-    "axis": "Datasets: Accountability"
+    "axis": "Data: Accountability"
    }, 
    {
+    "rotate": 60, 
     "value": 61, 
-    "axis": "Readiness: Entrepreneurs",
-    "xOffset": 20
+    "xOffset": 0, 
+    "axis": "Ready: Entrepreneurs"
    }, 
    {
+    "rotate": 20, 
     "value": 78, 
-    "axis": "Readiness: Citizens"
+    "axis": "Ready: Citizens"
    }
   ]
  }, 
  {
   "className": "China", 
+  "color": "204,0,204", 
   "isocode": "CN", 
   "axes": [
    {
     "value": 64, 
-    "axis": "Readiness: Government"
+    "axis": "Ready: Govt"
    }, 
    {
+    "rotate": -20, 
     "value": 13, 
     "axis": "Impact: Economic"
    }, 
    {
+    "rotate": -60, 
     "value": 9, 
-    "axis": "Impact: Social",
-    "xOffset": -20
+    "xOffset": 0, 
+    "axis": "Impact: Social"
    }, 
    {
+    "rotate": 40, 
     "value": 26, 
     "axis": "Impact: Political"
    }, 
    {
     "value": 20, 
-    "axis": "Datasets: Innovation",
-    "xOffset": -50
+    "xOffset": -20, 
+    "axis": "Data: Innovation"
    }, 
    {
     "value": 45, 
-    "axis": "Datasets: Social Policy",
-    "xOffset": 50
+    "xOffset": 20, 
+    "axis": "Data: Social"
    }, 
    {
+    "rotate": -40, 
     "value": 12, 
-    "axis": "Datasets: Accountability"
+    "axis": "Data: Accountability"
    }, 
    {
+    "rotate": 60, 
     "value": 56, 
-    "axis": "Readiness: Entrepreneurs",
-    "xOffset": 20
+    "xOffset": 0, 
+    "axis": "Ready: Entrepreneurs"
    }, 
    {
+    "rotate": 20, 
     "value": 34, 
-    "axis": "Readiness: Citizens"
+    "axis": "Ready: Citizens"
    }
   ]
  }, 
  {
   "className": "Cameroon", 
+  "color": "0,0,255", 
   "isocode": "CM", 
   "axes": [
    {
     "value": 15, 
-    "axis": "Readiness: Government"
+    "axis": "Ready: Govt"
    }, 
    {
+    "rotate": -20, 
     "value": 0, 
     "axis": "Impact: Economic"
    }, 
    {
+    "rotate": -60, 
     "value": 0, 
-    "axis": "Impact: Social",
-    "xOffset": -20
+    "xOffset": 0, 
+    "axis": "Impact: Social"
    }, 
    {
+    "rotate": 40, 
     "value": 7, 
     "axis": "Impact: Political"
    }, 
    {
     "value": 6, 
-    "axis": "Datasets: Innovation",
-    "xOffset": -50
+    "xOffset": -20, 
+    "axis": "Data: Innovation"
    }, 
    {
     "value": 6, 
-    "axis": "Datasets: Social Policy",
-    "xOffset": 50
+    "xOffset": 20, 
+    "axis": "Data: Social"
    }, 
    {
+    "rotate": -40, 
     "value": 7, 
-    "axis": "Datasets: Accountability"
+    "axis": "Data: Accountability"
    }, 
    {
+    "rotate": 60, 
     "value": 17, 
-    "axis": "Readiness: Entrepreneurs",
-    "xOffset": 20
+    "xOffset": 0, 
+    "axis": "Ready: Entrepreneurs"
    }, 
    {
+    "rotate": 20, 
     "value": 8, 
-    "axis": "Readiness: Citizens"
+    "axis": "Ready: Citizens"
    }
   ]
  }, 
  {
   "className": "Colombia", 
+  "color": "102,0,255", 
   "isocode": "CO", 
   "axes": [
    {
     "value": 65, 
-    "axis": "Readiness: Government"
+    "axis": "Ready: Govt"
    }, 
    {
+    "rotate": -20, 
     "value": 20, 
     "axis": "Impact: Economic"
    }, 
    {
+    "rotate": -60, 
     "value": 9, 
-    "axis": "Impact: Social",
-    "xOffset": -20
+    "xOffset": 0, 
+    "axis": "Impact: Social"
    }, 
    {
+    "rotate": 40, 
     "value": 24, 
     "axis": "Impact: Political"
    }, 
    {
     "value": 21, 
-    "axis": "Datasets: Innovation",
-    "xOffset": -50
+    "xOffset": -20, 
+    "axis": "Data: Innovation"
    }, 
    {
     "value": 44, 
-    "axis": "Datasets: Social Policy",
-    "xOffset": 50
+    "xOffset": 20, 
+    "axis": "Data: Social"
    }, 
    {
+    "rotate": -40, 
     "value": 27, 
-    "axis": "Datasets: Accountability"
+    "axis": "Data: Accountability"
    }, 
    {
+    "rotate": 60, 
     "value": 42, 
-    "axis": "Readiness: Entrepreneurs",
-    "xOffset": 20
+    "xOffset": 0, 
+    "axis": "Ready: Entrepreneurs"
    }, 
    {
+    "rotate": 20, 
     "value": 59, 
-    "axis": "Readiness: Citizens"
+    "axis": "Ready: Citizens"
    }
   ]
  }, 
  {
   "className": "Costa Rica", 
+  "color": "204,0,255", 
   "isocode": "CR", 
   "axes": [
    {
     "value": 59, 
-    "axis": "Readiness: Government"
+    "axis": "Ready: Govt"
    }, 
    {
+    "rotate": -20, 
     "value": 13, 
     "axis": "Impact: Economic"
    }, 
    {
+    "rotate": -60, 
     "value": 0, 
-    "axis": "Impact: Social",
-    "xOffset": -20
+    "xOffset": 0, 
+    "axis": "Impact: Social"
    }, 
    {
+    "rotate": 40, 
     "value": 0, 
     "axis": "Impact: Political"
    }, 
    {
     "value": 24, 
-    "axis": "Datasets: Innovation",
-    "xOffset": -50
+    "xOffset": -20, 
+    "axis": "Data: Innovation"
    }, 
    {
     "value": 61, 
-    "axis": "Datasets: Social Policy",
-    "xOffset": 50
+    "xOffset": 20, 
+    "axis": "Data: Social"
    }, 
    {
+    "rotate": -40, 
     "value": 15, 
-    "axis": "Datasets: Accountability"
+    "axis": "Data: Accountability"
    }, 
    {
+    "rotate": 60, 
     "value": 48, 
-    "axis": "Readiness: Entrepreneurs",
-    "xOffset": 20
+    "xOffset": 0, 
+    "axis": "Ready: Entrepreneurs"
    }, 
    {
+    "rotate": 20, 
     "value": 61, 
-    "axis": "Readiness: Citizens"
+    "axis": "Ready: Citizens"
    }
   ]
  }, 
  {
   "className": "Czech Republic", 
+  "color": "0,51,0", 
   "isocode": "CZ", 
   "axes": [
    {
     "value": 44, 
-    "axis": "Readiness: Government"
+    "axis": "Ready: Govt"
    }, 
    {
+    "rotate": -20, 
     "value": 39, 
     "axis": "Impact: Economic"
    }, 
    {
+    "rotate": -60, 
     "value": 26, 
-    "axis": "Impact: Social",
-    "xOffset": -20
+    "xOffset": 0, 
+    "axis": "Impact: Social"
    }, 
    {
+    "rotate": 40, 
     "value": 52, 
     "axis": "Impact: Political"
    }, 
    {
     "value": 58, 
-    "axis": "Datasets: Innovation",
-    "xOffset": -50
+    "xOffset": -20, 
+    "axis": "Data: Innovation"
    }, 
    {
     "value": 53, 
-    "axis": "Datasets: Social Policy",
-    "xOffset": 50
+    "xOffset": 20, 
+    "axis": "Data: Social"
    }, 
    {
+    "rotate": -40, 
     "value": 65, 
-    "axis": "Datasets: Accountability"
+    "axis": "Data: Accountability"
    }, 
    {
+    "rotate": 60, 
     "value": 61, 
-    "axis": "Readiness: Entrepreneurs",
-    "xOffset": 20
+    "xOffset": 0, 
+    "axis": "Ready: Entrepreneurs"
    }, 
    {
+    "rotate": 20, 
     "value": 87, 
-    "axis": "Readiness: Citizens"
+    "axis": "Ready: Citizens"
    }
   ]
  }, 
  {
   "className": "Germany", 
+  "color": "102,51,0", 
   "isocode": "DE", 
   "axes": [
    {
     "value": 82, 
-    "axis": "Readiness: Government"
+    "axis": "Ready: Govt"
    }, 
    {
+    "rotate": -20, 
     "value": 46, 
     "axis": "Impact: Economic"
    }, 
    {
+    "rotate": -60, 
     "value": 26, 
-    "axis": "Impact: Social",
-    "xOffset": -20
+    "xOffset": 0, 
+    "axis": "Impact: Social"
    }, 
    {
+    "rotate": 40, 
     "value": 65, 
     "axis": "Impact: Political"
    }, 
    {
     "value": 69, 
-    "axis": "Datasets: Innovation",
-    "xOffset": -50
+    "xOffset": -20, 
+    "axis": "Data: Innovation"
    }, 
    {
     "value": 65, 
-    "axis": "Datasets: Social Policy",
-    "xOffset": 50
+    "xOffset": 20, 
+    "axis": "Data: Social"
    }, 
    {
+    "rotate": -40, 
     "value": 59, 
-    "axis": "Datasets: Accountability"
+    "axis": "Data: Accountability"
    }, 
    {
+    "rotate": 60, 
     "value": 74, 
-    "axis": "Readiness: Entrepreneurs",
-    "xOffset": 20
+    "xOffset": 0, 
+    "axis": "Ready: Entrepreneurs"
    }, 
    {
+    "rotate": 20, 
     "value": 96, 
-    "axis": "Readiness: Citizens"
+    "axis": "Ready: Citizens"
    }
   ]
  }, 
  {
   "className": "Denmark", 
+  "color": "204,51,0", 
   "isocode": "DK", 
   "axes": [
    {
     "value": 83, 
-    "axis": "Readiness: Government"
+    "axis": "Ready: Govt"
    }, 
    {
+    "rotate": -20, 
     "value": 87, 
     "axis": "Impact: Economic"
    }, 
    {
+    "rotate": -60, 
     "value": 69, 
-    "axis": "Impact: Social",
-    "xOffset": -20
+    "xOffset": 0, 
+    "axis": "Impact: Social"
    }, 
    {
+    "rotate": 40, 
     "value": 85, 
     "axis": "Impact: Political"
    }, 
    {
     "value": 64, 
-    "axis": "Datasets: Innovation",
-    "xOffset": -50
+    "xOffset": -20, 
+    "axis": "Data: Innovation"
    }, 
    {
     "value": 51, 
-    "axis": "Datasets: Social Policy",
-    "xOffset": 50
+    "xOffset": 20, 
+    "axis": "Data: Social"
    }, 
    {
+    "rotate": -40, 
     "value": 42, 
-    "axis": "Datasets: Accountability"
+    "axis": "Data: Accountability"
    }, 
    {
+    "rotate": 60, 
     "value": 100, 
-    "axis": "Readiness: Entrepreneurs",
-    "xOffset": 20
+    "xOffset": 0, 
+    "axis": "Ready: Entrepreneurs"
    }, 
    {
+    "rotate": 20, 
     "value": 91, 
-    "axis": "Readiness: Citizens"
+    "axis": "Ready: Citizens"
    }
   ]
  }, 
  {
   "className": "Ecuador", 
+  "color": "0,51,51", 
   "isocode": "EC", 
   "axes": [
    {
     "value": 42, 
-    "axis": "Readiness: Government"
+    "axis": "Ready: Govt"
    }, 
    {
+    "rotate": -20, 
     "value": 0, 
     "axis": "Impact: Economic"
    }, 
    {
+    "rotate": -60, 
     "value": 9, 
-    "axis": "Impact: Social",
-    "xOffset": -20
+    "xOffset": 0, 
+    "axis": "Impact: Social"
    }, 
    {
+    "rotate": 40, 
     "value": 7, 
     "axis": "Impact: Political"
    }, 
    {
     "value": 52, 
-    "axis": "Datasets: Innovation",
-    "xOffset": -50
+    "xOffset": -20, 
+    "axis": "Data: Innovation"
    }, 
    {
     "value": 62, 
-    "axis": "Datasets: Social Policy",
-    "xOffset": 50
+    "xOffset": 20, 
+    "axis": "Data: Social"
    }, 
    {
+    "rotate": -40, 
     "value": 15, 
-    "axis": "Datasets: Accountability"
+    "axis": "Data: Accountability"
    }, 
    {
+    "rotate": 60, 
     "value": 34, 
-    "axis": "Readiness: Entrepreneurs",
-    "xOffset": 20
+    "xOffset": 0, 
+    "axis": "Ready: Entrepreneurs"
    }, 
    {
+    "rotate": 20, 
     "value": 55, 
-    "axis": "Readiness: Citizens"
+    "axis": "Ready: Citizens"
    }
   ]
  }, 
  {
   "className": "Egypt", 
+  "color": "102,51,51", 
   "isocode": "EG", 
   "axes": [
    {
     "value": 25, 
-    "axis": "Readiness: Government"
+    "axis": "Ready: Govt"
    }, 
    {
+    "rotate": -20, 
     "value": 0, 
     "axis": "Impact: Economic"
    }, 
    {
+    "rotate": -60, 
     "value": 0, 
-    "axis": "Impact: Social",
-    "xOffset": -20
+    "xOffset": 0, 
+    "axis": "Impact: Social"
    }, 
    {
+    "rotate": 40, 
     "value": 0, 
     "axis": "Impact: Political"
    }, 
    {
     "value": 9, 
-    "axis": "Datasets: Innovation",
-    "xOffset": -50
+    "xOffset": -20, 
+    "axis": "Data: Innovation"
    }, 
    {
     "value": 20, 
-    "axis": "Datasets: Social Policy",
-    "xOffset": 50
+    "xOffset": 20, 
+    "axis": "Data: Social"
    }, 
    {
+    "rotate": -40, 
     "value": 25, 
-    "axis": "Datasets: Accountability"
+    "axis": "Data: Accountability"
    }, 
    {
+    "rotate": 60, 
     "value": 34, 
-    "axis": "Readiness: Entrepreneurs",
-    "xOffset": 20
+    "xOffset": 0, 
+    "axis": "Ready: Entrepreneurs"
    }, 
    {
+    "rotate": 20, 
     "value": 26, 
-    "axis": "Readiness: Citizens"
+    "axis": "Ready: Citizens"
    }
   ]
  }, 
  {
   "className": "Spain", 
+  "color": "204,51,51", 
   "isocode": "ES", 
   "axes": [
    {
     "value": 81, 
-    "axis": "Readiness: Government"
+    "axis": "Ready: Govt"
    }, 
    {
+    "rotate": -20, 
     "value": 53, 
     "axis": "Impact: Economic"
    }, 
    {
+    "rotate": -60, 
     "value": 17, 
-    "axis": "Impact: Social",
-    "xOffset": -20
+    "xOffset": 0, 
+    "axis": "Impact: Social"
    }, 
    {
+    "rotate": 40, 
     "value": 33, 
     "axis": "Impact: Political"
    }, 
    {
     "value": 86, 
-    "axis": "Datasets: Innovation",
-    "xOffset": -50
+    "xOffset": -20, 
+    "axis": "Data: Innovation"
    }, 
    {
     "value": 48, 
-    "axis": "Datasets: Social Policy",
-    "xOffset": 50
+    "xOffset": 20, 
+    "axis": "Data: Social"
    }, 
    {
+    "rotate": -40, 
     "value": 41, 
-    "axis": "Datasets: Accountability"
+    "axis": "Data: Accountability"
    }, 
    {
+    "rotate": 60, 
     "value": 68, 
-    "axis": "Readiness: Entrepreneurs",
-    "xOffset": 20
+    "xOffset": 0, 
+    "axis": "Ready: Entrepreneurs"
    }, 
    {
+    "rotate": 20, 
     "value": 83, 
-    "axis": "Readiness: Citizens"
+    "axis": "Ready: Citizens"
    }
   ]
  }, 
  {
   "className": "Estonia", 
+  "color": "0,51,102", 
   "isocode": "EE", 
   "axes": [
    {
     "value": 78, 
-    "axis": "Readiness: Government"
+    "axis": "Ready: Govt"
    }, 
    {
+    "rotate": -20, 
     "value": 60, 
     "axis": "Impact: Economic"
    }, 
    {
+    "rotate": -60, 
     "value": 46, 
-    "axis": "Impact: Social",
-    "xOffset": -20
+    "xOffset": 0, 
+    "axis": "Impact: Social"
    }, 
    {
+    "rotate": 40, 
     "value": 57, 
     "axis": "Impact: Political"
    }, 
    {
     "value": 53, 
-    "axis": "Datasets: Innovation",
-    "xOffset": -50
+    "xOffset": -20, 
+    "axis": "Data: Innovation"
    }, 
    {
     "value": 55, 
-    "axis": "Datasets: Social Policy",
-    "xOffset": 50
+    "xOffset": 20, 
+    "axis": "Data: Social"
    }, 
    {
+    "rotate": -40, 
     "value": 42, 
-    "axis": "Datasets: Accountability"
+    "axis": "Data: Accountability"
    }, 
    {
+    "rotate": 60, 
     "value": 79, 
-    "axis": "Readiness: Entrepreneurs",
-    "xOffset": 20
+    "xOffset": 0, 
+    "axis": "Ready: Entrepreneurs"
    }, 
    {
+    "rotate": 20, 
     "value": 90, 
-    "axis": "Readiness: Citizens"
+    "axis": "Ready: Citizens"
    }
   ]
  }, 
  {
   "className": "Ethiopia", 
+  "color": "102,51,102", 
   "isocode": "ET", 
   "axes": [
    {
     "value": 26, 
-    "axis": "Readiness: Government"
+    "axis": "Ready: Govt"
    }, 
    {
+    "rotate": -20, 
     "value": 0, 
     "axis": "Impact: Economic"
    }, 
    {
+    "rotate": -60, 
     "value": 0, 
-    "axis": "Impact: Social",
-    "xOffset": -20
+    "xOffset": 0, 
+    "axis": "Impact: Social"
    }, 
    {
+    "rotate": 40, 
     "value": 0, 
     "axis": "Impact: Political"
    }, 
    {
     "value": 8, 
-    "axis": "Datasets: Innovation",
-    "xOffset": -50
+    "xOffset": -20, 
+    "axis": "Data: Innovation"
    }, 
    {
     "value": 20, 
-    "axis": "Datasets: Social Policy",
-    "xOffset": 50
+    "xOffset": 20, 
+    "axis": "Data: Social"
    }, 
    {
+    "rotate": -40, 
     "value": 7, 
-    "axis": "Datasets: Accountability"
+    "axis": "Data: Accountability"
    }, 
    {
+    "rotate": 60, 
     "value": 14, 
-    "axis": "Readiness: Entrepreneurs",
-    "xOffset": 20
+    "xOffset": 0, 
+    "axis": "Ready: Entrepreneurs"
    }, 
    {
+    "rotate": 20, 
     "value": 16, 
-    "axis": "Readiness: Citizens"
+    "axis": "Ready: Citizens"
    }
   ]
  }, 
  {
   "className": "Finland", 
+  "color": "204,51,102", 
   "isocode": "FI", 
   "axes": [
    {
     "value": 86, 
-    "axis": "Readiness: Government"
+    "axis": "Ready: Govt"
    }, 
    {
+    "rotate": -20, 
     "value": 80, 
     "axis": "Impact: Economic"
    }, 
    {
+    "rotate": -60, 
     "value": 69, 
-    "axis": "Impact: Social",
-    "xOffset": -20
+    "xOffset": 0, 
+    "axis": "Impact: Social"
    }, 
    {
+    "rotate": 40, 
     "value": 46, 
     "axis": "Impact: Political"
    }, 
    {
     "value": 67, 
-    "axis": "Datasets: Innovation",
-    "xOffset": -50
+    "xOffset": -20, 
+    "axis": "Data: Innovation"
    }, 
    {
     "value": 52, 
-    "axis": "Datasets: Social Policy",
-    "xOffset": 50
+    "xOffset": 20, 
+    "axis": "Data: Social"
    }, 
    {
+    "rotate": -40, 
     "value": 38, 
-    "axis": "Datasets: Accountability"
+    "axis": "Data: Accountability"
    }, 
    {
+    "rotate": 60, 
     "value": 90, 
-    "axis": "Readiness: Entrepreneurs",
-    "xOffset": 20
+    "xOffset": 0, 
+    "axis": "Ready: Entrepreneurs"
    }, 
    {
+    "rotate": 20, 
     "value": 98, 
-    "axis": "Readiness: Citizens"
+    "axis": "Ready: Citizens"
    }
   ]
  }, 
  {
   "className": "France", 
+  "color": "0,51,153", 
   "isocode": "FR", 
   "axes": [
    {
     "value": 96, 
-    "axis": "Readiness: Government"
+    "axis": "Ready: Govt"
    }, 
    {
+    "rotate": -20, 
     "value": 79, 
     "axis": "Impact: Economic"
    }, 
    {
+    "rotate": -60, 
     "value": 60, 
-    "axis": "Impact: Social",
-    "xOffset": -20
+    "xOffset": 0, 
+    "axis": "Impact: Social"
    }, 
    {
+    "rotate": 40, 
     "value": 74, 
     "axis": "Impact: Political"
    }, 
    {
     "value": 75, 
-    "axis": "Datasets: Innovation",
-    "xOffset": -50
+    "xOffset": -20, 
+    "axis": "Data: Innovation"
    }, 
    {
     "value": 79, 
-    "axis": "Datasets: Social Policy",
-    "xOffset": 50
+    "xOffset": 20, 
+    "axis": "Data: Social"
    }, 
    {
+    "rotate": -40, 
     "value": 61, 
-    "axis": "Datasets: Accountability"
+    "axis": "Data: Accountability"
    }, 
    {
+    "rotate": 60, 
     "value": 83, 
-    "axis": "Readiness: Entrepreneurs",
-    "xOffset": 20
+    "xOffset": 0, 
+    "axis": "Ready: Entrepreneurs"
    }, 
    {
+    "rotate": 20, 
     "value": 90, 
-    "axis": "Readiness: Citizens"
+    "axis": "Ready: Citizens"
    }
   ]
  }, 
  {
   "className": "UK", 
+  "color": "102,51,153", 
   "isocode": "GB", 
   "axes": [
    {
     "value": 96, 
-    "axis": "Readiness: Government"
+    "axis": "Ready: Govt"
    }, 
    {
+    "rotate": -20, 
     "value": 80, 
     "axis": "Impact: Economic"
    }, 
    {
+    "rotate": -60, 
     "value": 77, 
-    "axis": "Impact: Social",
-    "xOffset": -20
+    "xOffset": 0, 
+    "axis": "Impact: Social"
    }, 
    {
+    "rotate": 40, 
     "value": 98, 
     "axis": "Impact: Political"
    }, 
    {
     "value": 96, 
-    "axis": "Datasets: Innovation",
-    "xOffset": -50
+    "xOffset": -20, 
+    "axis": "Data: Innovation"
    }, 
    {
     "value": 92, 
-    "axis": "Datasets: Social Policy",
-    "xOffset": 50
+    "xOffset": 20, 
+    "axis": "Data: Social"
    }, 
    {
+    "rotate": -40, 
     "value": 96, 
-    "axis": "Datasets: Accountability"
+    "axis": "Data: Accountability"
    }, 
    {
+    "rotate": 60, 
     "value": 98, 
-    "axis": "Readiness: Entrepreneurs",
-    "xOffset": 20
+    "xOffset": 0, 
+    "axis": "Ready: Entrepreneurs"
    }, 
    {
+    "rotate": 20, 
     "value": 91, 
-    "axis": "Readiness: Citizens"
+    "axis": "Ready: Citizens"
    }
   ]
  }, 
  {
   "className": "Ghana", 
+  "color": "204,51,153", 
   "isocode": "GH", 
   "axes": [
    {
     "value": 35, 
-    "axis": "Readiness: Government"
+    "axis": "Ready: Govt"
    }, 
    {
+    "rotate": -20, 
     "value": 0, 
     "axis": "Impact: Economic"
    }, 
    {
+    "rotate": -60, 
     "value": 0, 
-    "axis": "Impact: Social",
-    "xOffset": -20
+    "xOffset": 0, 
+    "axis": "Impact: Social"
    }, 
    {
+    "rotate": 40, 
     "value": 0, 
     "axis": "Impact: Political"
    }, 
    {
     "value": 31, 
-    "axis": "Datasets: Innovation",
-    "xOffset": -50
+    "xOffset": -20, 
+    "axis": "Data: Innovation"
    }, 
    {
     "value": 39, 
-    "axis": "Datasets: Social Policy",
-    "xOffset": 50
+    "xOffset": 20, 
+    "axis": "Data: Social"
    }, 
    {
+    "rotate": -40, 
     "value": 39, 
-    "axis": "Datasets: Accountability"
+    "axis": "Data: Accountability"
    }, 
    {
+    "rotate": 60, 
     "value": 28, 
-    "axis": "Readiness: Entrepreneurs",
-    "xOffset": 20
+    "xOffset": 0, 
+    "axis": "Ready: Entrepreneurs"
    }, 
    {
+    "rotate": 20, 
     "value": 50, 
-    "axis": "Readiness: Citizens"
+    "axis": "Ready: Citizens"
    }
   ]
  }, 
  {
   "className": "Greece", 
+  "color": "0,51,204", 
   "isocode": "GR", 
   "axes": [
    {
     "value": 49, 
-    "axis": "Readiness: Government"
+    "axis": "Ready: Govt"
    }, 
    {
+    "rotate": -20, 
     "value": 6, 
     "axis": "Impact: Economic"
    }, 
    {
+    "rotate": -60, 
     "value": 0, 
-    "axis": "Impact: Social",
-    "xOffset": -20
+    "xOffset": 0, 
+    "axis": "Impact: Social"
    }, 
    {
+    "rotate": 40, 
     "value": 37, 
     "axis": "Impact: Political"
    }, 
    {
     "value": 40, 
-    "axis": "Datasets: Innovation",
-    "xOffset": -50
+    "xOffset": -20, 
+    "axis": "Data: Innovation"
    }, 
    {
     "value": 45, 
-    "axis": "Datasets: Social Policy",
-    "xOffset": 50
+    "xOffset": 20, 
+    "axis": "Data: Social"
    }, 
    {
+    "rotate": -40, 
     "value": 44, 
-    "axis": "Datasets: Accountability"
+    "axis": "Data: Accountability"
    }, 
    {
+    "rotate": 60, 
     "value": 60, 
-    "axis": "Readiness: Entrepreneurs",
-    "xOffset": 20
+    "xOffset": 0, 
+    "axis": "Ready: Entrepreneurs"
    }, 
    {
+    "rotate": 20, 
     "value": 71, 
-    "axis": "Readiness: Citizens"
+    "axis": "Ready: Citizens"
    }
   ]
  }, 
  {
   "className": "Haiti", 
+  "color": "102,51,204", 
   "isocode": "HT", 
   "axes": [
    {
     "value": 1, 
-    "axis": "Readiness: Government"
+    "axis": "Ready: Govt"
    }, 
    {
+    "rotate": -20, 
     "value": 0, 
     "axis": "Impact: Economic"
    }, 
    {
+    "rotate": -60, 
     "value": 0, 
-    "axis": "Impact: Social",
-    "xOffset": -20
+    "xOffset": 0, 
+    "axis": "Impact: Social"
    }, 
    {
+    "rotate": 40, 
     "value": 0, 
     "axis": "Impact: Political"
    }, 
    {
     "value": 4, 
-    "axis": "Datasets: Innovation",
-    "xOffset": -50
+    "xOffset": -20, 
+    "axis": "Data: Innovation"
    }, 
    {
     "value": 5, 
-    "axis": "Datasets: Social Policy",
-    "xOffset": 50
+    "xOffset": 20, 
+    "axis": "Data: Social"
    }, 
    {
+    "rotate": -40, 
     "value": 7, 
-    "axis": "Datasets: Accountability"
+    "axis": "Data: Accountability"
    }, 
    {
+    "rotate": 60, 
     "value": 12, 
-    "axis": "Readiness: Entrepreneurs",
-    "xOffset": 20
+    "xOffset": 0, 
+    "axis": "Ready: Entrepreneurs"
    }, 
    {
+    "rotate": 20, 
     "value": 8, 
-    "axis": "Readiness: Citizens"
+    "axis": "Ready: Citizens"
    }
   ]
  }, 
  {
   "className": "Hungary", 
+  "color": "204,51,204", 
   "isocode": "HU", 
   "axes": [
    {
     "value": 36, 
-    "axis": "Readiness: Government"
+    "axis": "Ready: Govt"
    }, 
    {
+    "rotate": -20, 
     "value": 27, 
     "axis": "Impact: Economic"
    }, 
    {
+    "rotate": -60, 
     "value": 9, 
-    "axis": "Impact: Social",
-    "xOffset": -20
+    "xOffset": 0, 
+    "axis": "Impact: Social"
    }, 
    {
+    "rotate": 40, 
     "value": 48, 
     "axis": "Impact: Political"
    }, 
    {
     "value": 44, 
-    "axis": "Datasets: Innovation",
-    "xOffset": -50
+    "xOffset": -20, 
+    "axis": "Data: Innovation"
    }, 
    {
     "value": 50, 
-    "axis": "Datasets: Social Policy",
-    "xOffset": 50
+    "xOffset": 20, 
+    "axis": "Data: Social"
    }, 
    {
+    "rotate": -40, 
     "value": 19, 
-    "axis": "Datasets: Accountability"
+    "axis": "Data: Accountability"
    }, 
    {
+    "rotate": 60, 
     "value": 47, 
-    "axis": "Readiness: Entrepreneurs",
-    "xOffset": 20
+    "xOffset": 0, 
+    "axis": "Ready: Entrepreneurs"
    }, 
    {
+    "rotate": 20, 
     "value": 64, 
-    "axis": "Readiness: Citizens"
+    "axis": "Ready: Citizens"
    }
   ]
  }, 
  {
   "className": "Indonesia", 
+  "color": "0,51,255", 
   "isocode": "ID", 
   "axes": [
    {
     "value": 49, 
-    "axis": "Readiness: Government"
+    "axis": "Ready: Govt"
    }, 
    {
+    "rotate": -20, 
     "value": 0, 
     "axis": "Impact: Economic"
    }, 
    {
+    "rotate": -60, 
     "value": 29, 
-    "axis": "Impact: Social",
-    "xOffset": -20
+    "xOffset": 0, 
+    "axis": "Impact: Social"
    }, 
    {
+    "rotate": 40, 
     "value": 17, 
     "axis": "Impact: Political"
    }, 
    {
     "value": 39, 
-    "axis": "Datasets: Innovation",
-    "xOffset": -50
+    "xOffset": -20, 
+    "axis": "Data: Innovation"
    }, 
    {
     "value": 70, 
-    "axis": "Datasets: Social Policy",
-    "xOffset": 50
+    "xOffset": 20, 
+    "axis": "Data: Social"
    }, 
    {
+    "rotate": -40, 
     "value": 12, 
-    "axis": "Datasets: Accountability"
+    "axis": "Data: Accountability"
    }, 
    {
+    "rotate": 60, 
     "value": 37, 
-    "axis": "Readiness: Entrepreneurs",
-    "xOffset": 20
+    "xOffset": 0, 
+    "axis": "Ready: Entrepreneurs"
    }, 
    {
+    "rotate": 20, 
     "value": 54, 
-    "axis": "Readiness: Citizens"
+    "axis": "Ready: Citizens"
    }
   ]
  }, 
  {
   "className": "India", 
+  "color": "102,51,255", 
   "isocode": "IN", 
   "axes": [
    {
     "value": 57, 
-    "axis": "Readiness: Government"
+    "axis": "Ready: Govt"
    }, 
    {
+    "rotate": -20, 
     "value": 0, 
     "axis": "Impact: Economic"
    }, 
    {
+    "rotate": -60, 
     "value": 0, 
-    "axis": "Impact: Social",
-    "xOffset": -20
+    "xOffset": 0, 
+    "axis": "Impact: Social"
    }, 
    {
+    "rotate": 40, 
     "value": 7, 
     "axis": "Impact: Political"
    }, 
    {
     "value": 32, 
-    "axis": "Datasets: Innovation",
-    "xOffset": -50
+    "xOffset": -20, 
+    "axis": "Data: Innovation"
    }, 
    {
     "value": 54, 
-    "axis": "Datasets: Social Policy",
-    "xOffset": 50
+    "xOffset": 20, 
+    "axis": "Data: Social"
    }, 
    {
+    "rotate": -40, 
     "value": 25, 
-    "axis": "Datasets: Accountability"
+    "axis": "Data: Accountability"
    }, 
    {
+    "rotate": 60, 
     "value": 43, 
-    "axis": "Readiness: Entrepreneurs",
-    "xOffset": 20
+    "xOffset": 0, 
+    "axis": "Ready: Entrepreneurs"
    }, 
    {
+    "rotate": 20, 
     "value": 70, 
-    "axis": "Readiness: Citizens"
+    "axis": "Ready: Citizens"
    }
   ]
  }, 
  {
   "className": "Ireland", 
+  "color": "204,51,255", 
   "isocode": "IE", 
   "axes": [
    {
     "value": 63, 
-    "axis": "Readiness: Government"
+    "axis": "Ready: Govt"
    }, 
    {
+    "rotate": -20, 
     "value": 19, 
     "axis": "Impact: Economic"
    }, 
    {
+    "rotate": -60, 
     "value": 0, 
-    "axis": "Impact: Social",
-    "xOffset": -20
+    "xOffset": 0, 
+    "axis": "Impact: Social"
    }, 
    {
+    "rotate": 40, 
     "value": 17, 
     "axis": "Impact: Political"
    }, 
    {
     "value": 47, 
-    "axis": "Datasets: Innovation",
-    "xOffset": -50
+    "xOffset": -20, 
+    "axis": "Data: Innovation"
    }, 
    {
     "value": 41, 
-    "axis": "Datasets: Social Policy",
-    "xOffset": 50
+    "xOffset": 20, 
+    "axis": "Data: Social"
    }, 
    {
+    "rotate": -40, 
     "value": 30, 
-    "axis": "Datasets: Accountability"
+    "axis": "Data: Accountability"
    }, 
    {
+    "rotate": 60, 
     "value": 72, 
-    "axis": "Readiness: Entrepreneurs",
-    "xOffset": 20
+    "xOffset": 0, 
+    "axis": "Ready: Entrepreneurs"
    }, 
    {
+    "rotate": 20, 
     "value": 84, 
-    "axis": "Readiness: Citizens"
+    "axis": "Ready: Citizens"
    }
   ]
  }, 
  {
   "className": "Iceland", 
+  "color": "0102,0", 
   "isocode": "IS", 
   "axes": [
    {
     "value": 61, 
-    "axis": "Readiness: Government"
+    "axis": "Ready: Govt"
    }, 
    {
+    "rotate": -20, 
     "value": 67, 
     "axis": "Impact: Economic"
    }, 
    {
+    "rotate": -60, 
     "value": 14, 
-    "axis": "Impact: Social",
-    "xOffset": -20
+    "xOffset": 0, 
+    "axis": "Impact: Social"
    }, 
    {
+    "rotate": 40, 
     "value": 39, 
     "axis": "Impact: Political"
    }, 
    {
     "value": 57, 
-    "axis": "Datasets: Innovation",
-    "xOffset": -50
+    "xOffset": -20, 
+    "axis": "Data: Innovation"
    }, 
    {
     "value": 42, 
-    "axis": "Datasets: Social Policy",
-    "xOffset": 50
+    "xOffset": 20, 
+    "axis": "Data: Social"
    }, 
    {
+    "rotate": -40, 
     "value": 13, 
-    "axis": "Datasets: Accountability"
+    "axis": "Data: Accountability"
    }, 
    {
+    "rotate": 60, 
     "value": 69, 
-    "axis": "Readiness: Entrepreneurs",
-    "xOffset": 20
+    "xOffset": 0, 
+    "axis": "Ready: Entrepreneurs"
    }, 
    {
+    "rotate": 20, 
     "value": 89, 
-    "axis": "Readiness: Citizens"
+    "axis": "Ready: Citizens"
    }
   ]
  }, 
  {
   "className": "Israel", 
+  "color": "102,102,0", 
   "isocode": "IL", 
   "axes": [
    {
     "value": 76, 
-    "axis": "Readiness: Government"
+    "axis": "Ready: Govt"
    }, 
    {
+    "rotate": -20, 
     "value": 31, 
     "axis": "Impact: Economic"
    }, 
    {
+    "rotate": -60, 
     "value": 14, 
-    "axis": "Impact: Social",
-    "xOffset": -20
+    "xOffset": 0, 
+    "axis": "Impact: Social"
    }, 
    {
+    "rotate": 40, 
     "value": 65, 
     "axis": "Impact: Political"
    }, 
    {
     "value": 47, 
-    "axis": "Datasets: Innovation",
-    "xOffset": -50
+    "xOffset": -20, 
+    "axis": "Data: Innovation"
    }, 
    {
     "value": 45, 
-    "axis": "Datasets: Social Policy",
-    "xOffset": 50
+    "xOffset": 20, 
+    "axis": "Data: Social"
    }, 
    {
+    "rotate": -40, 
     "value": 58, 
-    "axis": "Datasets: Accountability"
+    "axis": "Data: Accountability"
    }, 
    {
+    "rotate": 60, 
     "value": 65, 
-    "axis": "Readiness: Entrepreneurs",
-    "xOffset": 20
+    "xOffset": 0, 
+    "axis": "Ready: Entrepreneurs"
    }, 
    {
+    "rotate": 20, 
     "value": 67, 
-    "axis": "Readiness: Citizens"
+    "axis": "Ready: Citizens"
    }
   ]
  }, 
  {
   "className": "Italy", 
+  "color": "204,102,0", 
   "isocode": "IT", 
   "axes": [
    {
     "value": 59, 
-    "axis": "Readiness: Government"
+    "axis": "Ready: Govt"
    }, 
    {
+    "rotate": -20, 
     "value": 39, 
     "axis": "Impact: Economic"
    }, 
    {
+    "rotate": -60, 
     "value": 9, 
-    "axis": "Impact: Social",
-    "xOffset": -20
+    "xOffset": 0, 
+    "axis": "Impact: Social"
    }, 
    {
+    "rotate": 40, 
     "value": 43, 
     "axis": "Impact: Political"
    }, 
    {
     "value": 52, 
-    "axis": "Datasets: Innovation",
-    "xOffset": -50
+    "xOffset": -20, 
+    "axis": "Data: Innovation"
    }, 
    {
     "value": 50, 
-    "axis": "Datasets: Social Policy",
-    "xOffset": 50
+    "xOffset": 20, 
+    "axis": "Data: Social"
    }, 
    {
+    "rotate": -40, 
     "value": 57, 
-    "axis": "Datasets: Accountability"
+    "axis": "Data: Accountability"
    }, 
    {
+    "rotate": 60, 
     "value": 39, 
-    "axis": "Readiness: Entrepreneurs",
-    "xOffset": 20
+    "xOffset": 0, 
+    "axis": "Ready: Entrepreneurs"
    }, 
    {
+    "rotate": 20, 
     "value": 72, 
-    "axis": "Readiness: Citizens"
+    "axis": "Ready: Citizens"
    }
   ]
  }, 
  {
   "className": "Jamaica", 
+  "color": "0102,51", 
   "isocode": "JM", 
   "axes": [
    {
     "value": 28, 
-    "axis": "Readiness: Government"
+    "axis": "Ready: Govt"
    }, 
    {
+    "rotate": -20, 
     "value": 13, 
     "axis": "Impact: Economic"
    }, 
    {
+    "rotate": -60, 
     "value": 14, 
-    "axis": "Impact: Social",
-    "xOffset": -20
+    "xOffset": 0, 
+    "axis": "Impact: Social"
    }, 
    {
+    "rotate": 40, 
     "value": 0, 
     "axis": "Impact: Political"
    }, 
    {
     "value": 21, 
-    "axis": "Datasets: Innovation",
-    "xOffset": -50
+    "xOffset": -20, 
+    "axis": "Data: Innovation"
    }, 
    {
     "value": 52, 
-    "axis": "Datasets: Social Policy",
-    "xOffset": 50
+    "xOffset": 20, 
+    "axis": "Data: Social"
    }, 
    {
+    "rotate": -40, 
     "value": 12, 
-    "axis": "Datasets: Accountability"
+    "axis": "Data: Accountability"
    }, 
    {
+    "rotate": 60, 
     "value": 45, 
-    "axis": "Readiness: Entrepreneurs",
-    "xOffset": 20
+    "xOffset": 0, 
+    "axis": "Ready: Entrepreneurs"
    }, 
    {
+    "rotate": 20, 
     "value": 55, 
-    "axis": "Readiness: Citizens"
+    "axis": "Ready: Citizens"
    }
   ]
  }, 
  {
   "className": "Jordan", 
+  "color": "102,102,51", 
   "isocode": "JO", 
   "axes": [
    {
     "value": 50, 
-    "axis": "Readiness: Government"
+    "axis": "Ready: Govt"
    }, 
    {
+    "rotate": -20, 
     "value": 0, 
     "axis": "Impact: Economic"
    }, 
    {
+    "rotate": -60, 
     "value": 0, 
-    "axis": "Impact: Social",
-    "xOffset": -20
+    "xOffset": 0, 
+    "axis": "Impact: Social"
    }, 
    {
+    "rotate": 40, 
     "value": 0, 
     "axis": "Impact: Political"
    }, 
    {
     "value": 8, 
-    "axis": "Datasets: Innovation",
-    "xOffset": -50
+    "xOffset": -20, 
+    "axis": "Data: Innovation"
    }, 
    {
     "value": 29, 
-    "axis": "Datasets: Social Policy",
-    "xOffset": 50
+    "xOffset": 20, 
+    "axis": "Data: Social"
    }, 
    {
+    "rotate": -40, 
     "value": 11, 
-    "axis": "Datasets: Accountability"
+    "axis": "Data: Accountability"
    }, 
    {
+    "rotate": 60, 
     "value": 49, 
-    "axis": "Readiness: Entrepreneurs",
-    "xOffset": 20
+    "xOffset": 0, 
+    "axis": "Ready: Entrepreneurs"
    }, 
    {
+    "rotate": 20, 
     "value": 21, 
-    "axis": "Readiness: Citizens"
+    "axis": "Ready: Citizens"
    }
   ]
  }, 
  {
   "className": "Japan", 
+  "color": "204,102,51", 
   "isocode": "JP", 
   "axes": [
    {
     "value": 81, 
-    "axis": "Readiness: Government"
+    "axis": "Ready: Govt"
    }, 
    {
+    "rotate": -20, 
     "value": 20, 
     "axis": "Impact: Economic"
    }, 
    {
+    "rotate": -60, 
     "value": 43, 
-    "axis": "Impact: Social",
-    "xOffset": -20
+    "xOffset": 0, 
+    "axis": "Impact: Social"
    }, 
    {
+    "rotate": 40, 
     "value": 17, 
     "axis": "Impact: Political"
    }, 
    {
     "value": 53, 
-    "axis": "Datasets: Innovation",
-    "xOffset": -50
+    "xOffset": -20, 
+    "axis": "Data: Innovation"
    }, 
    {
     "value": 62, 
-    "axis": "Datasets: Social Policy",
-    "xOffset": 50
+    "xOffset": 20, 
+    "axis": "Data: Social"
    }, 
    {
+    "rotate": -40, 
     "value": 39, 
-    "axis": "Datasets: Accountability"
+    "axis": "Data: Accountability"
    }, 
    {
+    "rotate": 60, 
     "value": 74, 
-    "axis": "Readiness: Entrepreneurs",
-    "xOffset": 20
+    "xOffset": 0, 
+    "axis": "Ready: Entrepreneurs"
    }, 
    {
+    "rotate": 20, 
     "value": 86, 
-    "axis": "Readiness: Citizens"
+    "axis": "Ready: Citizens"
    }
   ]
  }, 
  {
   "className": "Kazakhstan", 
+  "color": "0102,102", 
   "isocode": "KZ", 
   "axes": [
    {
     "value": 53, 
-    "axis": "Readiness: Government"
+    "axis": "Ready: Govt"
    }, 
    {
+    "rotate": -20, 
     "value": 0, 
     "axis": "Impact: Economic"
    }, 
    {
+    "rotate": -60, 
     "value": 0, 
-    "axis": "Impact: Social",
-    "xOffset": -20
+    "xOffset": 0, 
+    "axis": "Impact: Social"
    }, 
    {
+    "rotate": 40, 
     "value": 7, 
     "axis": "Impact: Political"
    }, 
    {
     "value": 27, 
-    "axis": "Datasets: Innovation",
-    "xOffset": -50
+    "xOffset": -20, 
+    "axis": "Data: Innovation"
    }, 
    {
     "value": 33, 
-    "axis": "Datasets: Social Policy",
-    "xOffset": 50
+    "xOffset": 20, 
+    "axis": "Data: Social"
    }, 
    {
+    "rotate": -40, 
     "value": 33, 
-    "axis": "Datasets: Accountability"
+    "axis": "Data: Accountability"
    }, 
    {
+    "rotate": 60, 
     "value": 42, 
-    "axis": "Readiness: Entrepreneurs",
-    "xOffset": 20
+    "xOffset": 0, 
+    "axis": "Ready: Entrepreneurs"
    }, 
    {
+    "rotate": 20, 
     "value": 25, 
-    "axis": "Readiness: Citizens"
+    "axis": "Ready: Citizens"
    }
   ]
  }, 
  {
   "className": "Kenya", 
+  "color": "102,102,102", 
   "isocode": "KE", 
   "axes": [
    {
     "value": 43, 
-    "axis": "Readiness: Government"
+    "axis": "Ready: Govt"
    }, 
    {
+    "rotate": -20, 
     "value": 13, 
     "axis": "Impact: Economic"
    }, 
    {
+    "rotate": -60, 
     "value": 14, 
-    "axis": "Impact: Social",
-    "xOffset": -20
+    "xOffset": 0, 
+    "axis": "Impact: Social"
    }, 
    {
+    "rotate": 40, 
     "value": 24, 
     "axis": "Impact: Political"
    }, 
    {
     "value": 9, 
-    "axis": "Datasets: Innovation",
-    "xOffset": -50
+    "xOffset": -20, 
+    "axis": "Data: Innovation"
    }, 
    {
     "value": 43, 
-    "axis": "Datasets: Social Policy",
-    "xOffset": 50
+    "xOffset": 20, 
+    "axis": "Data: Social"
    }, 
    {
+    "rotate": -40, 
     "value": 22, 
-    "axis": "Datasets: Accountability"
+    "axis": "Data: Accountability"
    }, 
    {
+    "rotate": 60, 
     "value": 40, 
-    "axis": "Readiness: Entrepreneurs",
-    "xOffset": 20
+    "xOffset": 0, 
+    "axis": "Ready: Entrepreneurs"
    }, 
    {
+    "rotate": 20, 
     "value": 47, 
-    "axis": "Readiness: Citizens"
+    "axis": "Ready: Citizens"
    }
   ]
  }, 
  {
   "className": "Korea", 
+  "color": "204,102,102", 
   "isocode": "KR", 
   "axes": [
    {
     "value": 65, 
-    "axis": "Readiness: Government"
+    "axis": "Ready: Govt"
    }, 
    {
+    "rotate": -20, 
     "value": 46, 
     "axis": "Impact: Economic"
    }, 
    {
+    "rotate": -60, 
     "value": 17, 
-    "axis": "Impact: Social",
-    "xOffset": -20
+    "xOffset": 0, 
+    "axis": "Impact: Social"
    }, 
    {
+    "rotate": 40, 
     "value": 59, 
     "axis": "Impact: Political"
    }, 
    {
     "value": 45, 
-    "axis": "Datasets: Innovation",
-    "xOffset": -50
+    "xOffset": -20, 
+    "axis": "Data: Innovation"
    }, 
    {
     "value": 57, 
-    "axis": "Datasets: Social Policy",
-    "xOffset": 50
+    "xOffset": 20, 
+    "axis": "Data: Social"
    }, 
    {
+    "rotate": -40, 
     "value": 56, 
-    "axis": "Datasets: Accountability"
+    "axis": "Data: Accountability"
    }, 
    {
+    "rotate": 60, 
     "value": 83, 
-    "axis": "Readiness: Entrepreneurs",
-    "xOffset": 20
+    "xOffset": 0, 
+    "axis": "Ready: Entrepreneurs"
    }, 
    {
+    "rotate": 20, 
     "value": 84, 
-    "axis": "Readiness: Citizens"
+    "axis": "Ready: Citizens"
    }
   ]
  }, 
  {
   "className": "Morocco", 
+  "color": "0102,153", 
   "isocode": "MA", 
   "axes": [
    {
     "value": 54, 
-    "axis": "Readiness: Government"
+    "axis": "Ready: Govt"
    }, 
    {
+    "rotate": -20, 
     "value": 0, 
     "axis": "Impact: Economic"
    }, 
    {
+    "rotate": -60, 
     "value": 14, 
-    "axis": "Impact: Social",
-    "xOffset": -20
+    "xOffset": 0, 
+    "axis": "Impact: Social"
    }, 
    {
+    "rotate": 40, 
     "value": 33, 
     "axis": "Impact: Political"
    }, 
    {
     "value": 16, 
-    "axis": "Datasets: Innovation",
-    "xOffset": -50
+    "xOffset": -20, 
+    "axis": "Data: Innovation"
    }, 
    {
     "value": 16, 
-    "axis": "Datasets: Social Policy",
-    "xOffset": 50
+    "xOffset": 20, 
+    "axis": "Data: Social"
    }, 
    {
+    "rotate": -40, 
     "value": 19, 
-    "axis": "Datasets: Accountability"
+    "axis": "Data: Accountability"
    }, 
    {
+    "rotate": 60, 
     "value": 40, 
-    "axis": "Readiness: Entrepreneurs",
-    "xOffset": 20
+    "xOffset": 0, 
+    "axis": "Ready: Entrepreneurs"
    }, 
    {
+    "rotate": 20, 
     "value": 49, 
-    "axis": "Readiness: Citizens"
+    "axis": "Ready: Citizens"
    }
   ]
  }, 
  {
   "className": "Mexico", 
+  "color": "102,102,153", 
   "isocode": "MX", 
   "axes": [
    {
     "value": 69, 
-    "axis": "Readiness: Government"
+    "axis": "Ready: Govt"
    }, 
    {
+    "rotate": -20, 
     "value": 27, 
     "axis": "Impact: Economic"
    }, 
    {
+    "rotate": -60, 
     "value": 0, 
-    "axis": "Impact: Social",
-    "xOffset": -20
+    "xOffset": 0, 
+    "axis": "Impact: Social"
    }, 
    {
+    "rotate": 40, 
     "value": 33, 
     "axis": "Impact: Political"
    }, 
    {
     "value": 49, 
-    "axis": "Datasets: Innovation",
-    "xOffset": -50
+    "xOffset": -20, 
+    "axis": "Data: Innovation"
    }, 
    {
     "value": 56, 
-    "axis": "Datasets: Social Policy",
-    "xOffset": 50
+    "xOffset": 20, 
+    "axis": "Data: Social"
    }, 
    {
+    "rotate": -40, 
     "value": 52, 
-    "axis": "Datasets: Accountability"
+    "axis": "Data: Accountability"
    }, 
    {
+    "rotate": 60, 
     "value": 56, 
-    "axis": "Readiness: Entrepreneurs",
-    "xOffset": 20
+    "xOffset": 0, 
+    "axis": "Ready: Entrepreneurs"
    }, 
    {
+    "rotate": 20, 
     "value": 78, 
-    "axis": "Readiness: Citizens"
+    "axis": "Ready: Citizens"
    }
   ]
  }, 
  {
   "className": "Mali", 
+  "color": "204,102,153", 
   "isocode": "ML", 
   "axes": [
    {
     "value": 17, 
-    "axis": "Readiness: Government"
+    "axis": "Ready: Govt"
    }, 
    {
+    "rotate": -20, 
     "value": 6, 
     "axis": "Impact: Economic"
    }, 
    {
+    "rotate": -60, 
     "value": 0, 
-    "axis": "Impact: Social",
-    "xOffset": -20
+    "xOffset": 0, 
+    "axis": "Impact: Social"
    }, 
    {
+    "rotate": 40, 
     "value": 0, 
     "axis": "Impact: Political"
    }, 
    {
     "value": 2, 
-    "axis": "Datasets: Innovation",
-    "xOffset": -50
+    "xOffset": -20, 
+    "axis": "Data: Innovation"
    }, 
    {
     "value": 2, 
-    "axis": "Datasets: Social Policy",
-    "xOffset": 50
+    "xOffset": 20, 
+    "axis": "Data: Social"
    }, 
    {
+    "rotate": -40, 
     "value": 6, 
-    "axis": "Datasets: Accountability"
+    "axis": "Data: Accountability"
    }, 
    {
+    "rotate": 60, 
     "value": 20, 
-    "axis": "Readiness: Entrepreneurs",
-    "xOffset": 20
+    "xOffset": 0, 
+    "axis": "Ready: Entrepreneurs"
    }, 
    {
+    "rotate": 20, 
     "value": 25, 
-    "axis": "Readiness: Citizens"
+    "axis": "Ready: Citizens"
    }
   ]
  }, 
  {
   "className": "Myanmar", 
+  "color": "0102,204", 
   "isocode": "MM", 
   "axes": [
    {
     "value": 0, 
-    "axis": "Readiness: Government"
+    "axis": "Ready: Govt"
    }, 
    {
+    "rotate": -20, 
     "value": 0, 
     "axis": "Impact: Economic"
    }, 
    {
+    "rotate": -60, 
     "value": 0, 
-    "axis": "Impact: Social",
-    "xOffset": -20
+    "xOffset": 0, 
+    "axis": "Impact: Social"
    }, 
    {
+    "rotate": 40, 
     "value": 0, 
     "axis": "Impact: Political"
    }, 
    {
     "value": 4, 
-    "axis": "Datasets: Innovation",
-    "xOffset": -50
+    "xOffset": -20, 
+    "axis": "Data: Innovation"
    }, 
    {
     "value": 5, 
-    "axis": "Datasets: Social Policy",
-    "xOffset": 50
+    "xOffset": 20, 
+    "axis": "Data: Social"
    }, 
    {
+    "rotate": -40, 
     "value": 6, 
-    "axis": "Datasets: Accountability"
+    "axis": "Data: Accountability"
    }, 
    {
+    "rotate": 60, 
     "value": 0, 
-    "axis": "Readiness: Entrepreneurs",
-    "xOffset": 20
+    "xOffset": 0, 
+    "axis": "Ready: Entrepreneurs"
    }, 
    {
+    "rotate": 20, 
     "value": 10, 
-    "axis": "Readiness: Citizens"
+    "axis": "Ready: Citizens"
    }
   ]
  }, 
  {
   "className": "Mozambique", 
+  "color": "102,102,204", 
   "isocode": "MZ", 
   "axes": [
    {
     "value": 16, 
-    "axis": "Readiness: Government"
+    "axis": "Ready: Govt"
    }, 
    {
+    "rotate": -20, 
     "value": 0, 
     "axis": "Impact: Economic"
    }, 
    {
+    "rotate": -60, 
     "value": 0, 
-    "axis": "Impact: Social",
-    "xOffset": -20
+    "xOffset": 0, 
+    "axis": "Impact: Social"
    }, 
    {
+    "rotate": 40, 
     "value": 0, 
     "axis": "Impact: Political"
    }, 
    {
     "value": 19, 
-    "axis": "Datasets: Innovation",
-    "xOffset": -50
+    "xOffset": -20, 
+    "axis": "Data: Innovation"
    }, 
    {
     "value": 39, 
-    "axis": "Datasets: Social Policy",
-    "xOffset": 50
+    "xOffset": 20, 
+    "axis": "Data: Social"
    }, 
    {
+    "rotate": -40, 
     "value": 11, 
-    "axis": "Datasets: Accountability"
+    "axis": "Data: Accountability"
    }, 
    {
+    "rotate": 60, 
     "value": 15, 
-    "axis": "Readiness: Entrepreneurs",
-    "xOffset": 20
+    "xOffset": 0, 
+    "axis": "Ready: Entrepreneurs"
    }, 
    {
+    "rotate": 20, 
     "value": 40, 
-    "axis": "Readiness: Citizens"
+    "axis": "Ready: Citizens"
    }
   ]
  }, 
  {
   "className": "Mauritius", 
+  "color": "204,102,204", 
   "isocode": "MU", 
   "axes": [
    {
     "value": 39, 
-    "axis": "Readiness: Government"
+    "axis": "Ready: Govt"
    }, 
    {
+    "rotate": -20, 
     "value": 0, 
     "axis": "Impact: Economic"
    }, 
    {
+    "rotate": -60, 
     "value": 0, 
-    "axis": "Impact: Social",
-    "xOffset": -20
+    "xOffset": 0, 
+    "axis": "Impact: Social"
    }, 
    {
+    "rotate": 40, 
     "value": 7, 
     "axis": "Impact: Political"
    }, 
    {
     "value": 21, 
-    "axis": "Datasets: Innovation",
-    "xOffset": -50
+    "xOffset": -20, 
+    "axis": "Data: Innovation"
    }, 
    {
     "value": 45, 
-    "axis": "Datasets: Social Policy",
-    "xOffset": 50
+    "xOffset": 20, 
+    "axis": "Data: Social"
    }, 
    {
+    "rotate": -40, 
     "value": 13, 
-    "axis": "Datasets: Accountability"
+    "axis": "Data: Accountability"
    }, 
    {
+    "rotate": 60, 
     "value": 29, 
-    "axis": "Readiness: Entrepreneurs",
-    "xOffset": 20
+    "xOffset": 0, 
+    "axis": "Ready: Entrepreneurs"
    }, 
    {
+    "rotate": 20, 
     "value": 41, 
-    "axis": "Readiness: Citizens"
+    "axis": "Ready: Citizens"
    }
   ]
  }, 
  {
   "className": "Malawi", 
+  "color": "0102,255", 
   "isocode": "MW", 
   "axes": [
    {
     "value": 27, 
-    "axis": "Readiness: Government"
+    "axis": "Ready: Govt"
    }, 
    {
+    "rotate": -20, 
     "value": 0, 
     "axis": "Impact: Economic"
    }, 
    {
+    "rotate": -60, 
     "value": 0, 
-    "axis": "Impact: Social",
-    "xOffset": -20
+    "xOffset": 0, 
+    "axis": "Impact: Social"
    }, 
    {
+    "rotate": 40, 
     "value": 0, 
     "axis": "Impact: Political"
    }, 
    {
     "value": 14, 
-    "axis": "Datasets: Innovation",
-    "xOffset": -50
+    "xOffset": -20, 
+    "axis": "Data: Innovation"
    }, 
    {
     "value": 22, 
-    "axis": "Datasets: Social Policy",
-    "xOffset": 50
+    "xOffset": 20, 
+    "axis": "Data: Social"
    }, 
    {
+    "rotate": -40, 
     "value": 10, 
-    "axis": "Datasets: Accountability"
+    "axis": "Data: Accountability"
    }, 
    {
+    "rotate": 60, 
     "value": 21, 
-    "axis": "Readiness: Entrepreneurs",
-    "xOffset": 20
+    "xOffset": 0, 
+    "axis": "Ready: Entrepreneurs"
    }, 
    {
+    "rotate": 20, 
     "value": 37, 
-    "axis": "Readiness: Citizens"
+    "axis": "Ready: Citizens"
    }
   ]
  }, 
  {
   "className": "Malaysia", 
+  "color": "102,102,255", 
   "isocode": "MY", 
   "axes": [
    {
     "value": 64, 
-    "axis": "Readiness: Government"
+    "axis": "Ready: Govt"
    }, 
    {
+    "rotate": -20, 
     "value": 6, 
     "axis": "Impact: Economic"
    }, 
    {
+    "rotate": -60, 
     "value": 0, 
-    "axis": "Impact: Social",
-    "xOffset": -20
+    "xOffset": 0, 
+    "axis": "Impact: Social"
    }, 
    {
+    "rotate": 40, 
     "value": 0, 
     "axis": "Impact: Political"
    }, 
    {
     "value": 36, 
-    "axis": "Datasets: Innovation",
-    "xOffset": -50
+    "xOffset": -20, 
+    "axis": "Data: Innovation"
    }, 
    {
     "value": 53, 
-    "axis": "Datasets: Social Policy",
-    "xOffset": 50
+    "xOffset": 20, 
+    "axis": "Data: Social"
    }, 
    {
+    "rotate": -40, 
     "value": 22, 
-    "axis": "Datasets: Accountability"
+    "axis": "Data: Accountability"
    }, 
    {
+    "rotate": 60, 
     "value": 40, 
-    "axis": "Readiness: Entrepreneurs",
-    "xOffset": 20
+    "xOffset": 0, 
+    "axis": "Ready: Entrepreneurs"
    }, 
    {
+    "rotate": 20, 
     "value": 29, 
-    "axis": "Readiness: Citizens"
+    "axis": "Ready: Citizens"
    }
   ]
  }, 
  {
   "className": "Namibia", 
+  "color": "204,102,255", 
   "isocode": "", 
   "axes": [
    {
     "value": 27, 
-    "axis": "Readiness: Government"
+    "axis": "Ready: Govt"
    }, 
    {
+    "rotate": -20, 
     "value": 0, 
     "axis": "Impact: Economic"
    }, 
    {
+    "rotate": -60, 
     "value": 0, 
-    "axis": "Impact: Social",
-    "xOffset": -20
+    "xOffset": 0, 
+    "axis": "Impact: Social"
    }, 
    {
+    "rotate": 40, 
     "value": 0, 
     "axis": "Impact: Political"
    }, 
    {
     "value": 8, 
-    "axis": "Datasets: Innovation",
-    "xOffset": -50
+    "xOffset": -20, 
+    "axis": "Data: Innovation"
    }, 
    {
     "value": 17, 
-    "axis": "Datasets: Social Policy",
-    "xOffset": 50
+    "xOffset": 20, 
+    "axis": "Data: Social"
    }, 
    {
+    "rotate": -40, 
     "value": 10, 
-    "axis": "Datasets: Accountability"
+    "axis": "Data: Accountability"
    }, 
    {
+    "rotate": 60, 
     "value": 23, 
-    "axis": "Readiness: Entrepreneurs",
-    "xOffset": 20
+    "xOffset": 0, 
+    "axis": "Ready: Entrepreneurs"
    }, 
    {
+    "rotate": 20, 
     "value": 29, 
-    "axis": "Readiness: Citizens"
+    "axis": "Ready: Citizens"
    }
   ]
  }, 
  {
   "className": "Nigeria", 
+  "color": "0,153,0", 
   "isocode": "NG", 
   "axes": [
    {
     "value": 34, 
-    "axis": "Readiness: Government"
+    "axis": "Ready: Govt"
    }, 
    {
+    "rotate": -20, 
     "value": 13, 
     "axis": "Impact: Economic"
    }, 
    {
+    "rotate": -60, 
     "value": 0, 
-    "axis": "Impact: Social",
-    "xOffset": -20
+    "xOffset": 0, 
+    "axis": "Impact: Social"
    }, 
    {
+    "rotate": 40, 
     "value": 0, 
     "axis": "Impact: Political"
    }, 
    {
     "value": 8, 
-    "axis": "Datasets: Innovation",
-    "xOffset": -50
+    "xOffset": -20, 
+    "axis": "Data: Innovation"
    }, 
    {
     "value": 8, 
-    "axis": "Datasets: Social Policy",
-    "xOffset": 50
+    "xOffset": 20, 
+    "axis": "Data: Social"
    }, 
    {
+    "rotate": -40, 
     "value": 10, 
-    "axis": "Datasets: Accountability"
+    "axis": "Data: Accountability"
    }, 
    {
+    "rotate": 60, 
     "value": 44, 
-    "axis": "Readiness: Entrepreneurs",
-    "xOffset": 20
+    "xOffset": 0, 
+    "axis": "Ready: Entrepreneurs"
    }, 
    {
+    "rotate": 20, 
     "value": 40, 
-    "axis": "Readiness: Citizens"
+    "axis": "Ready: Citizens"
    }
   ]
  }, 
  {
   "className": "Netherlands", 
+  "color": "102,153,0", 
   "isocode": "NL", 
   "axes": [
    {
     "value": 93, 
-    "axis": "Readiness: Government"
+    "axis": "Ready: Govt"
    }, 
    {
+    "rotate": -20, 
     "value": 46, 
     "axis": "Impact: Economic"
    }, 
    {
+    "rotate": -60, 
     "value": 26, 
-    "axis": "Impact: Social",
-    "xOffset": -20
+    "xOffset": 0, 
+    "axis": "Impact: Social"
    }, 
    {
+    "rotate": 40, 
     "value": 76, 
     "axis": "Impact: Political"
    }, 
    {
     "value": 79, 
-    "axis": "Datasets: Innovation",
-    "xOffset": -50
+    "xOffset": -20, 
+    "axis": "Data: Innovation"
    }, 
    {
     "value": 82, 
-    "axis": "Datasets: Social Policy",
-    "xOffset": 50
+    "xOffset": 20, 
+    "axis": "Data: Social"
    }, 
    {
+    "rotate": -40, 
     "value": 56, 
-    "axis": "Datasets: Accountability"
+    "axis": "Data: Accountability"
    }, 
    {
+    "rotate": 60, 
     "value": 93, 
-    "axis": "Readiness: Entrepreneurs",
-    "xOffset": 20
+    "xOffset": 0, 
+    "axis": "Ready: Entrepreneurs"
    }, 
    {
+    "rotate": 20, 
     "value": 91, 
-    "axis": "Readiness: Citizens"
+    "axis": "Ready: Citizens"
    }
   ]
  }, 
  {
   "className": "Norway", 
+  "color": "204,153,0", 
   "isocode": "NO", 
   "axes": [
    {
     "value": 89, 
-    "axis": "Readiness: Government"
+    "axis": "Ready: Govt"
    }, 
    {
+    "rotate": -20, 
     "value": 48, 
     "axis": "Impact: Economic"
    }, 
    {
+    "rotate": -60, 
     "value": 17, 
-    "axis": "Impact: Social",
-    "xOffset": -20
+    "xOffset": 0, 
+    "axis": "Impact: Social"
    }, 
    {
+    "rotate": 40, 
     "value": 100, 
     "axis": "Impact: Political"
    }, 
    {
     "value": 70, 
-    "axis": "Datasets: Innovation",
-    "xOffset": -50
+    "xOffset": -20, 
+    "axis": "Data: Innovation"
    }, 
    {
     "value": 83, 
-    "axis": "Datasets: Social Policy",
-    "xOffset": 50
+    "xOffset": 20, 
+    "axis": "Data: Social"
    }, 
    {
+    "rotate": -40, 
     "value": 58, 
-    "axis": "Datasets: Accountability"
+    "axis": "Data: Accountability"
    }, 
    {
+    "rotate": 60, 
     "value": 85, 
-    "axis": "Readiness: Entrepreneurs",
-    "xOffset": 20
+    "xOffset": 0, 
+    "axis": "Ready: Entrepreneurs"
    }, 
    {
+    "rotate": 20, 
     "value": 85, 
-    "axis": "Readiness: Citizens"
+    "axis": "Ready: Citizens"
    }
   ]
  }, 
  {
   "className": "Nepal", 
+  "color": "0,153,51", 
   "isocode": "NP", 
   "axes": [
    {
     "value": 14, 
-    "axis": "Readiness: Government"
+    "axis": "Ready: Govt"
    }, 
    {
+    "rotate": -20, 
     "value": 0, 
     "axis": "Impact: Economic"
    }, 
    {
+    "rotate": -60, 
     "value": 0, 
-    "axis": "Impact: Social",
-    "xOffset": -20
+    "xOffset": 0, 
+    "axis": "Impact: Social"
    }, 
    {
+    "rotate": 40, 
     "value": 0, 
     "axis": "Impact: Political"
    }, 
    {
     "value": 16, 
-    "axis": "Datasets: Innovation",
-    "xOffset": -50
+    "xOffset": -20, 
+    "axis": "Data: Innovation"
    }, 
    {
     "value": 10, 
-    "axis": "Datasets: Social Policy",
-    "xOffset": 50
+    "xOffset": 20, 
+    "axis": "Data: Social"
    }, 
    {
+    "rotate": -40, 
     "value": 27, 
-    "axis": "Datasets: Accountability"
+    "axis": "Data: Accountability"
    }, 
    {
+    "rotate": 60, 
     "value": 32, 
-    "axis": "Readiness: Entrepreneurs",
-    "xOffset": 20
+    "xOffset": 0, 
+    "axis": "Ready: Entrepreneurs"
    }, 
    {
+    "rotate": 20, 
     "value": 50, 
-    "axis": "Readiness: Citizens"
+    "axis": "Ready: Citizens"
    }
   ]
  }, 
  {
   "className": "New Zealand", 
+  "color": "102,153,51", 
   "isocode": "NZ", 
   "axes": [
    {
     "value": 82, 
-    "axis": "Readiness: Government"
+    "axis": "Ready: Govt"
    }, 
    {
+    "rotate": -20, 
     "value": 67, 
     "axis": "Impact: Economic"
    }, 
    {
+    "rotate": -60, 
     "value": 0, 
-    "axis": "Impact: Social",
-    "xOffset": -20
+    "xOffset": 0, 
+    "axis": "Impact: Social"
    }, 
    {
+    "rotate": 40, 
     "value": 69, 
     "axis": "Impact: Political"
    }, 
    {
     "value": 76, 
-    "axis": "Datasets: Innovation",
-    "xOffset": -50
+    "xOffset": -20, 
+    "axis": "Data: Innovation"
    }, 
    {
     "value": 83, 
-    "axis": "Datasets: Social Policy",
-    "xOffset": 50
+    "xOffset": 20, 
+    "axis": "Data: Social"
    }, 
    {
+    "rotate": -40, 
     "value": 92, 
-    "axis": "Datasets: Accountability"
+    "axis": "Data: Accountability"
    }, 
    {
+    "rotate": 60, 
     "value": 68, 
-    "axis": "Readiness: Entrepreneurs",
-    "xOffset": 20
+    "xOffset": 0, 
+    "axis": "Ready: Entrepreneurs"
    }, 
    {
+    "rotate": 20, 
     "value": 93, 
-    "axis": "Readiness: Citizens"
+    "axis": "Ready: Citizens"
    }
   ]
  }, 
  {
   "className": "Pakistan", 
+  "color": "204,153,51", 
   "isocode": "PK", 
   "axes": [
    {
     "value": 12, 
-    "axis": "Readiness: Government"
+    "axis": "Ready: Govt"
    }, 
    {
+    "rotate": -20, 
     "value": 6, 
     "axis": "Impact: Economic"
    }, 
    {
+    "rotate": -60, 
     "value": 0, 
-    "axis": "Impact: Social",
-    "xOffset": -20
+    "xOffset": 0, 
+    "axis": "Impact: Social"
    }, 
    {
+    "rotate": 40, 
     "value": 0, 
     "axis": "Impact: Political"
    }, 
    {
     "value": 18, 
-    "axis": "Datasets: Innovation",
-    "xOffset": -50
+    "xOffset": -20, 
+    "axis": "Data: Innovation"
    }, 
    {
     "value": 9, 
-    "axis": "Datasets: Social Policy",
-    "xOffset": 50
+    "xOffset": 20, 
+    "axis": "Data: Social"
    }, 
    {
+    "rotate": -40, 
     "value": 13, 
-    "axis": "Datasets: Accountability"
+    "axis": "Data: Accountability"
    }, 
    {
+    "rotate": 60, 
     "value": 38, 
-    "axis": "Readiness: Entrepreneurs",
-    "xOffset": 20
+    "xOffset": 0, 
+    "axis": "Ready: Entrepreneurs"
    }, 
    {
+    "rotate": 20, 
     "value": 50, 
-    "axis": "Readiness: Citizens"
+    "axis": "Ready: Citizens"
    }
   ]
  }, 
  {
   "className": "Peru", 
+  "color": "0,153,102", 
   "isocode": "PE", 
   "axes": [
    {
     "value": 41, 
-    "axis": "Readiness: Government"
+    "axis": "Ready: Govt"
    }, 
    {
+    "rotate": -20, 
     "value": 0, 
     "axis": "Impact: Economic"
    }, 
    {
+    "rotate": -60, 
     "value": 0, 
-    "axis": "Impact: Social",
-    "xOffset": -20
+    "xOffset": 0, 
+    "axis": "Impact: Social"
    }, 
    {
+    "rotate": 40, 
     "value": 0, 
     "axis": "Impact: Political"
    }, 
    {
     "value": 53, 
-    "axis": "Datasets: Innovation",
-    "xOffset": -50
+    "xOffset": -20, 
+    "axis": "Data: Innovation"
    }, 
    {
     "value": 67, 
-    "axis": "Datasets: Social Policy",
-    "xOffset": 50
+    "xOffset": 20, 
+    "axis": "Data: Social"
    }, 
    {
+    "rotate": -40, 
     "value": 25, 
-    "axis": "Datasets: Accountability"
+    "axis": "Data: Accountability"
    }, 
    {
+    "rotate": 60, 
     "value": 35, 
-    "axis": "Readiness: Entrepreneurs",
-    "xOffset": 20
+    "xOffset": 0, 
+    "axis": "Ready: Entrepreneurs"
    }, 
    {
+    "rotate": 20, 
     "value": 62, 
-    "axis": "Readiness: Citizens"
+    "axis": "Ready: Citizens"
    }
   ]
  }, 
  {
   "className": "Philippines", 
+  "color": "102,153,102", 
   "isocode": "PH", 
   "axes": [
    {
     "value": 53, 
-    "axis": "Readiness: Government"
+    "axis": "Ready: Govt"
    }, 
    {
+    "rotate": -20, 
     "value": 0, 
     "axis": "Impact: Economic"
    }, 
    {
+    "rotate": -60, 
     "value": 14, 
-    "axis": "Impact: Social",
-    "xOffset": -20
+    "xOffset": 0, 
+    "axis": "Impact: Social"
    }, 
    {
+    "rotate": 40, 
     "value": 7, 
     "axis": "Impact: Political"
    }, 
    {
     "value": 10, 
-    "axis": "Datasets: Innovation",
-    "xOffset": -50
+    "xOffset": -20, 
+    "axis": "Data: Innovation"
    }, 
    {
     "value": 22, 
-    "axis": "Datasets: Social Policy",
-    "xOffset": 50
+    "xOffset": 20, 
+    "axis": "Data: Social"
    }, 
    {
+    "rotate": -40, 
     "value": 27, 
-    "axis": "Datasets: Accountability"
+    "axis": "Data: Accountability"
    }, 
    {
+    "rotate": 60, 
     "value": 61, 
-    "axis": "Readiness: Entrepreneurs",
-    "xOffset": 20
+    "xOffset": 0, 
+    "axis": "Ready: Entrepreneurs"
    }, 
    {
+    "rotate": 20, 
     "value": 58, 
-    "axis": "Readiness: Citizens"
+    "axis": "Ready: Citizens"
    }
   ]
  }, 
  {
   "className": "Poland", 
+  "color": "204,153,102", 
   "isocode": "PL", 
   "axes": [
    {
     "value": 26, 
-    "axis": "Readiness: Government"
+    "axis": "Ready: Govt"
    }, 
    {
+    "rotate": -20, 
     "value": 6, 
     "axis": "Impact: Economic"
    }, 
    {
+    "rotate": -60, 
     "value": 0, 
-    "axis": "Impact: Social",
-    "xOffset": -20
+    "xOffset": 0, 
+    "axis": "Impact: Social"
    }, 
    {
+    "rotate": 40, 
     "value": 7, 
     "axis": "Impact: Political"
    }, 
    {
     "value": 41, 
-    "axis": "Datasets: Innovation",
-    "xOffset": -50
+    "xOffset": -20, 
+    "axis": "Data: Innovation"
    }, 
    {
     "value": 59, 
-    "axis": "Datasets: Social Policy",
-    "xOffset": 50
+    "xOffset": 20, 
+    "axis": "Data: Social"
    }, 
    {
+    "rotate": -40, 
     "value": 35, 
-    "axis": "Datasets: Accountability"
+    "axis": "Data: Accountability"
    }, 
    {
+    "rotate": 60, 
     "value": 46, 
-    "axis": "Readiness: Entrepreneurs",
-    "xOffset": 20
+    "xOffset": 0, 
+    "axis": "Ready: Entrepreneurs"
    }, 
    {
+    "rotate": 20, 
     "value": 69, 
-    "axis": "Readiness: Citizens"
+    "axis": "Ready: Citizens"
    }
   ]
  }, 
  {
   "className": "Portugal", 
+  "color": "0,153,153", 
   "isocode": "PT", 
   "axes": [
    {
     "value": 63, 
-    "axis": "Readiness: Government"
+    "axis": "Ready: Govt"
    }, 
    {
+    "rotate": -20, 
     "value": 6, 
     "axis": "Impact: Economic"
    }, 
    {
+    "rotate": -60, 
     "value": 0, 
-    "axis": "Impact: Social",
-    "xOffset": -20
+    "xOffset": 0, 
+    "axis": "Impact: Social"
    }, 
    {
+    "rotate": 40, 
     "value": 31, 
     "axis": "Impact: Political"
    }, 
    {
     "value": 67, 
-    "axis": "Datasets: Innovation",
-    "xOffset": -50
+    "xOffset": -20, 
+    "axis": "Data: Innovation"
    }, 
    {
     "value": 42, 
-    "axis": "Datasets: Social Policy",
-    "xOffset": 50
+    "xOffset": 20, 
+    "axis": "Data: Social"
    }, 
    {
+    "rotate": -40, 
     "value": 37, 
-    "axis": "Datasets: Accountability"
+    "axis": "Data: Accountability"
    }, 
    {
+    "rotate": 60, 
     "value": 64, 
-    "axis": "Readiness: Entrepreneurs",
-    "xOffset": 20
+    "xOffset": 0, 
+    "axis": "Ready: Entrepreneurs"
    }, 
    {
+    "rotate": 20, 
     "value": 81, 
-    "axis": "Readiness: Citizens"
+    "axis": "Ready: Citizens"
    }
   ]
  }, 
  {
   "className": "Qatar", 
+  "color": "102,153,153", 
   "isocode": "QA", 
   "axes": [
    {
     "value": 66, 
-    "axis": "Readiness: Government"
+    "axis": "Ready: Govt"
    }, 
    {
+    "rotate": -20, 
     "value": 0, 
     "axis": "Impact: Economic"
    }, 
    {
+    "rotate": -60, 
     "value": 0, 
-    "axis": "Impact: Social",
-    "xOffset": -20
+    "xOffset": 0, 
+    "axis": "Impact: Social"
    }, 
    {
+    "rotate": 40, 
     "value": 0, 
     "axis": "Impact: Political"
    }, 
    {
     "value": 12, 
-    "axis": "Datasets: Innovation",
-    "xOffset": -50
+    "xOffset": -20, 
+    "axis": "Data: Innovation"
    }, 
    {
     "value": 14, 
-    "axis": "Datasets: Social Policy",
-    "xOffset": 50
+    "xOffset": 20, 
+    "axis": "Data: Social"
    }, 
    {
+    "rotate": -40, 
     "value": 10, 
-    "axis": "Datasets: Accountability"
+    "axis": "Data: Accountability"
    }, 
    {
+    "rotate": 60, 
     "value": 55, 
-    "axis": "Readiness: Entrepreneurs",
-    "xOffset": 20
+    "xOffset": 0, 
+    "axis": "Ready: Entrepreneurs"
    }, 
    {
+    "rotate": 20, 
     "value": 14, 
-    "axis": "Readiness: Citizens"
+    "axis": "Ready: Citizens"
    }
   ]
  }, 
  {
   "className": "Russia", 
+  "color": "204,153,153", 
   "isocode": "RU", 
   "axes": [
    {
     "value": 60, 
-    "axis": "Readiness: Government"
+    "axis": "Ready: Govt"
    }, 
    {
+    "rotate": -20, 
     "value": 61, 
     "axis": "Impact: Economic"
    }, 
    {
+    "rotate": -60, 
     "value": 9, 
-    "axis": "Impact: Social",
-    "xOffset": -20
+    "xOffset": 0, 
+    "axis": "Impact: Social"
    }, 
    {
+    "rotate": 40, 
     "value": 41, 
     "axis": "Impact: Political"
    }, 
    {
     "value": 35, 
-    "axis": "Datasets: Innovation",
-    "xOffset": -50
+    "xOffset": -20, 
+    "axis": "Data: Innovation"
    }, 
    {
     "value": 69, 
-    "axis": "Datasets: Social Policy",
-    "xOffset": 50
+    "xOffset": 20, 
+    "axis": "Data: Social"
    }, 
    {
+    "rotate": -40, 
     "value": 38, 
-    "axis": "Datasets: Accountability"
+    "axis": "Data: Accountability"
    }, 
    {
+    "rotate": 60, 
     "value": 52, 
-    "axis": "Readiness: Entrepreneurs",
-    "xOffset": 20
+    "xOffset": 0, 
+    "axis": "Ready: Entrepreneurs"
    }, 
    {
+    "rotate": 20, 
     "value": 48, 
-    "axis": "Readiness: Citizens"
+    "axis": "Ready: Citizens"
    }
   ]
  }, 
  {
   "className": "Rwanda", 
+  "color": "0,153,204", 
   "isocode": "RW", 
   "axes": [
    {
     "value": 52, 
-    "axis": "Readiness: Government"
+    "axis": "Ready: Govt"
    }, 
    {
+    "rotate": -20, 
     "value": 0, 
     "axis": "Impact: Economic"
    }, 
    {
+    "rotate": -60, 
     "value": 0, 
-    "axis": "Impact: Social",
-    "xOffset": -20
+    "xOffset": 0, 
+    "axis": "Impact: Social"
    }, 
    {
+    "rotate": 40, 
     "value": 9, 
     "axis": "Impact: Political"
    }, 
    {
     "value": 39, 
-    "axis": "Datasets: Innovation",
-    "xOffset": -50
+    "xOffset": -20, 
+    "axis": "Data: Innovation"
    }, 
    {
     "value": 46, 
-    "axis": "Datasets: Social Policy",
-    "xOffset": 50
+    "xOffset": 20, 
+    "axis": "Data: Social"
    }, 
    {
+    "rotate": -40, 
     "value": 21, 
-    "axis": "Datasets: Accountability"
+    "axis": "Data: Accountability"
    }, 
    {
+    "rotate": 60, 
     "value": 31, 
-    "axis": "Readiness: Entrepreneurs",
-    "xOffset": 20
+    "xOffset": 0, 
+    "axis": "Ready: Entrepreneurs"
    }, 
    {
+    "rotate": 20, 
     "value": 28, 
-    "axis": "Readiness: Citizens"
+    "axis": "Ready: Citizens"
    }
   ]
  }, 
  {
   "className": "Saudi Arabia", 
+  "color": "102,153,204", 
   "isocode": "SA", 
   "axes": [
    {
     "value": 62, 
-    "axis": "Readiness: Government"
+    "axis": "Ready: Govt"
    }, 
    {
+    "rotate": -20, 
     "value": 0, 
     "axis": "Impact: Economic"
    }, 
    {
+    "rotate": -60, 
     "value": 0, 
-    "axis": "Impact: Social",
-    "xOffset": -20
+    "xOffset": 0, 
+    "axis": "Impact: Social"
    }, 
    {
+    "rotate": 40, 
     "value": 0, 
     "axis": "Impact: Political"
    }, 
    {
     "value": 13, 
-    "axis": "Datasets: Innovation",
-    "xOffset": -50
+    "xOffset": -20, 
+    "axis": "Data: Innovation"
    }, 
    {
     "value": 30, 
-    "axis": "Datasets: Social Policy",
-    "xOffset": 50
+    "xOffset": 20, 
+    "axis": "Data: Social"
    }, 
    {
+    "rotate": -40, 
     "value": 8, 
-    "axis": "Datasets: Accountability"
+    "axis": "Data: Accountability"
    }, 
    {
+    "rotate": 60, 
     "value": 51, 
-    "axis": "Readiness: Entrepreneurs",
-    "xOffset": 20
+    "xOffset": 0, 
+    "axis": "Ready: Entrepreneurs"
    }, 
    {
+    "rotate": 20, 
     "value": 0, 
-    "axis": "Readiness: Citizens"
+    "axis": "Ready: Citizens"
    }
   ]
  }, 
  {
   "className": "Senegal", 
+  "color": "204,153,204", 
   "isocode": "SN", 
   "axes": [
    {
     "value": 19, 
-    "axis": "Readiness: Government"
+    "axis": "Ready: Govt"
    }, 
    {
+    "rotate": -20, 
     "value": 0, 
     "axis": "Impact: Economic"
    }, 
    {
+    "rotate": -60, 
     "value": 0, 
-    "axis": "Impact: Social",
-    "xOffset": -20
+    "xOffset": 0, 
+    "axis": "Impact: Social"
    }, 
    {
+    "rotate": 40, 
     "value": 0, 
     "axis": "Impact: Political"
    }, 
    {
     "value": 7, 
-    "axis": "Datasets: Innovation",
-    "xOffset": -50
+    "xOffset": -20, 
+    "axis": "Data: Innovation"
    }, 
    {
     "value": 16, 
-    "axis": "Datasets: Social Policy",
-    "xOffset": 50
+    "xOffset": 20, 
+    "axis": "Data: Social"
    }, 
    {
+    "rotate": -40, 
     "value": 8, 
-    "axis": "Datasets: Accountability"
+    "axis": "Data: Accountability"
    }, 
    {
+    "rotate": 60, 
     "value": 40, 
-    "axis": "Readiness: Entrepreneurs",
-    "xOffset": 20
+    "xOffset": 0, 
+    "axis": "Ready: Entrepreneurs"
    }, 
    {
+    "rotate": 20, 
     "value": 48, 
-    "axis": "Readiness: Citizens"
+    "axis": "Ready: Citizens"
    }
   ]
  }, 
  {
   "className": "Singapore", 
+  "color": "0,153,255", 
   "isocode": "SG", 
   "axes": [
    {
     "value": 87, 
-    "axis": "Readiness: Government"
+    "axis": "Ready: Govt"
    }, 
    {
+    "rotate": -20, 
     "value": 38, 
     "axis": "Impact: Economic"
    }, 
    {
+    "rotate": -60, 
     "value": 43, 
-    "axis": "Impact: Social",
-    "xOffset": -20
+    "xOffset": 0, 
+    "axis": "Impact: Social"
    }, 
    {
+    "rotate": 40, 
     "value": 28, 
     "axis": "Impact: Political"
    }, 
    {
     "value": 39, 
-    "axis": "Datasets: Innovation",
-    "xOffset": -50
+    "xOffset": -20, 
+    "axis": "Data: Innovation"
    }, 
    {
     "value": 57, 
-    "axis": "Datasets: Social Policy",
-    "xOffset": 50
+    "xOffset": 20, 
+    "axis": "Data: Social"
    }, 
    {
+    "rotate": -40, 
     "value": 22, 
-    "axis": "Datasets: Accountability"
+    "axis": "Data: Accountability"
    }, 
    {
+    "rotate": 60, 
     "value": 87, 
-    "axis": "Readiness: Entrepreneurs",
-    "xOffset": 20
+    "xOffset": 0, 
+    "axis": "Ready: Entrepreneurs"
    }, 
    {
+    "rotate": 20, 
     "value": 30, 
-    "axis": "Readiness: Citizens"
+    "axis": "Ready: Citizens"
    }
   ]
  }, 
  {
   "className": "Sierra Leone", 
+  "color": "102,153,255", 
   "isocode": "SL", 
   "axes": [
    {
     "value": 15, 
-    "axis": "Readiness: Government"
+    "axis": "Ready: Govt"
    }, 
    {
+    "rotate": -20, 
     "value": 0, 
     "axis": "Impact: Economic"
    }, 
    {
+    "rotate": -60, 
     "value": 0, 
-    "axis": "Impact: Social",
-    "xOffset": -20
+    "xOffset": 0, 
+    "axis": "Impact: Social"
    }, 
    {
+    "rotate": 40, 
     "value": 0, 
     "axis": "Impact: Political"
    }, 
    {
     "value": 4, 
-    "axis": "Datasets: Innovation",
-    "xOffset": -50
+    "xOffset": -20, 
+    "axis": "Data: Innovation"
    }, 
    {
     "value": 8, 
-    "axis": "Datasets: Social Policy",
-    "xOffset": 50
+    "xOffset": 20, 
+    "axis": "Data: Social"
    }, 
    {
+    "rotate": -40, 
     "value": 20, 
-    "axis": "Datasets: Accountability"
+    "axis": "Data: Accountability"
    }, 
    {
+    "rotate": 60, 
     "value": 10, 
-    "axis": "Readiness: Entrepreneurs",
-    "xOffset": 20
+    "xOffset": 0, 
+    "axis": "Ready: Entrepreneurs"
    }, 
    {
+    "rotate": 20, 
     "value": 40, 
-    "axis": "Readiness: Citizens"
+    "axis": "Ready: Citizens"
    }
   ]
  }, 
  {
   "className": "Sweden", 
+  "color": "204,153,255", 
   "isocode": "SE", 
   "axes": [
    {
     "value": 97, 
-    "axis": "Readiness: Government"
+    "axis": "Ready: Govt"
    }, 
    {
+    "rotate": -20, 
     "value": 53, 
     "axis": "Impact: Economic"
    }, 
    {
+    "rotate": -60, 
     "value": 91, 
-    "axis": "Impact: Social",
-    "xOffset": -20
+    "xOffset": 0, 
+    "axis": "Impact: Social"
    }, 
    {
+    "rotate": 40, 
     "value": 85, 
     "axis": "Impact: Political"
    }, 
    {
     "value": 67, 
-    "axis": "Datasets: Innovation",
-    "xOffset": -50
+    "xOffset": -20, 
+    "axis": "Data: Innovation"
    }, 
    {
     "value": 81, 
-    "axis": "Datasets: Social Policy",
-    "xOffset": 50
+    "xOffset": 20, 
+    "axis": "Data: Social"
    }, 
    {
+    "rotate": -40, 
     "value": 71, 
-    "axis": "Datasets: Accountability"
+    "axis": "Data: Accountability"
    }, 
    {
+    "rotate": 60, 
     "value": 96, 
-    "axis": "Readiness: Entrepreneurs",
-    "xOffset": 20
+    "xOffset": 0, 
+    "axis": "Ready: Entrepreneurs"
    }, 
    {
+    "rotate": 20, 
     "value": 100, 
-    "axis": "Readiness: Citizens"
+    "axis": "Ready: Citizens"
    }
   ]
  }, 
  {
   "className": "Thailand", 
+  "color": "0,204,0", 
   "isocode": "TH", 
   "axes": [
    {
     "value": 28, 
-    "axis": "Readiness: Government"
+    "axis": "Ready: Govt"
    }, 
    {
+    "rotate": -20, 
     "value": 0, 
     "axis": "Impact: Economic"
    }, 
    {
+    "rotate": -60, 
     "value": 0, 
-    "axis": "Impact: Social",
-    "xOffset": -20
+    "xOffset": 0, 
+    "axis": "Impact: Social"
    }, 
    {
+    "rotate": 40, 
     "value": 0, 
     "axis": "Impact: Political"
    }, 
    {
     "value": 18, 
-    "axis": "Datasets: Innovation",
-    "xOffset": -50
+    "xOffset": -20, 
+    "axis": "Data: Innovation"
    }, 
    {
     "value": 28, 
-    "axis": "Datasets: Social Policy",
-    "xOffset": 50
+    "xOffset": 20, 
+    "axis": "Data: Social"
    }, 
    {
+    "rotate": -40, 
     "value": 21, 
-    "axis": "Datasets: Accountability"
+    "axis": "Data: Accountability"
    }, 
    {
+    "rotate": 60, 
     "value": 40, 
-    "axis": "Readiness: Entrepreneurs",
-    "xOffset": 20
+    "xOffset": 0, 
+    "axis": "Ready: Entrepreneurs"
    }, 
    {
+    "rotate": 20, 
     "value": 33, 
-    "axis": "Readiness: Citizens"
+    "axis": "Ready: Citizens"
    }
   ]
  }, 
  {
   "className": "Tunisia", 
+  "color": "102,204,0", 
   "isocode": "TN", 
   "axes": [
    {
     "value": 59, 
-    "axis": "Readiness: Government"
+    "axis": "Ready: Govt"
    }, 
    {
+    "rotate": -20, 
     "value": 26, 
     "axis": "Impact: Economic"
    }, 
    {
+    "rotate": -60, 
     "value": 0, 
-    "axis": "Impact: Social",
-    "xOffset": -20
+    "xOffset": 0, 
+    "axis": "Impact: Social"
    }, 
    {
+    "rotate": 40, 
     "value": 52, 
     "axis": "Impact: Political"
    }, 
    {
     "value": 24, 
-    "axis": "Datasets: Innovation",
-    "xOffset": -50
+    "xOffset": -20, 
+    "axis": "Data: Innovation"
    }, 
    {
     "value": 25, 
-    "axis": "Datasets: Social Policy",
-    "xOffset": 50
+    "xOffset": 20, 
+    "axis": "Data: Social"
    }, 
    {
+    "rotate": -40, 
     "value": 13, 
-    "axis": "Datasets: Accountability"
+    "axis": "Data: Accountability"
    }, 
    {
+    "rotate": 60, 
     "value": 46, 
-    "axis": "Readiness: Entrepreneurs",
-    "xOffset": 20
+    "xOffset": 0, 
+    "axis": "Ready: Entrepreneurs"
    }, 
    {
+    "rotate": 20, 
     "value": 71, 
-    "axis": "Readiness: Citizens"
+    "axis": "Ready: Citizens"
    }
   ]
  }, 
  {
   "className": "Turkey", 
+  "color": "204,204,0", 
   "isocode": "TR", 
   "axes": [
    {
     "value": 42, 
-    "axis": "Readiness: Government"
+    "axis": "Ready: Govt"
    }, 
    {
+    "rotate": -20, 
     "value": 0, 
     "axis": "Impact: Economic"
    }, 
    {
+    "rotate": -60, 
     "value": 0, 
-    "axis": "Impact: Social",
-    "xOffset": -20
+    "xOffset": 0, 
+    "axis": "Impact: Social"
    }, 
    {
+    "rotate": 40, 
     "value": 17, 
     "axis": "Impact: Political"
    }, 
    {
     "value": 32, 
-    "axis": "Datasets: Innovation",
-    "xOffset": -50
+    "xOffset": -20, 
+    "axis": "Data: Innovation"
    }, 
    {
     "value": 47, 
-    "axis": "Datasets: Social Policy",
-    "xOffset": 50
+    "xOffset": 20, 
+    "axis": "Data: Social"
    }, 
    {
+    "rotate": -40, 
     "value": 28, 
-    "axis": "Datasets: Accountability"
+    "axis": "Data: Accountability"
    }, 
    {
+    "rotate": 60, 
     "value": 53, 
-    "axis": "Readiness: Entrepreneurs",
-    "xOffset": 20
+    "xOffset": 0, 
+    "axis": "Ready: Entrepreneurs"
    }, 
    {
+    "rotate": 20, 
     "value": 47, 
-    "axis": "Readiness: Citizens"
+    "axis": "Ready: Citizens"
    }
   ]
  }, 
  {
   "className": "Tanzania", 
+  "color": "0,204,51", 
   "isocode": "TZ", 
   "axes": [
    {
     "value": 21, 
-    "axis": "Readiness: Government"
+    "axis": "Ready: Govt"
    }, 
    {
+    "rotate": -20, 
     "value": 6, 
     "axis": "Impact: Economic"
    }, 
    {
+    "rotate": -60, 
     "value": 0, 
-    "axis": "Impact: Social",
-    "xOffset": -20
+    "xOffset": 0, 
+    "axis": "Impact: Social"
    }, 
    {
+    "rotate": 40, 
     "value": 0, 
     "axis": "Impact: Political"
    }, 
    {
     "value": 9, 
-    "axis": "Datasets: Innovation",
-    "xOffset": -50
+    "xOffset": -20, 
+    "axis": "Data: Innovation"
    }, 
    {
     "value": 27, 
-    "axis": "Datasets: Social Policy",
-    "xOffset": 50
+    "xOffset": 20, 
+    "axis": "Data: Social"
    }, 
    {
+    "rotate": -40, 
     "value": 14, 
-    "axis": "Datasets: Accountability"
+    "axis": "Data: Accountability"
    }, 
    {
+    "rotate": 60, 
     "value": 15, 
-    "axis": "Readiness: Entrepreneurs",
-    "xOffset": 20
+    "xOffset": 0, 
+    "axis": "Ready: Entrepreneurs"
    }, 
    {
+    "rotate": 20, 
     "value": 21, 
-    "axis": "Readiness: Citizens"
+    "axis": "Ready: Citizens"
    }
   ]
  }, 
  {
   "className": "Uganda", 
+  "color": "102,204,51", 
   "isocode": "UG", 
   "axes": [
    {
     "value": 19, 
-    "axis": "Readiness: Government"
+    "axis": "Ready: Govt"
    }, 
    {
+    "rotate": -20, 
     "value": 0, 
     "axis": "Impact: Economic"
    }, 
    {
+    "rotate": -60, 
     "value": 0, 
-    "axis": "Impact: Social",
-    "xOffset": -20
+    "xOffset": 0, 
+    "axis": "Impact: Social"
    }, 
    {
+    "rotate": 40, 
     "value": 7, 
     "axis": "Impact: Political"
    }, 
    {
     "value": 20, 
-    "axis": "Datasets: Innovation",
-    "xOffset": -50
+    "xOffset": -20, 
+    "axis": "Data: Innovation"
    }, 
    {
     "value": 23, 
-    "axis": "Datasets: Social Policy",
-    "xOffset": 50
+    "xOffset": 20, 
+    "axis": "Data: Social"
    }, 
    {
+    "rotate": -40, 
     "value": 13, 
-    "axis": "Datasets: Accountability"
+    "axis": "Data: Accountability"
    }, 
    {
+    "rotate": 60, 
     "value": 19, 
-    "axis": "Readiness: Entrepreneurs",
-    "xOffset": 20
+    "xOffset": 0, 
+    "axis": "Ready: Entrepreneurs"
    }, 
    {
+    "rotate": 20, 
     "value": 40, 
-    "axis": "Readiness: Citizens"
+    "axis": "Ready: Citizens"
    }
   ]
  }, 
  {
   "className": "Ukraine", 
+  "color": "204,204,51", 
   "isocode": "UA", 
   "axes": [
    {
     "value": 23, 
-    "axis": "Readiness: Government"
+    "axis": "Ready: Govt"
    }, 
    {
+    "rotate": -20, 
     "value": 13, 
     "axis": "Impact: Economic"
    }, 
    {
+    "rotate": -60, 
     "value": 0, 
-    "axis": "Impact: Social",
-    "xOffset": -20
+    "xOffset": 0, 
+    "axis": "Impact: Social"
    }, 
    {
+    "rotate": 40, 
     "value": 0, 
     "axis": "Impact: Political"
    }, 
    {
     "value": 31, 
-    "axis": "Datasets: Innovation",
-    "xOffset": -50
+    "xOffset": -20, 
+    "axis": "Data: Innovation"
    }, 
    {
     "value": 19, 
-    "axis": "Datasets: Social Policy",
-    "xOffset": 50
+    "xOffset": 20, 
+    "axis": "Data: Social"
    }, 
    {
+    "rotate": -40, 
     "value": 22, 
-    "axis": "Datasets: Accountability"
+    "axis": "Data: Accountability"
    }, 
    {
+    "rotate": 60, 
     "value": 33, 
-    "axis": "Readiness: Entrepreneurs",
-    "xOffset": 20
+    "xOffset": 0, 
+    "axis": "Ready: Entrepreneurs"
    }, 
    {
+    "rotate": 20, 
     "value": 59, 
-    "axis": "Readiness: Citizens"
+    "axis": "Ready: Citizens"
    }
   ]
  }, 
  {
   "className": "Uruguay", 
+  "color": "0,204,102", 
   "isocode": "UY", 
   "axes": [
    {
     "value": 68, 
-    "axis": "Readiness: Government"
+    "axis": "Ready: Govt"
    }, 
    {
+    "rotate": -20, 
     "value": 20, 
     "axis": "Impact: Economic"
    }, 
    {
+    "rotate": -60, 
     "value": 31, 
-    "axis": "Impact: Social",
-    "xOffset": -20
+    "xOffset": 0, 
+    "axis": "Impact: Social"
    }, 
    {
+    "rotate": 40, 
     "value": 24, 
     "axis": "Impact: Political"
    }, 
    {
     "value": 48, 
-    "axis": "Datasets: Innovation",
-    "xOffset": -50
+    "xOffset": -20, 
+    "axis": "Data: Innovation"
    }, 
    {
     "value": 63, 
-    "axis": "Datasets: Social Policy",
-    "xOffset": 50
+    "xOffset": 20, 
+    "axis": "Data: Social"
    }, 
    {
+    "rotate": -40, 
     "value": 39, 
-    "axis": "Datasets: Accountability"
+    "axis": "Data: Accountability"
    }, 
    {
+    "rotate": 60, 
     "value": 46, 
-    "axis": "Readiness: Entrepreneurs",
-    "xOffset": 20
+    "xOffset": 0, 
+    "axis": "Ready: Entrepreneurs"
    }, 
    {
+    "rotate": 20, 
     "value": 88, 
-    "axis": "Readiness: Citizens"
+    "axis": "Ready: Citizens"
    }
   ]
  }, 
  {
   "className": "US", 
+  "color": "102,204,102", 
   "isocode": "US", 
   "axes": [
    {
     "value": 100, 
-    "axis": "Readiness: Government"
+    "axis": "Ready: Govt"
    }, 
    {
+    "rotate": -20, 
     "value": 100, 
     "axis": "Impact: Economic"
    }, 
    {
+    "rotate": -60, 
     "value": 54, 
-    "axis": "Impact: Social",
-    "xOffset": -20
+    "xOffset": 0, 
+    "axis": "Impact: Social"
    }, 
    {
+    "rotate": 40, 
     "value": 98, 
     "axis": "Impact: Political"
    }, 
    {
     "value": 95, 
-    "axis": "Datasets: Innovation",
-    "xOffset": -50
+    "xOffset": -20, 
+    "axis": "Data: Innovation"
    }, 
    {
     "value": 77, 
-    "axis": "Datasets: Social Policy",
-    "xOffset": 50
+    "xOffset": 20, 
+    "axis": "Data: Social"
    }, 
    {
+    "rotate": -40, 
     "value": 80, 
-    "axis": "Datasets: Accountability"
+    "axis": "Data: Accountability"
    }, 
    {
+    "rotate": 60, 
     "value": 94, 
-    "axis": "Readiness: Entrepreneurs",
-    "xOffset": 20
+    "xOffset": 0, 
+    "axis": "Ready: Entrepreneurs"
    }, 
    {
+    "rotate": 20, 
     "value": 87, 
-    "axis": "Readiness: Citizens"
+    "axis": "Ready: Citizens"
    }
   ]
  }, 
  {
   "className": "Venezuela", 
+  "color": "204,204,102", 
   "isocode": "VE", 
   "axes": [
    {
     "value": 20, 
-    "axis": "Readiness: Government"
+    "axis": "Ready: Govt"
    }, 
    {
+    "rotate": -20, 
     "value": 0, 
     "axis": "Impact: Economic"
    }, 
    {
+    "rotate": -60, 
     "value": 0, 
-    "axis": "Impact: Social",
-    "xOffset": -20
+    "xOffset": 0, 
+    "axis": "Impact: Social"
    }, 
    {
+    "rotate": 40, 
     "value": 0, 
     "axis": "Impact: Political"
    }, 
    {
     "value": 21, 
-    "axis": "Datasets: Innovation",
-    "xOffset": -50
+    "xOffset": -20, 
+    "axis": "Data: Innovation"
    }, 
    {
     "value": 22, 
-    "axis": "Datasets: Social Policy",
-    "xOffset": 50
+    "xOffset": 20, 
+    "axis": "Data: Social"
    }, 
    {
+    "rotate": -40, 
     "value": 10, 
-    "axis": "Datasets: Accountability"
+    "axis": "Data: Accountability"
    }, 
    {
+    "rotate": 60, 
     "value": 28, 
-    "axis": "Readiness: Entrepreneurs",
-    "xOffset": 20
+    "xOffset": 0, 
+    "axis": "Ready: Entrepreneurs"
    }, 
    {
+    "rotate": 20, 
     "value": 15, 
-    "axis": "Readiness: Citizens"
+    "axis": "Ready: Citizens"
    }
   ]
  }, 
  {
   "className": "Vietnam", 
+  "color": "0,204,153", 
   "isocode": "VN", 
   "axes": [
    {
     "value": 27, 
-    "axis": "Readiness: Government"
+    "axis": "Ready: Govt"
    }, 
    {
+    "rotate": -20, 
     "value": 7, 
     "axis": "Impact: Economic"
    }, 
    {
+    "rotate": -60, 
     "value": 0, 
-    "axis": "Impact: Social",
-    "xOffset": -20
+    "xOffset": 0, 
+    "axis": "Impact: Social"
    }, 
    {
+    "rotate": 40, 
     "value": 0, 
     "axis": "Impact: Political"
    }, 
    {
     "value": 20, 
-    "axis": "Datasets: Innovation",
-    "xOffset": -50
+    "xOffset": -20, 
+    "axis": "Data: Innovation"
    }, 
    {
     "value": 42, 
-    "axis": "Datasets: Social Policy",
-    "xOffset": 50
+    "xOffset": 20, 
+    "axis": "Data: Social"
    }, 
    {
+    "rotate": -40, 
     "value": 18, 
-    "axis": "Datasets: Accountability"
+    "axis": "Data: Accountability"
    }, 
    {
+    "rotate": 60, 
     "value": 19, 
-    "axis": "Readiness: Entrepreneurs",
-    "xOffset": 20
+    "xOffset": 0, 
+    "axis": "Ready: Entrepreneurs"
    }, 
    {
+    "rotate": 20, 
     "value": 6, 
-    "axis": "Readiness: Citizens"
+    "axis": "Ready: Citizens"
    }
   ]
  }, 
  {
   "className": "Yemen", 
+  "color": "102,204,153", 
   "isocode": "YE", 
   "axes": [
    {
     "value": 5, 
-    "axis": "Readiness: Government"
+    "axis": "Ready: Govt"
    }, 
    {
+    "rotate": -20, 
     "value": 6, 
     "axis": "Impact: Economic"
    }, 
    {
+    "rotate": -60, 
     "value": 0, 
-    "axis": "Impact: Social",
-    "xOffset": -20
+    "xOffset": 0, 
+    "axis": "Impact: Social"
    }, 
    {
+    "rotate": 40, 
     "value": 0, 
     "axis": "Impact: Political"
    }, 
    {
     "value": 8, 
-    "axis": "Datasets: Innovation",
-    "xOffset": -50
+    "xOffset": -20, 
+    "axis": "Data: Innovation"
    }, 
    {
     "value": 9, 
-    "axis": "Datasets: Social Policy",
-    "xOffset": 50
+    "xOffset": 20, 
+    "axis": "Data: Social"
    }, 
    {
+    "rotate": -40, 
     "value": 11, 
-    "axis": "Datasets: Accountability"
+    "axis": "Data: Accountability"
    }, 
    {
+    "rotate": 60, 
     "value": 20, 
-    "axis": "Readiness: Entrepreneurs",
-    "xOffset": 20
+    "xOffset": 0, 
+    "axis": "Ready: Entrepreneurs"
    }, 
    {
+    "rotate": 20, 
     "value": 16, 
-    "axis": "Readiness: Citizens"
+    "axis": "Ready: Citizens"
    }
   ]
  }, 
  {
   "className": "South Africa", 
+  "color": "204,204,153", 
   "isocode": "ZA", 
   "axes": [
    {
     "value": 29, 
-    "axis": "Readiness: Government"
+    "axis": "Ready: Govt"
    }, 
    {
+    "rotate": -20, 
     "value": 0, 
     "axis": "Impact: Economic"
    }, 
    {
+    "rotate": -60, 
     "value": 14, 
-    "axis": "Impact: Social",
-    "xOffset": -20
+    "xOffset": 0, 
+    "axis": "Impact: Social"
    }, 
    {
+    "rotate": 40, 
     "value": 26, 
     "axis": "Impact: Political"
    }, 
    {
     "value": 37, 
-    "axis": "Datasets: Innovation",
-    "xOffset": -50
+    "xOffset": -20, 
+    "axis": "Data: Innovation"
    }, 
    {
     "value": 25, 
-    "axis": "Datasets: Social Policy",
-    "xOffset": 50
+    "xOffset": 20, 
+    "axis": "Data: Social"
    }, 
    {
+    "rotate": -40, 
     "value": 34, 
-    "axis": "Datasets: Accountability"
+    "axis": "Data: Accountability"
    }, 
    {
+    "rotate": 60, 
     "value": 53, 
-    "axis": "Readiness: Entrepreneurs",
-    "xOffset": 20
+    "xOffset": 0, 
+    "axis": "Ready: Entrepreneurs"
    }, 
    {
+    "rotate": 20, 
     "value": 62, 
-    "axis": "Readiness: Citizens"
+    "axis": "Ready: Citizens"
    }
   ]
  }, 
  {
   "className": "Zambia", 
+  "color": "0,204,204", 
   "isocode": "ZM", 
   "axes": [
    {
     "value": 19, 
-    "axis": "Readiness: Government"
+    "axis": "Ready: Govt"
    }, 
    {
+    "rotate": -20, 
     "value": 0, 
     "axis": "Impact: Economic"
    }, 
    {
+    "rotate": -60, 
     "value": 0, 
-    "axis": "Impact: Social",
-    "xOffset": -20
+    "xOffset": 0, 
+    "axis": "Impact: Social"
    }, 
    {
+    "rotate": 40, 
     "value": 0, 
     "axis": "Impact: Political"
    }, 
    {
     "value": 15, 
-    "axis": "Datasets: Innovation",
-    "xOffset": -50
+    "xOffset": -20, 
+    "axis": "Data: Innovation"
    }, 
    {
     "value": 7, 
-    "axis": "Datasets: Social Policy",
-    "xOffset": 50
+    "xOffset": 20, 
+    "axis": "Data: Social"
    }, 
    {
+    "rotate": -40, 
     "value": 10, 
-    "axis": "Datasets: Accountability"
+    "axis": "Data: Accountability"
    }, 
    {
+    "rotate": 60, 
     "value": 21, 
-    "axis": "Readiness: Entrepreneurs",
-    "xOffset": 20
+    "xOffset": 0, 
+    "axis": "Ready: Entrepreneurs"
    }, 
    {
+    "rotate": 20, 
     "value": 24, 
-    "axis": "Readiness: Citizens"
+    "axis": "Ready: Citizens"
    }
   ]
  }, 
  {
   "className": "Zimbabwe", 
+  "color": "102,204,204", 
   "isocode": "ZW", 
   "axes": [
    {
     "value": 20, 
-    "axis": "Readiness: Government"
+    "axis": "Ready: Govt"
    }, 
    {
+    "rotate": -20, 
     "value": 0, 
     "axis": "Impact: Economic"
    }, 
    {
+    "rotate": -60, 
     "value": 0, 
-    "axis": "Impact: Social",
-    "xOffset": -20
+    "xOffset": 0, 
+    "axis": "Impact: Social"
    }, 
    {
+    "rotate": 40, 
     "value": 7, 
     "axis": "Impact: Political"
    }, 
    {
     "value": 13, 
-    "axis": "Datasets: Innovation",
-    "xOffset": -50
+    "xOffset": -20, 
+    "axis": "Data: Innovation"
    }, 
    {
     "value": 13, 
-    "axis": "Datasets: Social Policy",
-    "xOffset": 50
+    "xOffset": 20, 
+    "axis": "Data: Social"
    }, 
    {
+    "rotate": -40, 
     "value": 12, 
-    "axis": "Datasets: Accountability"
+    "axis": "Data: Accountability"
    }, 
    {
+    "rotate": 60, 
     "value": 25, 
-    "axis": "Readiness: Entrepreneurs",
-    "xOffset": 20
+    "xOffset": 0, 
+    "axis": "Ready: Entrepreneurs"
    }, 
    {
+    "rotate": 20, 
     "value": 18, 
-    "axis": "Readiness: Citizens"
+    "axis": "Ready: Citizens"
    }
   ]
  }

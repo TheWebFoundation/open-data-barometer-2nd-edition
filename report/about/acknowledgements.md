@@ -10,7 +10,7 @@ group: about
 
 <span class="lead">The Open Data Barometer is only possible thanks to the contributions of a wide network of contributors. Our thanks to the following:</span>
 
-**Lead Author:** Tim Davies, with Raed M. Sharif and Jose M. Alonso.
+**Lead Author:** Tim Davies, with Raed M. Sharif and Jose M. Alonso. (Correspondence to [project-odb@webfoundation.org](mailto:project-odb@webfoundation.org))
 
 **Research Coordination:** Carlos Iglesias, Raed M. Sharif, Ginette Law, Aman Grewal, Jose M. Alonso and Laura M. James Bromwich
 

@@ -1,0 +1,9 @@
+.radar-chart .area {
+  fill-opacity: 0.2 !important;
+}
+.radar-chart.focus .area {
+  fill-opacity: 0.2 !important;
+}
+.radar-chart.focus .area.focused {
+  fill-opacity: 0.5 !important;
+}

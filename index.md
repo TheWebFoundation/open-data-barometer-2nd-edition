@@ -18,51 +18,69 @@ tagline: 2014 Global Report
 
 <div class="row frontrow">
 
-<div class="col-sm-4 frontbox"  markdown="1" >
-<div class="frontbox-inner" style="background-image:url('/assets/images/cluster-map.png')">
-<div class="front-text"><a href="report/summary/">Key findings</a> > The report highlights progress towards open data impacts, and challenges ahead to creating an inclusive and open 'data revolution'.</div>
-</div>
-</div>
-
-<div class="col-sm-4 frontbox" markdown="1">
-<div class="frontbox-inner" style="background-image:url('/assets/images/dataset-matrix.png')">
-    
-<div class="front-text"><a href="report/summary/the_barometer.html">About</a> > The Open Data Barometer presents in-depth research into open data readiness, implementation and impacts in 86 diverse countries across the globe.</div>
-</div>
-</div>
-
-<div class="col-sm-4 frontbox" markdown="1">
-<div class="frontbox-inner" style="background-image:url('/assets/images/seconded/rankings.png')">
-<div class="front-text"><a href="report/analysis/rankings.html">Rankings</a> > We combine each dimension of the Barometer to provide a global ranking, comparing progress of countries year-to-year.</div>
-</div>
-</div>
-
-</div>
+<p class="lead">As the UN leads a conversation on the need for a Data Revolution to support the Post-2015 Sustainable Development Goals, our research highlights the lack of open and accessible data on the performance of key public services. If the political and social impacts of open data are to be realised, work to increase the supply of datasets from right across government will be needed, alongside sustained investment in capacity building,  training and support for effective data use.</p>
+<p style="text-align:center;">
+<a href="/report/summary/">Read online report</a> | <a href="/report/analysis/rankings.html">View rankings</a> | Download PDF
+</p>
+</div>    
 
 
 <div class="row frontrow">
     
-<div class="col-sm-4 frontbox" markdown="1">
-<div class="frontbox-inner" style="background-image:url('/assets/images/seconded/impact.png')">
-<div class="front-text"><a href="report/analysis/">Analysis</a> > Section-by-section analysis of readiness, implementation and impact, presented with commentary and interactive charts to let you explore the data.</div>
+<div class="col-sm-12 frontbox-map" markdown="1">
+<a href="/report/summary/"><img src="/assets/images/seconded/clustermap.png" class="img-responsive" width="100%"/></a>  
+<div>Open data initiatives vary in their ability to easily unlock a broad range of social, political and economics impacts. There is no one-size fits all approach to open data. Different countries face different challenges, and have different opportunities to innovate in increasing the quality, timeliness and accessibility of data, and in mobilising it to create change. The Open Data Barometer provides data on readiness, implementation and impacts of open data to support research and policy. </div>
 </div>
 </div>
+
+<div class="row frontrow">
+
+<div class="col-sm-6 frontbox2"  markdown="1">
+<div class="frontbox2-inner" style="background-image:url('/assets/images/dataset-matrix.png')">
+<div class="front2-text">Action is needed to close the growing data divide, and to guarantee that the benefits of open data will be available to all. Different approaches will be needed to make government 'open by default' in different countries.<br/></div>
+</div>
+</div>
+
+<div class="col-sm-6 frontbox2"  markdown="1">
+<div class="frontbox2-inner" style="background-image:url('/assets/images/seconded/impact.strong.init.png'); background-position-x:0px">
+<div class="front2-text">Entrepreneurial open data use has overtaken accountability as the most observed impact from OGD initiatives. Political impacts are linked to support for innovation, and the presence of city level open data activity.<br/> </div>
+</div>
+</div>
+    
+</div>
+
+
+
+
+<div class="row frontrow">
 
 <div class="col-sm-4 frontbox" markdown="1">
-<div class="frontbox-inner" style="background-image:url('/assets/images/seconded/explorer.png')">
-<div class="front-text"><a href="report/analysis/explorer.html">Explorer</a> > Drill down into the strengths and weaknesses of government open data activity in individual countries.</div>
+<p style="text-align:center;">
+<span class="glyphicon glyphicon-book" aria-hidden="true" style="font-size:100px; padding-top:30px; text-align:center; color:lightGrey;"></span></p>
+<p>
+<a href="/report/summary">Read the report</a>: for key findings, details of the method, and in-depth analysis on open data readiness, implementation and impact across 86 countries.
+</p>
 </div>
+
+
+<div class="col-sm-4 frontbox" markdown="1">
+<p style="text-align:center;">
+<span class="glyphicon glyphicon-download" aria-hidden="true" style="font-size:100px; padding-top:30px; text-align:center; color:lightGrey;"></span></p>
+<p>
+<a href="report/about/data.html">Get the data</a>. Download qualitative and quantitative data from our expert survey and remix the results.
+</p>
 </div>
 
 <div class="col-sm-4 frontbox" markdown="1">
-<div class="frontbox-inner" style="background-image:url('/assets/images/download-panel.png')">
-<div class="front-text"><a href="report/about/data.html">Data</a> > The Barometer is designed as a foundation for future research. We provide full access to the quantitative and qualitative data from the study.</div>
+<p style="text-align:center;">
+<span class="glyphicon glyphicon-comment" aria-hidden="true" style="font-size:100px; padding-top:30px; text-align:center; color:lightGrey;"></span></p>
+<p>
+<a href="http://www.opendataresearch.org/network">Engage</a>. Discuss the Barometer results on Twitter (<a href="https://twitter.com/intent/tweet?text=Exploring%20the%20global%20open%20data%20landscape%20at%20http%3A%2F%2Fwww.opendatabarometer.org%20%23opendatabarometer%20%40odrnetwork">#opendatabarometer</a>) or in the <a href="https://www.linkedin.com/groups?mostRecent=&gid=4790214">Open Data Research Network LinkedIn group</a>. Keep in touch with updates through our <a href="http://opendataresearch.us2.list-manage.com/subscribe?u=809a8ec57d058d7fbcabbb980&id=b381cc451a">newsletter</a>.
+</p>
 </div>
+  
 </div>
 
-
-
-</div>
 
 <div class="row">
 <div class="col-sm-3" markdown="1">

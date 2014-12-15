@@ -20,7 +20,7 @@ javascript:
 
 In the following pages you will find an individual breakdown of results on readiness, implementation and impact, as well as a overall ranking. In the results we draw upon a clustering of countries as described below. The readiness and impact sections are based on data collected covering the period May 2013 to July 2014, and the dataset implementation questions are based on data collected in September and October 2014. 
 
-<div id="map_container" style="position: relative; width: 90%px; height: 600px;"></div>
+<div id="map_container" style="position: relative; width: 100%; height: 600px;"></div>
 <div id="map-caption" class="caption">Country clusters based on Open Data Barometer Readiness and Impact questions<br/>
 <span style="color:#164F5F;">High capacity</span>, <span style="color:#1B6C61;">Emerging & advancing</span>, <span style="color:#83C04C;">Capacity constrained</span>, <span style="color:#D3DA61">One sided initiatives</span></div>
 

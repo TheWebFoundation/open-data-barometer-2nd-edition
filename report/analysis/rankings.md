@@ -16,6 +16,7 @@ javascript:
 css:
  - stylesheet: /assets/js/jquery.dataTables.min.css
  - stylesheet: /assets/js/select2-bootstrap.css
+ - stylesheet: /assets/css/countries.css
  - stylesheet: /assets/js/select2.css
 ---
 
@@ -83,7 +84,10 @@ In this section we analyse the changes between the first and second editions of 
 Just 16 of the 77 countries (20%) included in the 2013 Open Data Barometer see a reduction in their scaled ODB score in this edition. In general, the trend is towards steady, but not outstanding, growth in open data readiness and implementation. However, the picture varies substantially across the different country clusters.
 
 ### Capacity constrained 
-<div class="radarchart" id="capacity" data-countries="ID,NG"></div>
+<div class="col-md-4" class="pull-right">
+<div class="radarchart" id="capacity2" data-countries="ID,NG,KE,NG"></div>
+</div>
+
 In the capacity constrained cluster, Indonesia and Nigeria see the strongest growth in ODB score and rank. Kenya experiences the largest fall in rank, and in countries with civil society-led activities such as Nepal and Uganda, the continued limits on government engagement with their open data initiatives cause minor score reductions.
 
 The role of Indonesia as lead chair of the Open Government Partnership in 2013/14 focussed both domestic and international attention on the development of open data policy and practice. There has been gradually growing civil society engagement around open data, particularly in Urban centres such as Jakarta, and some increase in the availability of capacity building training and support for innovation. 
@@ -93,11 +97,12 @@ In Nigeria, the Minister of Communication Technology launched an OGD initiative 
 At the other end of the table, Keyna has fallen 27 places in the overall rankings, and seen a reducation in scaled ODB score from 43 to 26. Whilst many hoped in 2011 that the high-profile launch of an open data portal would be followed by ongoing commitment and a policy framework for open data, no such framework has come into force, and few updates have been made to the data on the portal over recent years. The stagnation of Kenya's open data activities have been much discussed, including by some of its lead architects, who argue for a renewed commitment which builds on legislative foundations in Right to Information and Data Protection Laws[^ke1]. Kenya has also gone through a process of constitutional reform, devolving power to localities. Whilst this presents an important opportunity to design new infrastructures of administrative data management which apply 'open by default' principles, there is little evidence that this is happening. The failure of Kenya to sustain the supply of timely and relevant open data, and the limited sustainability and scalability of applications built be local developer communities using government data[^ke2], should raise significant questions about the best design of open data initiatives in capacity constrained countries. 
 
 There are considerable similarities in the readiness levels of Nigeria, Indonesia and Kenya. Whether or not initiatives in Nigeria and Indonesia can be sustained beyond initial donor investments and interest may depend on whether the models of open data initiative adopted can shift from transplanting practice from higher capacity countries, to developing open data practices which respond to the local availability of technical intermediaries, the capacities of different parts of government, and the local social dynamics of information access and trust[^ke3]. Ghana also provides a useful point of comparison: where supply has increased, but impacts are not yet seen. In Ghana, the Barometer records a minor drop in readiness in this edition, as the country's 2012 launch of an open data initiative appears not to have been followed up with substantial policy attention. However the last year has seen steady growth in open data availability from [data.gov.gh](http://data.gov.gh/). The portal has replicated the idea of hosting thematic communities, an idea initially developed in the USA, but there is little evidence of community engagement at present, and the Barometer records no evidence of impacts from open data use in Ghana. 
-<select multiple="true" id="radar-countries" style="min-width:300px;"></select>
-<button type="button" class="btn btn-primary" id="redraw-button">Visualize</button>
-<div><div class="radarchart" id="capacity2" data-countries="NP,UG,BF,BW,SL"></div>
 
-</div>Two countries which have been exploring alternative models for open data are Nepal and Uganda, where civil society networks have been created, establishing [Open Nepal](http://opennepal.net/), and [Open Development Uganda](http://www.opendev.ug/), as well as creating their own data portals independently of government[^ne1]. The current focus of the Open Data Barometer on data government activities does not fully capture these efforts in the quantitative scoring, but in each country there have been efforts to engage with government - including through technical agencies and through specific ministries. These initiatives points towards one possible future for an inclusive data revolution, in which open data initiatives are developed as equal multi-stakeholder partnerships between civil society, government, donors and social entrepreneurs, cooperatively working to increase the quantity and quality of data available to improve decision making by all parties. However, the extent to which current models of support and financing for open data activities are set-up to enable growth of models like this is unclear. 
+<div class="col-md-4" class="pull-right">
+<div class="radarchart" id="capacity3" data-countries="UG,NP"></div>
+</div>
+
+Two countries which have been exploring alternative models for open data are Nepal and Uganda, where civil society networks have been created, establishing [Open Nepal](http://opennepal.net/), and [Open Development Uganda](http://www.opendev.ug/), as well as creating their own data portals independently of government[^ne1]. The current focus of the Open Data Barometer on data government activities does not fully capture these efforts in the quantitative scoring, but in each country there have been efforts to engage with government - including through technical agencies and through specific ministries. These initiatives points towards one possible future for an inclusive data revolution, in which open data initiatives are developed as equal multi-stakeholder partnerships between civil society, government, donors and social entrepreneurs, cooperatively working to increase the quantity and quality of data available to improve decision making by all parties. However, the extent to which current models of support and financing for open data activities are set-up to enable growth of models like this is unclear. 
 
 Countries to watch in the coming year in this cluster include Botswana, where an open data readiness assessment was recently undertaken[^bw1], and Burkina Faso, which launched an open data initiative led by the Ministry for Digital Economy, and funded by a World Bank loan, in April 2014[^bf1]. Both countries currently lack Right to Information laws. Sierra Leone, with a newly passed RTI law, also has potential to develop open data activities over the coming year, exploring ways to integrate open data into the roll out of the new right to information processes, and to make data accessible both digitally and in non-digital forms[^sl1]. 
 
@@ -107,6 +112,9 @@ Amongst emerging and advancing countries, the last year has seen a considerable 
 
 In this cluster Chile, Uruguay, China, Peru, Brazil, Czech Republic, Ecuador, Greece, Hungary, Spain, South Africa, and Mexico all see growth in terms of readiness and implementation. Progress is more moderate amongst Colombia, Ireland, Italy, Philippines, Portugal, Russia and Tunisia, and changes in Argentina, Costa Rica and India are within the margin of error of the study. Poland, which is included in the ODB for the first time in this edition ranks roughly at the centre of this group, in 35th overall position, with reasonable levels of readiness and impact, but low perceived impact from open data. 
 
+<div class="col-md-4" class="pull-right">
+<div class="radarchart" id="emerging" data-countries="CN,CL,MX,IN"></div>
+</div>
 China experiences one of the highest ODB score changes in this cluster compared to 2013 scores. The survey records an increase in the readiness of entrepreneurs in China to engage with open data, as well as a continued growth city-level initiatives, such as in Beijing, Shanghai, Qindao City, Wuhan City and Guangzhou Municipality. These initiatives often link the concepts of open data and big data, looking to draw on the technical capacity of the state, and entrepreneurs outside the state, to drive greater efficiency of governing through data. This is reflected in the strongest open data impact score for China relating to increasing government effectiveness and efficiency. The survey also identifies cases of companies who previously bought government data now being able to access it for free as a result of open data policies, contributing to greater economic surplus. China has also seen a growth in the availability of environmental information over the last year, at least in part due to citizen action, with infzm.com reporting that citizen-science projects to measure water quality resulted in pressure for official sources of water quality to be disclosed[^cn1]. However, although the increase in social policy dataset availability is notable, accountability datasets remain almost completely absent, highlighting the extent to which countries may seek to selectively pursue open data policy, without releasing a full spectrum of data.
 
 The strong growth in ODB position amongst Latin American countries within this cluster reflects a growing momentum around open data on the continent, where substantial developments are also being seen at the city level[^la1]. In Uruguay for example, researchers cite the strong push for open data from the government of the city of Montevideo which serves almost half the population of the country[^ur1]. The region also has relatively strong engagement between government and civic technology communities, with regional events such as [Condatos](http://condatos.org/) attracting participants from all sectors, and a number of countries running regular hackathons, ideation events and other technical oriented engagement activities. The strength of open source communities and cultures plays a role in supporting engagement with the concept of open data. A focus on data journalism is also a notable feature of the landscape in a number of Latin American countries, with traditional and emerging media exploring how data can be used to uncover stories on government activities. In a break from the common pattern where it tends to be new technology-centric civil society networks and organisations focussing on open data, in Argentina, mainstream civil society organisations such as the Centro de Implementacion de Politicas Publicas para la Equidad y el Crecimiento (CIPPEC) have developed open data activities and focussed attention in new areas - in particular looking to extend the application of open data from the executive to the judicial branch of government[^ar1].
@@ -125,6 +133,9 @@ Amongst countries in Asia in this cluster, both India and the Philippines see on
 
 ### High capacity 
 
+<div class="col-md-4" class="pull-right">
+<div class="radarchart" id="high" data-countries="FR,GB,US"></div>
+</div>
 Each of the countries in the high capacity cluster have observed some impacts of open data over the last year, and the general trend is towards increased readiness and implementation of open data. However, examining the rankings, an number of countries stand out from the general trend, with either ranking gains or falls.
 
 France enters the top five, with a rank position of 4, rising six rank places on last year. In May 2014, France announced it would be the first European Country to appoint a Chief Data Officer[^fr1], responsible for:
@@ -146,6 +157,9 @@ The UK, USA and Sweden remain at the top of this cluster, and the top of the Bar
 
 ### One-sided initiatives
 
+<div class="col-md-4" class="pull-right">
+<div class="radarchart" id="onesided" data-countries="UA,SA,MY"></div>
+</div>
 The small number of countries clustered under 'one sided initiatives' all have high levels of Internet penetration, high or upper-middle income status, and strong government capacity. All lack Right to Information laws. In most cases there is also a reasonable level of government capacity. However, civil society freedoms and capacity are very limited in this cluster, as is the breadth of data published governments. The outlier may be Malaysia, which is the highest ranked in this cluster (and perhaps the weakest fit in the cluster, as the Freedom House measure of civil society freedoms used in the Barometer scores Malaysia almost 100% higher than others in the cluster). The Malaysian open data initiative currently provides over 100 datasets from 11 different ministries. However, researchers note that there has been very little outreach to engage users with the data, or to prioritise the datasets most in demand. The lack of a Right to Information law further undermines space for the initiative to be demand-driven, rather than implemented top-down by government. 
 
 The UAE scores highest on readiness in this cluster, in part because of policy commitments that have been made to open data within the framework of well funded e-government reforms. This equation of open data with an e-government, rather than an open government paradigm, is characteristic of engagement with open data within the gulf states, and is reflected in the fact that even though this cluster of countries have reasonable levels of entrepreneur readiness to engage with data, few economic impacts have yet been identified, and social impact is very weak. A broader framing of open data as associated with "[supporting] the ... National Development Strategy 2011-2016’s call for Transparency, Efficiency and Participation of its people" was present in a March 2014 consultation on open data policy in Qatar[^qa1], through the translation of this into the availability of key transparency, accountability and social policy datasets remains to be seen. 
@@ -219,13 +233,23 @@ Through this two-year pilot of the Open Data Barometer we have established a cor
  
 <script>
 
-function radar_select_country(data, countries) {
+function radar_select_country(data, countries, target) {
      filtered = []
      for(i in data) {
          if(countries.indexOf(data[i]['isocode']) > -1) {
              filtered.push(data[i])
          }
      }
+     target = target
+     RadarChart.draw(target, filtered);
+     $(target).find(".area").each(function() {
+            color = $(this).css("stroke")
+            $(target).siblings().find(".select2-choices  li:contains('"+$(this).attr("class").split(" ").pop()+"')").each(function() {
+                console.log("2px solid "+color)
+                $(this).css("border","2px solid "+color)
+            });
+            
+         })
      return filtered
 }
 
@@ -244,22 +268,27 @@ function country_names(data,countries) {
           type: "GET",
           url: "/assets/data/countries.json",
           success: function (data) { 
-            $("#radar-countries").select2({
-                minimumInputLength: 1
-            });
-            $("#redraw-button").on("click", function(){
-                var newCountries = $.map($("#radar-countries").select2("data"), function(d){return d.id});
-                RadarChart.draw("#capacity2", radar_select_country(data, newCountries));
-            });
-            $('#radar-countries').append( $.map(data, function(v, i){ return $('<option>', { val: v.isocode, text: v.className }); }) );
             $(".radarchart").each(function(chart){
+                $(this).after('<button type="button" class="btn btn-primary" id="redraw-button-'+$(this).attr("id")+'" style="float:right;">Update</button><select multiple="true" id="radar-countries-'+$(this).attr("id")+'" style="width:320px; margin-left:20px;"></select>');
+                
                 countries = $(this).data("countries").split(",");
-                filtered = radar_select_country(data,countries);
-                console.log(filtered);
-                RadarChart.draw("#"+$(this).attr("id"), filtered);
-                $(this).append("<div class='radar-legend'><span class='item'>"+country_names(data,countries).join(", </span><span class='item'>")+"</span></div>")
+                
+                $('#radar-countries-'+$(this).attr("id")).append( $.map(data, function(v, i){ return $('<option>', { selected:(countries.indexOf(v.isocode) > -1 ? true : false), val: v.isocode, text: v.className }); }) );
+                
+                $("#radar-countries-"+$(this).attr("id")).select2({
+                    minimumInputLength: 1
+                });
+                
+                $("#redraw-button-"+$(this).attr("id")).on("click", function(){
+                    var newCountries = $.map($("#radar-countries-"+$(this).siblings('.radarchart').attr("id")).select2("data"), function(d){return d.id});
+                    radar_select_country(data, newCountries, "#"+$(this).siblings('.radarchart').attr("id"));
+                });
+                
+                radar_select_country(data,countries,"#"+$(this).attr("id"));
+                
+                
+                
             })
-            //Only activate after successful ajax
          }
       });
   });

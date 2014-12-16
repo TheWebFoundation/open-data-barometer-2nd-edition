@@ -34,7 +34,7 @@ When we discuss open data in this report, we are discussing data that is:
 
 * **Accessible** - by being proactively published, and being made available without charge.
 
-* **Machine-readabile** - by being published in file formats and structures that allow computers to extract and process the data: sorting, filtering and searching through the contents.
+* **Machine-readable** - by being published in file formats and structures that allow computers to extract and process the data: sorting, filtering and searching through the contents.
 
 * **Re-usable** - by being made available under legal regimes or explicit terms that place a minimum of restrictions on how the data may be used. At most the publisher can specify how the source should be acknowledged. 
 

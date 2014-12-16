@@ -37,16 +37,16 @@ You can hover over the map above to find the clusters assigned to individual cou
     <tr>
       <th style="text-align: center" width="25%">High capacity</th>
       <th style="text-align: center" width="25%">Emerging and advancing</th>
-      <th style="text-align: center" width="25%">One sided initiative</th>
       <th style="text-align: center" width="25%">Capacity constrained</th>
+      <th style="text-align: center" width="25%">One sided initiative</th>
     </tr>
   </thead>
   <tbody>
     <tr>
       <td style="text-align: center">UK, US, Sweden, France, New Zealand, Netherlands, Canada, Norway, Denmark, Australia, Germany, Finland, Estonia, Korea, Austria, Japan, Israel, Switzerland, Belgium, Iceland and Singapore</td>
       <td style="text-align: center">Spain, Chile, Czech Republic, Brazil, Italy, Mexico, Uruguay, Russia, Portugal, Greece, Ireland, Hungary, Peru, Poland, Argentina, Ecuador, India, Colombia, Costa Rica, South Africa, Tunisia, China, Philippines and Morocco</td>
-      <td style="text-align: center">Malaysia, Kazakhstan, UAE, Saudi Arabia, Bahrain and Qatar</td>
       <td style="text-align: center">Indonesia, Turkey, Ghana, Rwanda, Jamaica, Kenya, Mauritius, Ukraine, Thailand, Vietnam, Mozambique, Jordan, Nepal, Egypt, Uganda, Pakistan, Benin, Bangladesh, Malawi, Nigeria, Tanzania, Venezuela, Burkina Faso, Senegal, Zimbabwe, Namibia, Botswana, Ethiopia, Sierra Leone, Zambia, Yemen, Cameroon, Mali, Haiti, Myanmar</td>
+        <td style="text-align: center">Malaysia, Kazakhstan, UAE, Saudi Arabia, Bahrain and Qatar</td>
     </tr>
   </tbody>
 </table>

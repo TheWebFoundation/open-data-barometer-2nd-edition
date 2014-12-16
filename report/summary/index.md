@@ -13,7 +13,7 @@ subgroup: summary
 
 <div class="row">
 <div class="col-sm-12" markdown="1">
-This second edition of the Open Data Barometer presents a picture of steady growth of data supply and use in leading countries, whilst many others are being left behind, lacking key capacities to produce, share and use open data. Overall, the entrepreneurial use of open data has overtaken transparency and accountability as the widest perceived area of impacts, and evidence of social or environmental impacts from open data remains scarce. As the UN leads a conversation on the need for a '[Data Revolution](http://www.undatarevolution.org)' to support the [Post-2015 Sustainable Development Goals](http://sustainabledevelopment.un.org/post2015.html), our research highlights the lack of open and accessible data on the performance of key public services. If the political and social impacts of open data are to be realised, work to increase the supply of datasets from right across government will be needed, alongside sustained investment in capacity building, training and support for effective data use.
+This second edition of the Open Data Barometer presents a picture of steady growth of data supply and use in leading countries, whilst many others are being left behind, lacking key capacities to produce, share and use open data. Overall, the entrepreneurial use of open data has overtaken transparency and accountability as the widest perceived area of impacts, and evidence of social or environmental impacts from open data remains scarce. As the UN leads a conversation on the need for a '[Data Revolution](http://www.undatarevolution.org)' to support the [Post-2015 Sustainable Development Goals](http://sustainabledevelopment.un.org/post2015.html), our research highlights the lack of open and accessible data on the performance of key public services. If the political and social impacts of open data are to be realised, work is needed to increase the supply of datasets from right across government, alongside sustained investment in all sectors on capacity building, training and support for effective data use.
 </div>
 </div>
 <div class="row">
@@ -89,6 +89,8 @@ Based on a statistical cluster analysis of all the variables in the Open Data Ba
 
 Different strategies will be needed in each cluster in order to develop and deepen effective open data practice. Whilst the 'big tent' of open data, the well networked open data community, and the availability of shared guides, tools and technologies, have all helped the open data concept to spread rapidly, there is no single 'best practice' for delivering an open data initiative. Continued innovation and evaluation is needed to find best fit approaches to apply in relation to different countries, communities, datasets and goals for open data policy.
 
+
+The rest of this report looks in depth at different aspects of the open data landscape, before providing an aggregated ranking of country performance on readiness, implementation and impact.
 
 <div class="panel panel-default">
 <div class="panel-body" markdown="1"><a href="/report/about/data.html"><i class="glyphicon glyphicon-download pull-right" style="font-size:8em; color:lightgrey;"></i><a>

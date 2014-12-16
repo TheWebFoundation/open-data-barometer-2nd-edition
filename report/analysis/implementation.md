@@ -172,7 +172,7 @@ The [Open Contracting Data Standard](http://standard.open-contracting.org), laun
 ## Dataset details
 Although the overall picture of open data implementation shows that there is a long way yet to go, some countries continue to move towards 'open by default'. 
 
-The chart below offers a full view of all the datasets assessed for this edition of the Barometer, along with a comparison to 2013. The size of each bubble is relative to the overall weighted dataset score. A thick outline indicates a dataset which meets the Open Definition criteria. It is possible to sort and search by country, or to sort by overall or dataset score by clicking a column heading. 
+The chart below offers a full view of all the datasets assessed for this edition of the Barometer, along with a comparison to 2013. The size of each bubble is relative to the overall weighted dataset score. A thick outline indicates a dataset that meets the Open Definition criteria. It is possible to sort and search by country, or to sort by overall or dataset score by clicking a column heading. 
 
 <div role="tabpanel">
 

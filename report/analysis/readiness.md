@@ -35,10 +35,12 @@ The interactive map below illustrates a number of the key readiness variables in
     <option value="ODB.2013.C.SUPIN" data-label="To what extent is government directly supporting a culture of innovation with open data through competitions, grants or other support?">Support for Innovation</option>
 </select></label>
 
+<div id="mapshot">
 <div id="map_container" style="position: relative; width: 90%px; height: 600px;">
     
 </div>
 <div id="map-caption" class="caption"></div>
+</div>
 
 ### Sustaining leadership & strengthening foundations
 

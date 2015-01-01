@@ -14,7 +14,9 @@ css:
 
 # Impact
 
-<span class="lead">Entrepreneurial open data use has overtaken accountability as the most observed impact from OGD initiatives. The effective use of open data to increase environmental sustainability and support greater inclusion of marginalised groups remains extremely limited.</span>
+<span class="lead">Entrepreneurial open data use has overtaken accountability as the most observed impact from OGD. Transparency and accountability impacts are the second most observed impact, through within 'emerging and advancing' countries transparency and accountability impacts come top. The effective use of open data to increase environmental sustainability and support greater inclusion of marginalised groups remains extremely limited.</span>
+    
+Many different outcomes and impacts are anticipated from OGD. Our research finds that impacts cannot be attributed to datasets alone, but instead rely upon a constellation of practices in a country that make up open data initiatives as a whole. 
 
 As a proxy measure for impact, the Open Data Barometer asks researchers to identify case studies in media or academic literature, over the last twelve months, of open data being used to create various kinds of impacts. The maximum scores are available for cases of strong peer-reviewed evidence. In general, most evidence of open data impacts remains anecdotal or captured in journalistic rather than academic reviews, and stories initially cited in research often describe outputs rather than outcomes and impacts. This influences the relatively low average scores in this section of the Barometer report.
 

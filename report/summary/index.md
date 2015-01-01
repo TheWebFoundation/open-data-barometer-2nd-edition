@@ -23,7 +23,7 @@ This second edition of the Open Data Barometer presents a picture of steady grow
 
 From our sample of 86 countries, representing a wide range of political, social and economic circumstances we find that:
 
-* Countries with well resourced open data initiatives that have senior level government backing are much more likely to see open data impacts. This demonstrates that, as they become established, OGD initiatives can provide a clear return on effort and investment. 
+* Countries with well-resourced open data initiatives that have senior level government backing are much more likely to see open data impacts. This demonstrates that, as they become established, OGD initiatives can provide a clear return on effort and investment. 
 
 * Much more needs to be done to support data-enabled democracy around the world. There has been very limited expansion of transparency and accountability impacts from OGD over the last year. Too few governments are providing timely access to performance data on public services, limiting the ability of citizens to engage in shaping and monitoring policy and undermining the civic engagement potential of OGD. 
 
@@ -87,7 +87,7 @@ Based on a cluster analysis of our OGD readiness and impact variables we divide 
 </div>
 
 
-Different strategies will be needed in each cluster in order to develop and deepen effective open data practice. Whilst the 'big tent' of open data, the well networked open data community, and the availability of shared guides, tools and technologies, have all helped the open data concept to spread rapidly, there is no single 'best practice' for delivering an open data initiative. Continued innovation and evaluation is needed to find best fit approaches to apply in relation to different countries, communities, datasets and goals for open data policy.
+Different strategies will be needed in each cluster in order to develop and deepen effective open data practice. Whilst the 'big tent' of open data, the well networked open data community, and the availability of shared guides, tools and technologies, have all helped the open data concept to spread rapidly, there is no single 'best practice' for delivering an open data initiative. Continued innovation and evaluation is needed to find best-fit approaches to apply in relation to different countries, communities, datasets and goals for open data policy.
 
 
 The rest of this report looks in depth at different aspects of the open data landscape, before providing an aggregated ranking of country performance on readiness, implementation and impact.

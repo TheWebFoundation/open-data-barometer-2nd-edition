@@ -20,7 +20,7 @@ tagline: 2014 Global Report
 
 <p class="lead">As the UN leads a conversation on the need for a Data Revolution to support the Post-2015 Sustainable Development Goals, our research highlights the lack of open and accessible data on the performance of key public services. If the political and social impacts of open data are to be realised, work to increase the supply of datasets from right across government will be needed, alongside sustained investment in capacity building,  training and support for effective data use.</p>
 <p style="text-align:center;">
-<a href="/report/summary/">Read online report</a> | <a href="/report/analysis/rankings.html">View rankings</a> | Download PDF
+<a href="/report/summary/">Read online report</a> | <a href="/report/analysis/rankings.html">View rankings</a> | <a href="/assets/downloads/Open Data Barometer - Global Report - 2nd Edition - PRINT.pdf">Download PDF</a>
 </p>
 </div>    
 

@@ -77,3 +77,36 @@ calculated,2013-Rank,2013 Rank,,,
 calculated,2013-ODB-Scaled,2013 ODB,,,
 calculated,Rank Change,Rank Change,,,
 calculated,ODB Change,ODB Change,,,
+dataset_assessment,aExists,,Does the data exist?,,Web Foundation
+dataset_assessment,bAvailable,,Is it available online from government in any form?,,Web Foundation
+dataset_assessment,cMachineReadable,,Is the dataset provided in machine-readable formats?,,Web Foundation
+dataset_assessment,dBulk,,Is the machine-readable data available in bulk?,,Web Foundation
+dataset_assessment,eFree,,Is the dataset available free of charge?,,Web Foundation
+dataset_assessment,fLicense,,Is the data openly licensed?,,Web Foundation
+dataset_assessment,gUpdated,,Is the dataset up to date?,,Web Foundation
+dataset_assessment,hSustainable,,Is the publication of the dataset sustainable?,,Web Foundation
+dataset_assessment,iDiscoverable,,Was it easy to find information about this dataset?,,Web Foundation
+dataset_assessment,jLinked,,Are (linked) data URIs provided for key elements of the data?,,Web Foundation
+dataset_assessment,aAgencyResponsible,,Which agency or agencies are responsible for this data?,Dataset technical survey,Web Foundation
+dataset_assessment,aNotHeld,,Please explain why the government does not hold this data,Dataset technical survey,Web Foundation
+dataset_assessment,aThirdPartyMandate,,Does government mandate that third parties should share this data?,Dataset technical survey,Web Foundation
+dataset_assessment,aDetails,,Please provide any brief details regarding the data that exists for this country. This might include notes on any limitations of the data that does exist.,Dataset technical survey,Web Foundation
+dataset_assessment,bURL,,Please provide links to where the data can be found,Dataset technical survey,Web Foundation
+dataset_assessment,bThirdParty,,Is the data available as open data from a third party?,Dataset technical survey,Web Foundation
+dataset_assessment,cURL,,Please provide a URL to machine-readable version of the data,Dataset technical survey,Web Foundation
+dataset_assessment,cFormats,,Please provide a comman separated list of file formats it is available in.,Dataset technical survey,Web Foundation
+dataset_assessment,cNotAvailable,,Please provide brief notes on why machine readable data may not be available,Dataset technical survey,Web Foundation
+dataset_assessment,cAdditional,,lease provide any additional notes on the machine-readable data covered in your answer,Dataset technical survey,Web Foundation
+dataset_assessment,dURL,,Please provide bulk download URL,Dataset technical survey,Web Foundation
+dataset_assessment,dNotes,,Please provide any other notes about bulk download options for this data,Dataset technical survey,Web Foundation
+dataset_assessment,ePolicy,,"What, if any, charging policy exists for the dataset?",Dataset technical survey,Web Foundation
+dataset_assessment,eURL,,Please provide a link to any relevant charging information,Dataset technical survey,Web Foundation
+dataset_assessment,fLicense,,What license in the data under?,Dataset technical survey,Web Foundation
+dataset_assessment,fURL,,Please provide a link to licensing details,Dataset technical survey,Web Foundation
+dataset_assessment,gLastUpdated,,Date of last substantial update,Dataset technical survey,Web Foundation
+dataset_assessment,gChecked,,Date of checking for last update (i.e. Today's date),Dataset technical survey,Web Foundation
+dataset_assessment,gFrequency,,"How often does the underlying dataset change? Choose from Daily, Weekly, Monthly, Quarterly, Yearly, Bi-annually, 5-years, 10-years, Irregular or Unknown.",Dataset technical survey,Web Foundation
+dataset_assessment,hNotes,,Please provide brief notes to explain your judgement on sustainability,Dataset technical survey,Web Foundation
+dataset_assessment,iNotes,,Please provide brief notes regarding discoverability,Dataset technical survey,Web Foundation
+dataset_assessment,jDocumentation,,Please provide URLs to relevant documentation of linked data for this dataset,Dataset technical survey,Web Foundation
+dataset_assessment,jExample,,Please provide an example URI from this dataset,Dataset technical survey,Web Foundation

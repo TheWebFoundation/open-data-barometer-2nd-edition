@@ -48,7 +48,7 @@ Labels and details of each of the variables in the Rankings and Survey files are
 In addition, for this second edition, we are providing the main qualitative source information provided by researchers. This information was collected in order to justify and validate the quantitative scores given, and is not designed to provide a comprehensive review in response to each question.
 
 * [primary_data_context_impact.csv](../../assets/data/primary_data_context_impact.csv) - contains question responses for each country on context and impact questions. 
-* [primary_data_datasets.csv](../../assets/data/primary_data_datasets.csv) - contains the detailed dataset assessments, including links to datasets, file formats and timeliness information. At present this is **uncleaned data** from the survey tool. Please read the notes below.
+* [primary_data_datasets.csv](../../assets/data/primary_data_datasets.csv) - contains the detailed dataset assessments, including links to datasets, file formats and timeliness information. 
 
 We are continuing to explore ways to improve the provision of qualitative data alongside the Open Data Barometer, but hope this year's initial release is a useful resource for other researchers.
 

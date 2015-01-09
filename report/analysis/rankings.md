@@ -24,9 +24,11 @@ css:
 
 <span class="lead">By aggregating together the sub-indexes of the Open Data Barometer we generate a global ranking. Because of consistent method in both editions, comparing scores and ranks in the second edition with those in the first can be used to identify countries making progress, and those where progress has stalled.</span>
 
-Because the Barometer has expanded in this edition from 77 to 86 countries, a change in rank position may result both from new countries entering above or below the score an existing country, as well as from substantial changes to that countries score. Scaled country scores are rounded to the nearest whole number before ranks are assigned.
+Because the Barometer has expanded in this edition from 77 to 86 countries, a change in rank position may result both from new countries entering above or below the score an existing country, as well as from substantial changes to that countries score. 
 
 The table below presents the global rankings of the Open Data Barometer, including the overall Barometer score, and comparisons between the first and second editions of the Barometer. You can sort and filter this table, and group by various facets, including country clusters, region and income level. 
+
+Scaled country scores are rounded to the nearest whole number before ranks are assigned, meaning a number of countries receive tied rankings.
 
 <div role="tabpanel">
 

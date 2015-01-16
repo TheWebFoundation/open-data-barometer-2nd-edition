@@ -14,17 +14,15 @@ css:
 
 # Impact
 
-<span class="lead">Entrepreneurial open data use has overtaken accountability as the most observed impact from OGD. Transparency and accountability impacts are the second most observed impact, through within 'emerging and advancing' countries transparency and accountability impacts come top. The effective use of open data to increase environmental sustainability and support greater inclusion of marginalised groups remains extremely limited.</span>
+<span class="lead">Entrepreneurial open data use has overtaken accountability as the most observed impact from OGD. Transparency and accountability impacts are the second most observed impact, though within 'emerging and advancing' countries transparency and accountability impacts come top. The effective use of open data to increase environmental sustainability and support greater inclusion of marginalised groups remains extremely limited.</span>
     
-Many different outcomes and impacts are anticipated from OGD. Our research finds that impacts cannot be attributed to datasets alone, but instead rely upon a constellation of practices in a country that make up open data initiatives as a whole. 
-
-As a proxy measure for impact, the Open Data Barometer asks researchers to identify case studies in media or academic literature, over the last twelve months, of open data being used to create various kinds of impacts. The maximum scores are available for cases of strong peer-reviewed evidence. In general, most evidence of open data impacts remains anecdotal or captured in journalistic rather than academic reviews, and stories initially cited in research often describe outputs rather than outcomes and impacts. This influences the relatively low average scores in this section of the Barometer report.
+Many different outcomes and impacts are anticipated from OGD. Our research finds that impacts cannot be attributed to datasets alone, but instead rely upon a constellation of practices in a country that make up open data initiatives as a whole.As a proxy measure for impact, the Open Data Barometer asks researchers to identify case studies in media or academic literature, from the last twelve months, of open data being used to create various kinds of impacts. The maximum scores are available for cases of strong peer-reviewed evidence. In general, most evidence of open data impact remains anecdotal or captured in journalistic rather than academic reviews, and stories initially cited in research often describe outputs rather than outcomes and impacts. This influences the relatively low average scores in this section of the Barometer report.
 
 ## Areas of impact
 
 When countries <a href='javascript:$("#select_comparison").val("init").trigger("change")'>without an open data initiative</a>, or those with <a href='javascript:$("#select_comparison").val("all").trigger("change")'>weaker and earlier stage initiatives</a>, are removed from the sample, there is a clear trend towards greater perceived impact.
 
-Over the last year there has been a growth in the perceived use of open data by entrepreneurs to build new products and services. By contrast, there has been relatively little change in the perceived use of data to address environmental issues, or to increase inclusion. It is also notable that evidence proving the economic growth returns on open data, to back up the strong claims that have been made based on theoretical arguments, is not yet forthcoming. 
+Over the last year there has been an increase in the perceived use of open data by entrepreneurs to build new products and services. By contrast, there has been relatively little change in the perceived use of data to address environmental issues, or to increase inclusion. It is also notable that evidence proving the economic growth returns on open data — and which could be used to back up the strong claims that have been made based on theoretical arguments — is not yet forthcoming.
 
 **Select comparison:** <select id="select_comparison">
     <option value="all">All Countries</option>
@@ -40,15 +38,13 @@ Over the last year there has been a growth in the perceived use of open data by 
 
 ## Readiness and impact
 
-There is a strong correlation between open data readiness, and open data impact, as measured by the Barometer. 
-
-The scatter plot below shows the readiness sub-index plotted against the impact sub-index. The colour coding by region indicates clearly that both readiness and impact remain unevenly distributed across the world. 
+There is a strong correlation between open data readiness and open data impact, as measured by the Barometer.The scatter plot below shows the readiness sub-index plotted against the impact sub-index. The colour coding by region indicates clearly that both readiness and impact remain unevenly distributed across the world. 
 
 <div id='cor_chart'>
   <svg style='height:500px'> </svg>
 </div>
 
-The correlation between Readiness and Impact subindexes is between 0.8 and 0.9, indicating a strong connection between a countries readiness and the impact that expert researchers observe. 
+The correlation between the readiness and impact sub-indexes is between 0.8 and 0.9, indicating a strong connection between a country’s readiness and the impact that expert researchers observe.
 
 
 <script>

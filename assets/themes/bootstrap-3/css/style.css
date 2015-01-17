@@ -13,6 +13,9 @@
 /*.navbar .nav {
   float: right; }*/
 
+.carousel-control.right, .carousel-control.left {
+    background-image:none;
+}
 .dataTables_info {
     display:none;
 }

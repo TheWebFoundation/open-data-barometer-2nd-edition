@@ -6,6 +6,7 @@ title: Home
 tagline: 2014 Global Report
 ---
 
+
 <div class="row">
 <div class="col-sm-3"></div>
 <div class="col-sm-6">
@@ -16,6 +17,7 @@ tagline: 2014 Global Report
 </div>
 
 
+
 <div class="row frontrow">
 
 <p class="lead">As the UN leads a conversation on the need for a Data Revolution to support the Post-2015 Sustainable Development Goals, our research highlights the lack of open and accessible data on the performance of key public services. If the political and social impacts of open data are to be realised, work to increase the supply of datasets from right across government will be needed, alongside sustained investment in capacity building,  training and support for effective data use.</p>
@@ -24,30 +26,40 @@ tagline: 2014 Global Report
 </p>
 </div>    
 
+<div id="carousel" class="carousel slide" data-ride="carousel">
+  <!-- Indicators -->
+  <ol class="carousel-indicators">
+    <li data-target="#carousel" data-slide-to="0" class="active"></li>
+    <li data-target="#carousel" data-slide-to="1"></li>
+    <li data-target="#carousel" data-slide-to="2"></li>
+  </ol>
 
-<div class="row frontrow">
-    
-<div class="col-sm-12 frontbox-map" markdown="1">
-<a href="/report/summary/"><img src="/assets/images/seconded/clustermap.png" class="img-responsive" width="100%"/></a>  
-<div>Open data initiatives vary in their ability to easily unlock a broad range of social, political and economics impacts. There is no one-size fits all approach to open data. Different countries face different challenges, and have different opportunities to innovate in increasing the quality, timeliness and accessibility of data, and in mobilising it to create change. The Open Data Barometer provides data on readiness, implementation and impacts of open data to support research and policy. </div>
-</div>
+  <!-- Wrapper for slides -->
+  <div class="carousel-inner" role="listbox">
+    <div class="item active">
+      <img src="/assets/images/banners/just-banner-01.jpg" alt="Open data is data that is made available by organisations, businesses and individuals for anyone to access, use and share. It can strengthen democracy, boost transparency and spark innovation">
+    </div>
+    <div class="item">
+      <img src="/assets/images/banners/just-banner-02.jpg" alt="It's about unlocking the change. In more than 90% of countries, data that could help beat corruption and improve government services remains locked away.">
+    </div>
+    <div class="item">
+      <img src="/assets/images/banners/just-banner-03.jpg" alt="In our digital age, opening up government data to everyone free of change is a great way to put power in the hands of citizens">
+    </div>
+  </div>
+
+  <!-- Controls -->
+  <a class="left carousel-control" href="#carousel" role="button" data-slide="prev">
+    <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="right carousel-control" href="#carousel" role="button" data-slide="next">
+    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>
 </div>
 
-<div class="row frontrow">
 
-<div class="col-sm-6 frontbox2"  markdown="1">
-<div class="frontbox2-inner" style="background-image:url('/assets/images/dataset-matrix.png')">
-<div class="front2-text">Action is needed to close the growing data divide, and to guarantee that the benefits of open data will be available to all. Different approaches will be needed to make government 'open by default' in different countries.<br/></div>
-</div>
-</div>
 
-<div class="col-sm-6 frontbox2"  markdown="1">
-<div class="frontbox2-inner" style="background-image:url('/assets/images/seconded/impact.strong.init.png'); background-position-x:0px">
-<div class="front2-text">Entrepreneurial open data use has overtaken accountability as the most observed impact from OGD initiatives. Political impacts are linked to support for innovation, and the presence of city level open data activity.<br/> </div>
-</div>
-</div>
-    
-</div>
 
 
 

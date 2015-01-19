@@ -12,25 +12,45 @@ subgroup: summary
 <div class="row">
 <div class="col-sm-12" markdown="1">
 A global movement to make government “open by default” picked up steam in 2013 when the G8 leaders signed an Open Data Charter - promising to make public sector data openly available, without charge and in re-useable formats. In 2014 the G20 largest industrial economies followed up by pledging to advance open data as a tool against corruption, and the UN recognized the need for a “Data Revolution” to achieve global development goals. 
-However, this second edition of the Open Data Barometer shows that there is still a long way to go to put the power of data in the hands of citizens. Core data on how governments are spending our money and how public services are performing remains inaccessible or paywalled in most countries. Information critical to fight corruption and promote fair competition, such as company registers, public sector contracts, and land titles, is even harder to get. In most countries, proactive disclosure of government data is not mandated in law or policy as part of a wider right to information, and privacy protections are weak or uncertain.Our research suggests some of the key steps needed to ensure the “Data Revolution” will lead to a genuine revolution in the transparency and performance of governments:
-* High-level political commitment to proactive disclosure of public sector data, particularly the data most critical to accountability
 
-* Sustained investment in supporting and training a broad cross-section of civil society and entrepreneurs to understand and use data effectively* Contextualizing open data tools and approaches to local needs, for example by making data visually accessible in countries with lower literacy levels.* Support for city-level open data initiatives as a complement to national-level programmes* Legal reform to ensure that guarantees of the right to information and the right to privacy underpin open data initiativesOver the next six months, world leaders have several opportunities to agree these steps, starting with the [United Nation's high-level data revolution in Africa conference in March](http://www.uneca.org/datarevolution), [Canada’s global International Open Data Conference in May](http://opendatacon.org/) and the [G7 summit in Germany this June](http://www.g7germany.de/). It is crucial that these gatherings result in concrete actions to address the political and resource barriers that threaten to stall open data efforts.  
+However, this second edition of the Open Data Barometer shows that there is still a long way to go to put the power of data in the hands of citizens. Core data on how governments are spending our money and how public services are performing remains inaccessible or paywalled in most countries. Information critical to fight corruption and promote fair competition, such as company registers, public sector contracts, and land titles, is even harder to get. In most countries, proactive disclosure of government data is not mandated in law or policy as part of a wider right to information, and privacy protections are weak or uncertain.
+
+Our research suggests some of the key steps needed to ensure the “Data Revolution” will lead to a genuine revolution in the transparency and performance of governments:
+
+* High-level political commitment to proactive disclosure of public sector data, particularly the data most critical to accountability
+
+* Sustained investment in supporting and training a broad cross-section of civil society and entrepreneurs to understand and use data effectively
+
+* Contextualizing open data tools and approaches to local needs, for example by making data visually accessible in countries with lower literacy levels.
+
+* Support for city-level open data initiatives as a complement to national-level programmes
+
+* Legal reform to ensure that guarantees of the right to information and the right to privacy underpin open data initiatives
+
+Over the next six months, world leaders have several opportunities to agree these steps, starting with the [United Nation's high-level data revolution in Africa conference in March](http://www.uneca.org/datarevolution), [Canada’s global International Open Data Conference in May](http://opendatacon.org/) and the [G7 summit in Germany this June](http://www.g7germany.de/). It is crucial that these gatherings result in concrete actions to address the political and resource barriers that threaten to stall open data efforts.  
 </div>
 </div>
 <div class="row">
-<div class="col-sm-9 pull-right" markdown="1">
+<div class="col-sm-12 pull-right" markdown="1">
 
 ## In detail
 
 From our sample of 86 countries, representing a wide range of political, social and economic circumstances we find that:
 
-* Open data initiatives that receive both senior-level government backing and sustained resources are much more likely to achieve impact. This demonstrates that Open Government Data (OGD) initiatives, as they become established, can provide a clear return on effort and investment.* Much more needs to be done to support data-enabled democracy around the world. There has been very limited expansion of transparency and accountability impacts from OGD over the last year. Of the countries included in the Barometer, just 8% publish open data on government spending, 6% publish open data on government contracts, and a mere 3% publish open data on the ownership of companies. Citizens have a similarly difficult time accessing data on the performance of key public services — just 7% of countries release open data on the performance of health services, and 12% provide corresponding figures on education.* To maximise impact, open data needs go local. Political impacts from open data are greater in countries that have city-level open data activities. Widespread availability of data skills training is also correlated with higher political impact.* Global progress towards embedding open data policies stalled in 2014. While many countries with moderate or strong OGD initiatives in 2013 have seen steady growth in the availability and impacts of OGD, a number of countries have slipped backwards over the last 12 months. Many of the countries that made initial steps with OGD in 2012/13 have not sustained their OGD commitments and activities. Government that is “open by default” is a long way off for most of the world's citizens.* A small number of countries are moving towards requiring proactive disclosure of government data as part of their Right to Information (RTI) laws — effectively establishing a Right to Data. This should be welcomed. However, the open data policies of most countries continue to lack legislative backing. The continued weakness of data protection laws — particularly in light of continued revelations and concerns about data mining by corporations and states — is a cause for concern.* For data to be considered truly open, it must be published in bulk, machine-readable formats, and under an open license. This year, just over 10% of the 1,290 different datasets surveyed for the Barometer met these criteria — a small but significant increase from 2013, when 7% of datasets were published in full open data format. Thirty-one countries have at least one open dataset, and just over 50% of the datasets surveyed among the 11 top-ranked countries qualified as fully open. 
+* Open data initiatives that receive both senior-level government backing and sustained resources are much more likely to achieve impact. This demonstrates that Open Government Data (OGD) initiatives, as they become established, can provide a clear return on effort and investment.
+
+* Much more needs to be done to support data-enabled democracy around the world. There has been very limited expansion of transparency and accountability impacts from OGD over the last year. Of the countries included in the Barometer, just 8% publish open data on government spending, 6% publish open data on government contracts, and a mere 3% publish open data on the ownership of companies. Citizens have a similarly difficult time accessing data on the performance of key public services — just 7% of countries release open data on the performance of health services, and 12% provide corresponding figures on education.
+
+* To maximise impact, open data needs go local. Political impacts from open data are greater in countries that have city-level open data activities. Widespread availability of data skills training is also correlated with higher political impact.
+
+* Global progress towards embedding open data policies stalled in 2014. While many countries with moderate or strong OGD initiatives in 2013 have seen steady growth in the availability and impacts of OGD, a number of countries have slipped backwards over the last 12 months. Many of the countries that made initial steps with OGD in 2012/13 have not sustained their OGD commitments and activities. Government that is “open by default” is a long way off for most of the world's citizens.
+
+* A small number of countries are moving towards requiring proactive disclosure of government data as part of their Right to Information (RTI) laws — effectively establishing a Right to Data. This should be welcomed. However, the open data policies of most countries continue to lack legislative backing. The continued weakness of data protection laws — particularly in light of continued revelations and concerns about data mining by corporations and states — is a cause for concern.
+
+* For data to be considered truly open, it must be published in bulk, machine-readable formats, and under an open license. This year, just over 10% of the 1,290 different datasets surveyed for the Barometer met these criteria — a small but significant increase from 2013, when 7% of datasets were published in full open data format. Thirty-one countries have at least one open dataset, and just over 50% of the datasets surveyed among the 11 top-ranked countries qualified as fully open. 
+
 </div>
-<div class="col-sm-3 infographic">
-(DRAFT INFOGRAPHIC - FOR ILLUSTRATION ONLY)
-<img src="/assets/images/seconded/infographic.png" class="img-responsive" alt="Infographic summary"/>
-</div>
+
 </div>
 
 <div class="row">

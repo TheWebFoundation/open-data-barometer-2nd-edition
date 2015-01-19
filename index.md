@@ -26,7 +26,7 @@ tagline: 2014 Global Report
 </p>
 </div>    
 
-<div id="carousel" class="carousel slide" data-ride="carousel">
+<div id="carousel" class="carousel slide" data-ride="carousel" data-interval="8000">
   <!-- Indicators -->
   <ol class="carousel-indicators">
     <li data-target="#carousel" data-slide-to="0" class="active"></li>
@@ -35,15 +35,15 @@ tagline: 2014 Global Report
   </ol>
 
   <!-- Wrapper for slides -->
-  <div class="carousel-inner" role="listbox">
+  <div class="carousel-inner" role="listbox" style='height:517px;'>
     <div class="item active">
-      <img src="/assets/images/banners/just-banner-01.jpg" alt="Open data is data that is made available by organisations, businesses and individuals for anyone to access, use and share. It can strengthen democracy, boost transparency and spark innovation">
+      <img src="/assets/images/banners/banner1.png" alt="Open data is data that is made available by organisations, businesses and individuals for anyone to access, use and share. It can strengthen democracy, boost transparency and spark innovation">
     </div>
     <div class="item">
-      <img src="/assets/images/banners/just-banner-02.jpg" alt="It's about unlocking the change. In more than 90% of countries, data that could help beat corruption and improve government services remains locked away.">
+      <img src="/assets/images/banners/banner2.png" alt="It's about unlocking the change. In more than 90% of countries, data that could help beat corruption and improve government services remains locked away.">
     </div>
     <div class="item">
-      <img src="/assets/images/banners/just-banner-03.jpg" alt="In our digital age, opening up government data to everyone free of change is a great way to put power in the hands of citizens">
+      <img src="/assets/images/banners/banner3.png" alt="In our digital age, opening up government data to everyone free of change is a great way to put power in the hands of citizens">
     </div>
   </div>
 
@@ -59,7 +59,7 @@ tagline: 2014 Global Report
 </div>
 
 
-§
+
 
 
 

@@ -20,6 +20,8 @@ The Open Data Barometer forms part of the World Wide Web Foundation’s work on 
 
 You can contact the Barometer team by emailing: [project-odb@webfoundation.org](mailto:project-odb@webfoundation.org)
 
+Members of the media can download the [press release](/assets/downloads/OpenDataBarometer-SecondEdition-PressRelease.pdf), or request further information by emailing [press@webfoundation.org](mailto:press@webfoundation.org)
+
 ## About the Web Foundation
 
 <div class="col-md-4 pull-right"><img src="/assets/images/logos/webfoundation.png" class="img-responsive"></div>

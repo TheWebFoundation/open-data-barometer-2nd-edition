@@ -52,6 +52,10 @@ In addition, for this second edition, we are providing the main qualitative sour
 
 We are continuing to explore ways to improve the provision of qualitative data alongside the Open Data Barometer, but hope this year's initial release is a useful resource for other researchers.
 
+### Analysis scripts
+
+A number of the analysis scripts (R) used in compiling the Open Data Barometer are [available on GitHub](https://github.com/TheWebFoundation/odb2014-analysis).
+
 #### Notes: datasets
 
 <i class="glyphicon glyphicon-exclamation-sign pull-right" style="font-size:6em; color:lightgrey;"></i>
